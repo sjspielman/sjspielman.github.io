@@ -31,7 +31,7 @@ h6 {
     padding-bottom: 30px;
     text-align: center;
     color: #f8f8f8;
-    font-size: 0.8em;
+    font-size: 0.55em;
     background: url(../img/peptide.png) no-repeat center center;
     background-size: cover;
 }
@@ -91,14 +91,15 @@ h6 {
 }
 
 .section-title {
-    margin-left: 15px;
+    margin-left: 30px;
     margin-bottom: 15px;
     font-weight: 600;
     font-size: 1.8em;
 }
 
 .section-content {
-    margin-left: 15px;
+    margin-left: 30px;
+    width: 800px;
     margin-bottom: 5px;
     font-weight: 400;
     font-size: 1.2em;
