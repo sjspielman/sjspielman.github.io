@@ -1,0 +1,60 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
+
+<div class="post">
+
+  <h1 class="post-title">Peer-reviewed publications</h1>
+  <div class="post-border">
+  
+  <ul class="section-content">
+
+    {% for pub in site.data.publications %}
+      <li>
+        {{ pub.author }} ({{ pub.year }}). {{ pub.title }}. {{ pub.ref }}.
+        {% if pub.doi %}
+          <a href="http://dx.doi.org/{{ pub.doi }}">doi</a>
+        {% endif %}
+        {% if pub.pmcid %}
+          <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{ pub.pmcid }}">PubMed </a> 
+        {% endif %}
+        {% if pub.github %}
+          <a href="{{ pub.github }}">github</a>
+        {% endif %}
+        {% if pub.misc %}
+          <br />{{ pub.misc }}
+        {% endif %}  
+      </li>
+      <br />
+    {% endfor %}
+  </ul>
+
+
+<div class="post">
+
+  <h1 class="post-title">Pre-prints</h1>
+  <div class="post-border">
+    
+  <ul class="post-list">
+
+    {% for pub in site.data.preprints %}
+      <li>
+        {{ pub.author }} ({{ pub.year }}). {{ pub.title }}. {{ pub.ref }}.
+        {% if pub.doi %}
+          <a href="http://dx.doi.org/{{ pub.doi }}">doi</a>
+        {% endif %}
+        {% if pub.pmcid %}
+          <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{ pub.pmcid }}">PubMed </a>
+        {% endif %}
+        {% if pub.github %}
+          <a href="{{ pub.github }}">github</a>
+        {% endif %}
+        {% if pub.misc %}
+          <br />{{ pub.misc }}
+        {% endif %}  
+      </li>
+      <br />
+    {% endfor %}
+  </ul>

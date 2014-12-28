@@ -1,0 +1,29 @@
+- author: A. Shahmoradi, D. K. Sydykova, S. J. Spielman, E. L. Jackson, E. T. Dawson, A. G. Meyer, C. O. Wilke
+  year: 2014
+  title: "Predicting evolutionary site variability from structure in viral proteins: buriedness, packing, flexibility, and design"
+  ref: "J. Mol. Evol. 79:130–142"
+  doi: 10.1007/s00239-014-9644-x
+  github: https://github.com/clauswilke/structural_prediction_of_ER
+
+- author: S. J. Spielman, E. T. Dawson, C. O. Wilke
+  year: 2014
+  title: Limited utility of residue masking for positive-selection inference
+  ref: "Mol. Biol. Evol. 31:2496–2500"
+  doi: 10.1093/molbev/msu183
+  github: https://github.com/sjspielman/alignment_filtering
+
+
+- author: M. Z. Tien, A. G. Meyer, D. K. Sydykova, S. J. Spielman, C. O. Wilke
+  year: 2013
+  title: Maximum allowed solvent accessibilites of residues in proteins
+  ref: "PLOS ONE 8:e80635"
+  doi: 10.1371/journal.pone.0080635
+  pmcid: PMC3836772
+
+- author: S. J. Spielman, C. O. Wilke
+  year: 2013
+  title: Membrane environment imposes unique selection pressures on transmembrane domains of G protein-coupled receptors
+  ref: "J. Mol. Evol. 76:172–182"
+  doi: 10.1007/s00239-012-9538-8
+  pmcid: PMC3712645
+  
