@@ -27,13 +27,13 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 5px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 30px;
     text-align: center;
     color: #f8f8f8;
     font-size: 0.55em;
     background: url(../img/peptide.png) no-repeat center center;
-    background-size: cover;
+    background-size: contain;
 }
 
 
@@ -175,8 +175,10 @@ h6 {
     }
 }
 
+
 footer {
-    padding: 50px 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #f8f8f8;
 }
 

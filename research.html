@@ -4,19 +4,13 @@ title: Research
 permalink: /research/
 ---
 
-  <h2 class="post-title">Evolution of G-protein coupled receptors</h2>
-  <div class="post-border">
-  
-    <div class="section-content">
-        Coming soon!        
-    </div>
+{% for post in site.categories.research %}
+    <h2 class="post-title">{{ post.title }}</h2>
+        <div class="post-border"></div>
+             <img class="post-image" src="{{ site.url }}/img/{{ post.img }}" alt="">
+            <div class="section-content">
+                {{ post.content }}
+            </div>    
 
+{% endfor %}
 
-
-
-  <h2 class="post-title">Probabilistic models of coding sequence evolution</h2>
-  <div class="post-border">
-  
-  <div class="section-content">
-        Coming soon!
-  </div>
