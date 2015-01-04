@@ -17,18 +17,19 @@ permalink: /publications/
         {% if pub.ref %}
             {{pub.ref}}.
         {% endif %}
-        {% if pub.doi %}
-          <a href="http://dx.doi.org/{{ pub.doi }}">&nbsp doi</a>
-        {% endif %}
-        {% if pub.pmcid %}
-          <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{ pub.pmcid }}">&nbsp PubMed</a> 
-        {% endif %}
-        {% if pub.github %}
-          <a href="{{ pub.github }}">&nbsp github</a>
-        {% endif %}
         {% if pub.misc %}
           <br />{{ pub.misc }}
-        {% endif %}  
+        {% endif %}
+        <br />
+        {% if pub.doi %}
+          <a href="http://dx.doi.org/{{ pub.doi }}">doi &nbsp</a>
+        {% endif %}
+        {% if pub.pmcid %}
+          <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{ pub.pmcid }}">PubMed &nbsp</a> 
+        {% endif %}
+        {% if pub.github %}
+          <a href="{{ pub.github }}">github &nbsp</a>
+        {% endif %} 
       </li>
       <br />
     {% endfor %}
@@ -49,18 +50,20 @@ permalink: /publications/
         {% if pub.ref %}
             {{pub.ref}}.
         {% endif %}
-        {% if pub.doi %}
-          <a href="http://dx.doi.org/{{ pub.doi }}">&nbsp doi</a>
-        {% endif %}
-        {% if pub.pmcid %}
-          <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{ pub.pmcid }}">&nbsp PubMed</a>
-        {% endif %}
-        {% if pub.github %}
-          <a href="{{ pub.github }}">&nbsp github</a>
-        {% endif %}
         {% if pub.misc %}
           <br />{{ pub.misc }}
-        {% endif %}  
+        {% endif %}
+        <br />
+        {% if pub.doi %}
+          <a href="http://dx.doi.org/{{ pub.doi }}">doi &nbsp</a>
+        {% endif %}
+        {% if pub.pmcid %}
+          <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{ pub.pmcid }}">PubMed &nbsp</a>
+        {% endif %}
+        {% if pub.github %}
+          <a href="{{ pub.github }}">github &nbsp</a>
+        {% endif %}
+          
       </li>
       <br />
     {% endfor %}
