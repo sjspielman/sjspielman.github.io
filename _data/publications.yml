@@ -1,3 +1,10 @@
+- author: S. J. Spielman, C. O. Wilke
+  year: 2015
+  title: "The relationship between dN/dS and scaled selection coefficients"
+  ref: "Mol. Biol. Evol. In press."
+  github: https://github.com/clauswilke/Omega_Mutsel
+
+
 - author: A. Shahmoradi, D. K. Sydykova, S. J. Spielman, E. L. Jackson, E. T. Dawson, A. G. Meyer, C. O. Wilke
   year: 2014
   title: "Predicting evolutionary site variability from structure in viral proteins: buriedness, packing, flexibility, and design"
