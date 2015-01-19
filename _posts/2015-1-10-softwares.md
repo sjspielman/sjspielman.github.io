@@ -4,6 +4,6 @@ title:  "software"
 category: software
 ---
 
-- [pyvolve](https://github.com/sjspielman/pyvolve), a python platform to simulate sequences along a phylogeny using continuous-time Markov models.
+- [pyvolve](https://sjspielman.github.io/pyvolve), a python platform to simulate sequences along a phylogeny using continuous-time Markov models.
 
-- [alignfigR](https://github.com/sjspielman/alignfigR), an R package to create multiple sequence alignment figures.
+- [alignfigR](https://sjspielman.github.io/alignfigR), an R package to create multiple sequence alignment figures.
