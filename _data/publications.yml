@@ -1,3 +1,11 @@
+- author: S. J. Spielman, K. Kumar, and C. O. Wilke
+  year: In press
+  title: "Comprehensive, structurally-informed alignment and phylogeny of vertebrate biogenic amine receptors"
+  journal: "PeerJ"
+  ref:
+  github: https://github.com/sjspielman/amine_receptors
+
+
 - author: S. J. Spielman, C. O. Wilke
   year: In press
   title: "The relationship between dN/dS and scaled selection coefficients"
