@@ -1,5 +1,5 @@
 This website is based on the flex Jekyll theme, the README for which is given below.
-The theme has been heavily and/or minorly, depending on your perspective, by SJS.
+The theme has been heavily and/or minorly, depending on your perspective, modified by SJS.
 
 
 flex
