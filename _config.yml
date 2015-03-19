@@ -1,14 +1,3 @@
-url: http://sjspielman.github.io
-title: Stephanie J. Spielman
-email: stephanie.spielman@gmail.com
-
-# Build settings
+name: Flex
 markdown: kramdown
-
-social:
-  - title: email
-    url: stephanie.spielman@gmail.com
-  - title: github
-    url: https://github.com/sjspielman
-  - title: twitter
-    url: https://twitter.com/stephspiel
+highlighter: pygments

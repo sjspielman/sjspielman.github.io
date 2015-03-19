@@ -1,36 +1,63 @@
-## NOTE: SJS HAS HEAVILY EDITED, STARTING FROM THE LANDING-PAGE THEME. 
-# Landing Page Jekyll theme
+This website is based on the flex Jekyll theme, the README for which is given below.
+The theme has been heavily and/or minorly, depending on your perspective, by SJS.
 
-Jekyll theme based on [landing-page bootstrap theme ](http://startbootstrap.com/templates/landing-page/)
 
-## How to use
- - Place a image in `/img/services/`
- - Create posts to display your services. Use the follow as an example:
+flex
+====
 
-```txt
----
-layout: cover
-img: stephaniespielman_peptide.png
-category: Publications
-title: The service title
-description: The description of this service
----
-```
+Flex is a responsive, flexible, [Jekyll](http://jekyllrb.com) theme.
 
-## Demo
-View this jekyll theme in action [here](https://swcool.github.io/landing-page-theme)
+The theme is based on the website [The Development](http://thedevelopment.co).
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/swcool/landing-page-theme/master/img/screenshot.png)
+View a demo website [here](http://the-development.github.io/flex/).
 
+Installation
+===
+To use this theme, you would do so like any other Jekyll setup:
+
+1. Install Jekyll: `gem install jekyll`
+2. Fork this repository to your machine
+3. `cd` to the forked directory and run `jekyll serve --watch`
+4. Celebrate and dance.
+
+Contributions
 ===
 
-For more Jekyll details, read [documentation](http://jekyllrb.com/).
-This Jekyll theme used [Freelancer Jekyll theme](https://github.com/jeromelachaud/freelancer-theme/) as reference.
+In general, there are no strict rules for contributing, only that your code is clean and well structured.
 
-## License
-The contents of this repository are licensed under the [Apache
-2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
+For bugs:
+- To merge a fix, you can simply open a pull request.
+- To report one that is not yet fixed, open an issue.
 
-## Version
-1.0.1
+Feature requests:
+- **Always** open an issue first before implementing and proposing a new feature. This is only so I can make sure the theme doesn't become bloated with too many features. This way, I can determine if an idea is something that makes sense for the theme's design.
+
+If in doubt, you can always ask me on Twitter: [@jeffxmn](https://twitter.com/jeffxmn)
+
+License
+===
+
+Flex is licensed under the MIT license:
+
+
+The MIT License (MIT)
+
+Copyright (c) 2013-2014 Jeff Martin
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
