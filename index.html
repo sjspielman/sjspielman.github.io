@@ -3,9 +3,4 @@ layout: default
 title: Home
 ---
 
-
-{% for post in site.categories.cover %}
-    {% assign page = site.posts.first %}
-{% endfor %}
-{% assign content = page.content %}
 {% include cover.html %}

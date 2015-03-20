@@ -36,14 +36,24 @@
                 
         <div class="posts">
           <ul class="posts-list">
-            {% for post in site.posts %}
               <li class="post-link">
-                <a class="post-title" href="{{ post.url }}">
-                  {{ post.title }}
+                <a class="post-title" href="/">
+                  About Me
                 </a>
                 <h1 class="peptide"><a href="/"><img id="logo" src="/images/peptide.png"></a></h1>
               </li>
-            {% endfor %}
+              <li class="post-link">
+                <a class="post-title" href="/publications/">
+                  Publications
+                </a>
+                <h1 class="peptide"><a href="/"><img id="logo" src="/images/peptide.png"></a></h1>
+              </li>
+                <li class="post-link">
+                <a class="post-title" href="/software/">
+                  Software
+                </a>
+                <h1 class="peptide"><a href="/"><img id="logo" src="/images/peptide.png"></a></h1>
+              </li>
           </ul>
         </div>
       </div>
