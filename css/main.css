@@ -25,9 +25,8 @@ body {
 }
 
 a {
-  color: #8085C1;
+  color: #48937e;
   text-decoration: none;
-  border: none;
 }
 
 a img {
@@ -35,9 +34,10 @@ a img {
 }
 
 a:hover {
-  color: #555;
+  color: #846fb8;
   border: none;
 }
+
 
 .separator {
   color: #555;
@@ -67,6 +67,10 @@ a:hover {
 .posts-list li {
   text-align: center;
   line-height: 3em;
+}
+
+.contact-info {
+  padding-left: 1.5em;
 }
 
 /*****************************************************************************/
@@ -116,6 +120,8 @@ a:hover {
 .footer-link {
   font-size: 1.3em;
 }
+
+
 
 .peptide {
   float: center;
@@ -176,10 +182,6 @@ a:hover {
   margin-bottom: 1.25em;
 }
 
-.post a,
-#about a {
-  border-bottom: 1px solid #8085C1;
-}
 
 .post a:hover {
   border: none;
@@ -305,3 +307,4 @@ a:hover {
   font-size: 0.95em;
   color: #777;
 }
+
