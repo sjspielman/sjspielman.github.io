@@ -167,12 +167,13 @@ a:hover {
   margin-bottom: 0.35em;
   font-size: 3em;
   line-height: 40px;
-  margin-left: 30%;
+  text-align: center;
 }
 
 .post { 
   line-height: 24px;
-  max-width: 725px;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
   clear: both;
 }
 
@@ -244,7 +245,7 @@ a:hover {
 
 .sidebar {
   float: left;
-  width: 18%;
+  width: 15%;
   padding-left: 2.5em;
   padding-right: 2.25em;
   border-right: 1px solid #e7e7e7;
