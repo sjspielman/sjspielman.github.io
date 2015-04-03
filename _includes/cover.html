@@ -5,7 +5,7 @@
   </div>
   <div id="post-info">
     <div id="info-container">
-      <h1 id="title">About Me</h1>
+      <h1 id="title">Welcome!</h1>
     </div>
   </div>
   <br><br>
@@ -27,5 +27,29 @@
           Twitter:&nbsp;&nbsp;&nbsp; <a href="https://twitter.com/StephSpiel">StephSpiel</a>
         </li> 
     </div>
-  </div>  
+  </div> 
+
+<div class="horiz">  </div> 
+
+<div id="post-info">
+    <div id="info-container">
+      <h1 id="title2">Recent Posts</h1>
+    </div>
+</div>
+
+          <ul class="posts-list">
+            {% for post in site.posts %}
+              <li class="post-link">
+              	<span class="post-date">{{ post.date | date_to_string }}</span>
+                <a class="post-title" href="{{ post.url }}">
+                  {{ post.title }} 
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+
+  
+  
+  
+</div>   
 </div>

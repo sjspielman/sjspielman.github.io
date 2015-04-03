@@ -60,18 +60,30 @@ a:hover {
   color: #777;
 }
 
+
 .posts-list {
   list-style-type: none;
 }
 
+
 .posts-list li {
-  text-align: center;
+  text-align: left;
   line-height: 3em;
 }
 
 .contact-info {
   padding-left: 1.5em;
 }
+
+.side-list {
+  list-style-type: none;
+}
+
+.side-list li {
+  text-align: center;
+  line-height: 3em;
+}
+
 
 /*****************************************************************************/
 /*
@@ -115,6 +127,14 @@ a:hover {
   overflow: hidden;
   float: center;
   text-align: center;
+}
+
+.horiz {
+  border-top: 4.5px solid #cfcfcf;
+  margin-left: 0em;
+  margin-right: 2em;
+  margin-top: 3em;
+  float: center;
 }
 
 .footer-link {
@@ -165,15 +185,22 @@ a:hover {
 #title {
   color: #4a4a4a;
   margin-bottom: 0.35em;
-  font-size: 3em;
-  line-height: 40px;
+  font-size: 2.5em;
+  line-height: 30px;
   text-align: center;
 }
 
+#title2 {
+  color: #4a4a4a;
+  margin-bottom: 2em;
+  font-size: 2em;
+  line-height: 40px;
+  text-align: center;
+}
 .post { 
   line-height: 24px;
   margin-left: 1.5em;
-  margin-right: 1.5em;
+  margin-right: 5em;
   clear: both;
 }
 
@@ -191,8 +218,7 @@ a:hover {
 /* standard */
 .post pre {
   border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+  
 }
 
 .post p {
@@ -207,26 +233,26 @@ a:hover {
   margin-bottom: 1.25em;
 }
 
+
+
 .post code {
   border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
+  font-size: 1.1em;
+  font-weight: 550;
+  padding: 0.2em;
 }
 
 .post pre code {
   border: none;
 }
 
-/* terminal */
+
 .post pre.terminal {
   border: 1px solid #000;
-  background-color: #333;
   color: #FFF;
 }
 
-.post pre.terminal code {
-  background-color: #333;
-}
+
 
 /*****************************************************************************/
 /*
@@ -262,17 +288,26 @@ a:hover {
 }
 
 
+.side-title {
+  font-weight: 600;
+  font-size: 1.25em;
+  float: center;
+  text-align: center;
+}
+
+
 .post-title {
   font-weight: 600;
   font-size: 1.25em;
-  text-transform: uppercase;
+  padding-left: 2em;
+  padding-bottom: 5em;
 }
 
 .post-date {
   color: #8a8a8a;
   font-family: Monaco, "Courier New", monospace;
   font-weight: 600;
-  font-size: 0.65em;
+  font-size: 0.8em;
   display: block;
   text-transform: uppercase;
 }

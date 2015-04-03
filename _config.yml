@@ -1,3 +1,4 @@
 name: Stephanie J. Spielman
-markdown: kramdown
-highlighter: pygments
+markdown: redcarpet
+highligher: pygments
+pygmnets: true
