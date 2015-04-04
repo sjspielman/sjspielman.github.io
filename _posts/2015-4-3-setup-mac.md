@@ -74,7 +74,8 @@ sudo ln -s /usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/C
 {% highlight bash %}
 pip install numpy
 pip install scipy
-pip install ipython[notebook] # install iPython and notebook
+pip install "ipython[notebook]" # install iPython and notebook
+pip install ipython --upgrade   # the above command does not seem to install most recent iPython! 
 pip install pandas
 {% endhighlight %}
 
