@@ -47,13 +47,13 @@ brew update
 
 
 <br>
-**5.** While Mac does come with its own python distribution, this distribution tends to get wonky when dealing with python modules. In the past, I've had some really annoyances trying to get numpy and scipy running properly, so I abandoned Mac's python in favor of homebrew's
+**5.** While Mac does come with its own python distribution, this distribution tends to get wonky when dealing with python modules. In the past, I've had some really annoyances trying to get numpy and scipy running properly, so I abandoned Mac's python in favor of homebrew's.
 So, once homebrew is installed (it will be in "/usr/local/Cellar/"), use it to download their python version. To make sure that, when using the python interpretter, that you can freely press the up/down/left/right arrows without annoying characters appearing, install readline first!:
 {% highlight bash %}
 brew install readline --universal
 brew install python
 {% endhighlight %}
-By default, this will give you python-2.7. If you want python3, use this command instead:
+\\ By default, this will give you python-2.7. If you want python3, use this command instead:
 {% highlight bash %}
 brew install python3
 {% endhighlight %}
