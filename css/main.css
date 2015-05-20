@@ -202,6 +202,7 @@ a:hover {
   margin-left: 1.5em;
   margin-right: 5em;
   clear: both;
+  padding-bottom: 10em;
 }
 
 .post h2 {
@@ -230,7 +231,6 @@ a:hover {
 
 .post ul, .post ol {
   margin-left: 2.35em;
-  margin-bottom: 1.25em;
 }
 
 

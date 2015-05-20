@@ -5,4 +5,4 @@ _site/*
 **/*.bbl
 **/*.blg
 **/*.out
-**/*..synctex.gz
+**/*.synctex.gz
