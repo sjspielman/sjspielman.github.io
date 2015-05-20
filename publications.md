@@ -34,7 +34,7 @@ permalink: /publications/
 
 + Shahmoradi A, Sydykova DK, **Spielman SJ**, Jackson EL, Dawson ET, Meyer AG, Wilke CO. Predicting evolutionary site variability from structure in viral proteins: buriedness, packing, flexibility, and design. *J Mol Evol* 79:130–142. 2014.
   + url: [http://dx.doi.org/10.1007/s00239-014-9644-x](http://dx.doi.org/10.1007/s00239-014-9644-x)
-  + github: [https://github.com/clauswilke/structural_prediction_of_ER](https://github.com/clauswilke/structural_prediction_of_ER)
+  + github: [https://github.com/clauswilke/structural\_prediction\_of\_ER](https://github.com/clauswilke/structural_prediction_of_ER)
 
 
 ## 2013
