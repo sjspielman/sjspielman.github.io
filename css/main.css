@@ -62,6 +62,8 @@ a:hover {
 
 
 .posts-list {
+  padding: 0;
+  margin: 0;
   list-style-type: none;
 }
 
@@ -77,6 +79,8 @@ a:hover {
 
 .side-list {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .side-list li {
@@ -133,7 +137,7 @@ a:hover {
   border-top: 4.5px solid #cfcfcf;
   margin-left: 0em;
   margin-right: 2em;
-  margin-top: 3em;
+  margin-top: 2em;
   float: center;
 }
 
@@ -202,7 +206,7 @@ a:hover {
   margin-left: 1.5em;
   margin-right: 5em;
   clear: both;
-  padding-bottom: 10em;
+  padding-bottom: 5em;
 }
 
 .post h2 {
@@ -224,7 +228,7 @@ a:hover {
 
 .post p {
   font-family: 'Source Sans Pro', Arial, sans-serif;
-  font-size: 17px;
+  font-size: 20px;
   margin-bottom: 1.45em;
   text-align: justify;
 }
@@ -233,8 +237,33 @@ a:hover {
   margin-left: 2.35em;
 }
 
+/* code from Architect theme, by Jason Long. I've slightly modified it. */
+code, pre {
+  margin-bottom: 20px;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: 15px;
+  color: #222;
+}
 
+code {
+  padding: 0 3px;
+  border: solid 1px #dbe7f3;
+}
 
+pre {
+  padding: 8px;
+  overflow: auto;
+  text-shadow: none;
+  background: #fff;
+  border: solid 1px #f2f2f2;
+}
+pre code {
+  padding: 0;
+  border: none;
+}
+/* end of Architect */
+
+/* original flex theme, probably
 .post code {
   border: 1px solid #ddd;
   font-size: 1.1em;
@@ -251,7 +280,7 @@ a:hover {
   border: 1px solid #000;
   color: #FFF;
 }
-
+*/
 
 
 /*****************************************************************************/
@@ -288,6 +317,10 @@ a:hover {
 }
 
 
+h2 { 
+    font-size: 0.75em;
+}
+
 .side-title {
   font-weight: 600;
   font-size: 1.25em;
@@ -298,7 +331,7 @@ a:hover {
 
 .post-title {
   font-weight: 600;
-  font-size: 1.25em;
+  font-size: 1.2em;
   padding-left: 2em;
   padding-bottom: 5em;
 }
@@ -307,7 +340,7 @@ a:hover {
   color: #8a8a8a;
   font-family: Monaco, "Courier New", monospace;
   font-weight: 600;
-  font-size: 0.8em;
+  font-size: 0.95em;
   display: block;
   text-transform: uppercase;
 }
