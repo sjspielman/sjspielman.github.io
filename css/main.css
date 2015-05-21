@@ -180,11 +180,9 @@ a:hover {
 
 #info-container {
   display: block;
-}
-
-#info-container {
   margin-top: 3em;
 }
+
 
 #title {
   color: #4a4a4a;
@@ -201,12 +199,13 @@ a:hover {
   line-height: 40px;
   text-align: center;
 }
+
 .post { 
   line-height: 24px;
-  margin-left: 1.5em;
+  margin-left: 5em;
   margin-right: 5em;
   clear: both;
-  padding-bottom: 5em;
+
 }
 
 .post h2 {
@@ -317,7 +316,7 @@ pre code {
 }
 
 
-h2 { 
+.h2 { 
     font-size: 0.75em;
 }
 
@@ -331,7 +330,7 @@ h2 {
 
 .post-title {
   font-weight: 600;
-  font-size: 1.2em;
+  font-size: 1.5em;
   padding-left: 2em;
   padding-bottom: 5em;
 }

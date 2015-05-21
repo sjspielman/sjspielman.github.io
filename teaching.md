@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Teaching"
+permalink: /teaching/
+---
+
+I am deeply passionate about undergraduate (and beyond!) education, and I have been involved in teaching and designing a wide variety of courses. As a TA, I have taught Evolutionary Biology (both at UT Austin and Brown University), Biostatistics, and Computational Biology. Furthermore, during the summer of 2011, I worked for UT Austin's Statistics and Data Sciences department (then the Statistics and Scientific Computing division) to re-design the undergraduate Biostatistics curriculum. In this capacity, I developed computer lab exerises and video tutorials for basic biostatistics analysis, ranging from summary statistics to multivariate linear modeling, in R.
+
+Through UT Austin's [Center for Computational Biology and Bioinformatics](ccbb.biosci.utexas.edu/) (CCBB), I have been involved in multiple initiatives to teach biological computing and introductory programming to students of all levels (undergraduate, graduate, and postdoctoral). In particular, I now run, along with my co-instructor [Rebecca Tarvin](http://www.rebeccatarvin.com/), a peer-led working group on Biological Computing. Materials from our Spring 2015 group are freely available [here](https://github.com/sjspielman/UTbiocomputing2015). 
+
+During May 2015, I will be the lead instructor for CCBB's Introduction to Python course, as part of the Big Data in Biology Summer School. All course materials (which I designed) are freely available from [http://sjspielman.org/ccbb\_bigdata2015\_python](http://sjspielman.org/ccbb_bigdata2015_python). 
