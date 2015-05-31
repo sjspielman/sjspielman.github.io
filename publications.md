@@ -22,12 +22,6 @@ permalink: /publications/
 
 ## 2014
 
-+ **Spielman SJ**<big><big>\*</big></big> , Meyer AG<big><big>\*</big></big>, and Wilke CO. Increased evolutionary rate in the 2014 West African Ebola outbreak is due to transient polymorphism and not positive selection. *bioRxiv*. 2014.
-<br><big><big>\*</big></big>Authors contributed equally to this work.
-  + url: [http://dx.doi.org/10.1101/011429](http://dx.doi.org/10.1101/011429)
-  + github: [https://github.com/wilkelab/EBOV_H1N1](https://github.com/wilkelab/EBOV_H1N1)
-
-<br>
 
 + **Spielman SJ**, Dawson ET, and Wilke CO. Limited utility of residue masking for positive-selection inference. *Mol Biol Evol* 31(9): 2496-2500. 2014.
   + url: [http://mbe.oxfordjournals.org/content/31/9/2496.long](http://mbe.oxfordjournals.org/content/31/9/2496.long)
@@ -37,7 +31,7 @@ permalink: /publications/
 
 + Shahmoradi A, Sydykova DK, **Spielman SJ**, Jackson EL, Dawson ET, Meyer AG, Wilke CO. Predicting evolutionary site variability from structure in viral proteins: buriedness, packing, flexibility, and design. *J Mol Evol* 79:130–142. 2014.
   + url: [http://dx.doi.org/10.1007/s00239-014-9644-x](http://dx.doi.org/10.1007/s00239-014-9644-x)
-  + github: [https://github.com/clauswilke/structural_prediction_of_ER](https://github.com/clauswilke/structural_prediction_of_ER)
+  + github: [https://github.com/clauswilke/structural\_prediction\_of\_ER](https://github.com/clauswilke/structural_prediction_of_ER)
 
 
 ## 2013

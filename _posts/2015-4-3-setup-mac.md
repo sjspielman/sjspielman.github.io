@@ -15,7 +15,7 @@ In any case, the first thing I did with the new computer was set up my biocomput
 ### Step-by-step guide to a configuring a Biocomputing environment
 <br>
 
-**1.** Download XCode from the App Store. This will give you the basics you need to proceed, like clang/clang++ compilers, git, and other goodies. However, note that XCode won't give you a fortran compiler. The quickest option for getting one is to download and install from this link: [http://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2]([http://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2])
+**1.** Download XCode from the App Store. This will give you the basics you need to proceed, like clang/clang++ compilers, git, and other goodies. However, note that XCode won't give you a fortran compiler. The quickest option for getting one is to download and install from this link: [http://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2](http://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2).
 
 <br>
 **2.** XCode comes with it's own text editor, although I am partial to TextWrangler (available here: [http://www.barebones.com/products/textwrangler/download.html](http://www.barebones.com/products/textwrangler/download.html)), which I installed next.
@@ -32,8 +32,8 @@ git config --global user.email "email"
 where "first last" are replaced with your first and last name ("Stephanie Spielman" for me), and the "email" is replaced with your email.
 
 <br>
-**4.** Install homebrew, a convenient and comprehensive Mac package manager. Personally, I do prefer homebrew over MacPorts or other package managers, although I have no real basis for this preference.. If MacPorts or other is your thing, then the next few steps might not be so helpful. 
-To get homebrew, enter this code into the command line:
+**4.** Install Homebrew, a convenient and comprehensive Mac package manager. Personally, I do prefer homebrew over MacPorts or other package managers, although I have no real basis for this preference. If MacPorts or other is your thing, then the next few steps might not be so helpful.
+<br>To get homebrew, enter this code into the command line:
 
 {% highlight bash %}
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -53,7 +53,7 @@ So, once homebrew is installed (it will be in "/usr/local/Cellar/"), use it to d
 brew install readline --universal
 brew install python
 {% endhighlight %}
-\\ By default, this will give you python-2.7. If you want python3, use this command instead:
+By default, this will give you python-2.7. If you want python3, use this command instead:
 {% highlight bash %}
 brew install python3
 {% endhighlight %}
@@ -105,7 +105,7 @@ sudo python setup.py install
 **13.** Once R is running, you can install any packages you'll need. I ran the following commands in R for installation:
 
 
-{% highlight r %}
+{% highlight R %}
 install.packages("dplyr", dep=T)
 install.packages("tidyr", dep=T)
 install.packages("ggplot2", dep=T)
