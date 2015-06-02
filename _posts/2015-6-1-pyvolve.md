@@ -51,7 +51,7 @@ my_evolver()
 <br>
 The code shown above will simulate a nucleotide alignment of 250 positions along the phylogeny provided in `file_with_tree.tre`. This code simulates nucleotides according to default parameters: mutation rates among nucleotides are equal, and nucleotide equilibrium frequencies are equal at 0.25 each. We can customize these parameters by adding a *second argument to Model*: a dictionary of parameters to customize. 
 
-To customize mutation rates, we can use the key `"mu"`. This key should have an associated value of a dictionary of mutation rates (denoted by keys `"AT"`, `"AC"`, etc.). To customize frequencies, we can use the key `"state_freqs"`, whose associated value should be a list/numpy array of frequencies ordered ACGT. 
+To customize mutation rates, we can use the key `"mu"`. This key should have an associated value of a dictionary of mutation rates. Mutation rates are symmetric, denotated by keys `"AT"`, `"AC"`, etc. (where "AT" is the rate from A to T, and conversely T to A). To customize frequencies, we can use the key `"state_freqs"`, whose associated value should be a list/numpy array of frequencies ordered ACGT. 
 
 This code chunk simulates nucleotide sequences with customized parameters:
 {% highlight python %}
@@ -71,6 +71,13 @@ my_partition = Partition(models = my_model, size = 250)
 # Evolve!
 my_evolver = Evolver(partitions = my_partition, tree = my_tree)
 my_evolver()
+{% endhighlight %}
+
+For those of you who, like myself, tend towards some minor, completely socially-acceptable laziness, you can alternatively specify mutation rates with simply the key `"kappa"`, which represents the transition-to-transversion bias. Here's how to define such a model:
+{% highlight python %}
+# Define a nucleotide model kappa
+frequencies = [0.25, 0.3, 0.1, 0.35] # f(A) = 0.25, f(C) = 0.3, etc.
+my_model = Model("nucleotide", {"kappa": 3.25, "state_freqs": frequencies} )
 {% endhighlight %}
 
 <br>
