@@ -24,7 +24,7 @@
           Github:&nbsp;&nbsp;&nbsp;  <a href="https://github.com/sjspielman">sjspielman</a>
         </li>
         <li>
-          Twitter:&nbsp;&nbsp;&nbsp; <a href="https://twitter.com/StephSpiel">StephSpiel</a>
+          Twitter:&nbsp;&nbsp; <a href="https://twitter.com/StephSpiel">@StephSpiel</a>
         </li> 
     </div>
   </div> 
@@ -33,17 +33,17 @@
 
 
     <div id="info-container">
-      <h2 id="title2">Recent Posts</h2>
+      <h2 id="title2">News and Posts</h2>
     </div>
 
           <ul class="posts-list">
             {% for post in site.posts %}
               <li class="post-link">
               	<span class="post-date">{{ post.date | date_to_string }}</span>
-                <a class="post-title" href="{{ post.url }}">
-                  {{ post.title }} 
-                </a>
+                <a class="post-title" href="{{ post.url }}">{{ post.title }} </a>
+                <div class="post-excerpt" {{ post.excerpt }} </div>
               </li>
+              <br><br>
             {% endfor %}
           </ul>
 

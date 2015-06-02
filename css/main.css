@@ -19,13 +19,13 @@ body {
   color: #4a4a4a;
   background-color: #fafbfc;
   font-family: 'Raleway', Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1em;
   overflow: hidden;
 }
 
 a {
-  color: #48937e;
+  color: #4675A5;
   text-decoration: none;
 }
 
@@ -201,6 +201,7 @@ a:hover {
 }
 
 .post { 
+  font-weight: 500;
   line-height: 24px;
   margin-left: 5em;
   margin-right: 5em;
@@ -227,13 +228,15 @@ a:hover {
 
 .post p {
   font-family: 'Source Sans Pro', Arial, sans-serif;
-  font-size: 20px;
+  font-size: 19px;
   margin-bottom: 1.45em;
   text-align: justify;
 }
 
-.post ul, .post ol {
-  margin-left: 2.35em;
+.post ul, .post ol, .post li {
+  margin-left: 2em;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 18px;
 }
 
 /* code from Architect theme, by Jason Long. I've slightly modified it. */
@@ -260,6 +263,9 @@ pre code {
   padding: 0;
   border: none;
 }
+
+.inlined{  display:inline; }
+
 /* end of Architect */
 
 /* original flex theme, probably
@@ -329,14 +335,24 @@ pre code {
 
 
 .post-title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.5em;
-  padding-left: 2em;
   padding-bottom: 5em;
+  padding-left: 1.25em;
+}
+
+
+.post-excerpt {
+  color: #4a4a4a;
+  font-size: 1em;
+  padding-left: 2em;
+  font-weight: 600;
+  line-height: 1.5em;
+
 }
 
 .post-date {
-  color: #8a8a8a;
+  color: #4e4e4e;
   font-family: Monaco, "Courier New", monospace;
   font-weight: 600;
   font-size: 0.95em;
