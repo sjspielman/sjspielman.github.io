@@ -116,7 +116,7 @@ By default, Pyvolve outputs several files:
 + site\_rates.txt
 + site\_rates\_info.txt
 
-The first file contains the simulated alignment, and the latter two files contain information about site-specific rates and/or parameters. Using these two files, you can determine at which rate each site evolved. 
+The first file contains the simulated alignment, and the latter two files contain information about site-specific rates and/or parameters. Using these two files, you can determine at which rate each site evolved. Note that you can suppress the creation of or change the name of these files with certain arguments when *calling* your Evolver object -- see the user manual!
 
 
 <br> And finally, one more example - what if we wanted to use *multiple models* in our simulation? For this task, we'll need to define multiple Partition objects. In the example below, one Partition object will be assigned default parameters, and one Partition will be assigned custom parameters.
@@ -138,7 +138,7 @@ model2 = Model("nucleotide", {"mu": mutation, "state_freqs": frequencies})
 partition1 = Partition(models = model1, size = 100)
 partition2 = Partition(models = model2, size = 200)
 
-# Evolve, provided both partitions in a list to Evolver
+# Evolve by providing both partitions in a list to Evolver
 my_evolver = Evolver(partitions = [partition1, partition2], tree = my_tree)
 my_evolver()
 {% endhighlight %}
