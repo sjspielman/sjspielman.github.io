@@ -6,7 +6,7 @@ permalink: /announcing_pyvolve/
 excerpt_separator: <!--more-->
 ---
 
-Today, the preprint for my new software, [Pyvolve](http://sjspielman.org/pyvolve) was [published on biorXiv](http://dx.doi.org/10.1101/020214)! Pyvolve is an open-source Python module for simulating sequences along phylogenies. A comprehensive user-manual for Pyvolve is available with the most recent release from this [github repository](https://github.com/sjspielman/pyvolve).
+Today, the preprint for my new software, [Pyvolve](http://sjspielman.org/pyvolve) was [published on biorXiv](http://www.biorxiv.org/content/early/2015/06/01/020214)! Pyvolve is an open-source Python module for simulating sequences along phylogenies. A comprehensive user-manual for Pyvolve is available with the most recent release from this [github repository](https://github.com/sjspielman/pyvolve).
 
 <!--more-->
 
