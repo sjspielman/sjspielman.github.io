@@ -129,10 +129,10 @@ my_tree = pyvolve.read_tree(file = "file_with_tree.tre")
 # Define default model
 model1 = Model("nucleotide")
 
-# Define customized model
+# Define customized model (notice, no site heterogeneity this time!)
 mutation = {"AC": 1.5, "AG": 2.5, "AT": 0.5, "CG": 0.8, "CT": 0.99, "GT": 1.56}
 frequencies = [0.25, 0.3, 0.1, 0.35] # f(A) = 0.25, f(C) = 0.3, etc.
-model2 = Model("nucleotide", {"mu": mutation, "state_freqs": frequencies}, rate_factors = factors, rate_probs = probs)
+model2 = Model("nucleotide", {"mu": mutation, "state_freqs": frequencies})
 
 # Assign each model to a Partition.
 partition1 = Partition(models = model1, size = 100)
