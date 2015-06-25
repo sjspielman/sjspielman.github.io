@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Announcing Pyvolve!
+title: Announcing Pyvolve
 date:   2015-6-1
 permalink: /announcing_pyvolve/
 excerpt_separator: <!--more-->
