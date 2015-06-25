@@ -16,8 +16,7 @@ html, body {
 }
 
 body {
-  color: #4a4a4a;
-  background-color: #fafbfc;
+  background: #FFF;
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 600;
   font-size: 1em;
@@ -73,13 +72,9 @@ a:hover {
   line-height: 3em;
 }
 
-.contact-info {
-  padding-left: 1.5em;
-}
-
 .side-list {
   list-style-type: none;
-  margin: 0;
+  margin-top: 2em;
   padding: 0;
 }
 
@@ -110,7 +105,7 @@ a:hover {
 .tagline {
   font-size: 1.1em;
   width: 100%;
-  color: #787878;
+  color: #444;
   font-weight: 600;
   text-align: center;
   margin-top: 0.5em;
@@ -145,6 +140,11 @@ a:hover {
   color:#545454;
 }
 
+.info-link {
+  padding:0.2em;
+  color:#000;
+}
+
 
 
 .peptide {
@@ -152,8 +152,8 @@ a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 0.3em;
-  padding-bottom: 0.3em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
   max-width: 128px;
 }
 /*****************************************************************************/
@@ -203,8 +203,9 @@ a:hover {
 .post { 
   font-weight: 500;
   line-height: 24px;
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-left: 8em;
+  margin-right: 8em;
+  margin-bottom: 10em;
   clear: both;
 
 }
@@ -330,6 +331,7 @@ pre code {
 .side-title {
   font-weight: 600;
   font-size: 1.25em;
+  color:#545454;
   float: center;
   text-align: center;
 }
