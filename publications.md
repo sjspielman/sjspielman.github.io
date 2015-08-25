@@ -7,9 +7,10 @@ permalink: /publications/
 
 ## 2015
 
-+ Meyer AG, **Spielman SJ**,  Bedford T, and Wilke CO. The time dependence of evolutionary metrics
-during the 2009 pandemic influenza virus outbreak.  *Virus Evolution.* In Press.
++ Meyer AG, **Spielman SJ**,  Bedford T, and Wilke CO. [The time dependence of evolutionary metrics
+during the 2009 pandemic influenza virus outbreak.](http://ve.oxfordjournals.org/content/1/1/vev006)  *Virus Evolution.* 1(1):vev006-10.
 <a href="https://github.com/wilkelab/influenza_pH1N1_timecourse" class="info-link"><span class="fa fa-github"></a>
+<a href="/files/Meyeretal2015_VE.pdf" class="info-link"><span class="fa fa-file-pdf-o"></a>
 
 
 + **Spielman SJ** and Wilke CO. [The relationship between *dN/dS* and scaled selection coefficients.](http://mbe.oxfordjournals.org/content/32/4/1097) *Mol Biol Evol* 32(4): 1097-1108.
@@ -22,6 +23,7 @@ during the 2009 pandemic influenza virus outbreak.  *Virus Evolution.* In Press.
 <a href="/files/SpielmanKumarWilke2015_PeerJ.pdf" class="info-link"><span class="fa fa-file-pdf-o"></a>
 
 
+<br><br>
 ## 2014
 
 
@@ -36,7 +38,7 @@ during the 2009 pandemic influenza virus outbreak.  *Virus Evolution.* In Press.
 <a href="/files/Shahmoradietal2014_JME.pdf" class="info-link"><span class="fa fa-file-pdf-o"></a>
 
 
-
+<br><br>
 ## 2013
 
 + Tien MZ, Meyer AG, Sydykova DK, **Spielman SJ**, and Wilke CO. [Maximum allowed solvent accessibilites of residues in proteins.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0080635) *PLoS One* 8(11):e80635. 2013. 
