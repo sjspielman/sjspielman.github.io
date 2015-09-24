@@ -7,8 +7,9 @@ permalink: /publications/
 
 ## 2015
 
-+ **Spielman SJ** and Wilke CO. Pyvolve: A flexible Python module for simulating sequences along phylogenies. *PLoS ONE.* In Press.
++ **Spielman SJ** and Wilke CO. [Pyvolve: A flexible Python module for simulating sequences along phylogenies.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0139047) *PLoS ONE.* 10(9): e0139047. 
 <a href="https://github.com/sjspielman/pyvolve" class="info-link"><span class="fa fa-github"></a>
+<a href="/files/SpielmanWilke2015_PLoSONE.pdf" class="info-link"><span class="fa fa-file-pdf-o"></a>
 
 + Meyer AG, **Spielman SJ**,  Bedford T, and Wilke CO. [Time dependence of evolutionary metrics
 during the 2009 pandemic influenza virus outbreak.](http://ve.oxfordjournals.org/content/1/1/vev006)  *Virus Evolution.* 1(1):vev006-10.
