@@ -7,7 +7,7 @@ permalink: /preprints/
 
 ## 2015
 
-+ **Spielman SJ**, Suyang W, and Wilke CO. [One-rate models outperform two-rate models in site-specific dN/dS estimation.](http://dx.doi.org/10.1101/032805) *bioRxiv*. 2015.
++ **Spielman SJ**, Wan S, and Wilke CO. [One-rate models outperform two-rate models in site-specific dN/dS estimation.](http://dx.doi.org/10.1101/032805) *bioRxiv*. 2015.
 <a href="https://github.com/sjspielman/sitewise_dnds_mutsel" class="info-link"><span class="fa fa-github"></a>
 
 
