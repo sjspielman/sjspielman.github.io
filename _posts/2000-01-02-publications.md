@@ -35,7 +35,7 @@ during the 2009 pandemic influenza virus outbreak.](http://ve.oxfordjournals.org
 
 + **Spielman SJ**, Dawson ET, and Wilke CO. [Limited utility of residue masking for positive-selection inference.](http://mbe.oxfordjournals.org/content/31/9/2496.long) *Mol Biol Evol* 31(9): 2496-2500. 2014.
 &nbsp;<a href="http://github.com/sjspielman/alignment_filtering" class="info-link"><span class="fa fa-github">
-<a href="/files/SpielmanDawsonWilke2014_MBE.pdf" class="info-link"><span class="fa fa-file-pdf-o">
+&nbsp;<a href="/files/SpielmanDawsonWilke2014_MBE.pdf" class="info-link"><span class="fa fa-file-pdf-o">
 
 
 + Shahmoradi A, Sydykova DK, **Spielman SJ**, Jackson EL, Dawson ET, Meyer AG, Wilke CO. [Predicting evolutionary site variability from structure in viral proteins: buriedness, packing, flexibility, and design.](http://dx.doi.org/10.1007/s00239-014-9644-x) *J Mol Evol* 79:130–142. 2014.
