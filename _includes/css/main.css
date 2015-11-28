@@ -26,6 +26,12 @@ html { box-sizing: border-box; }
 {% endfor %}
 
 
+/* Blog nav on index */
+nav .p-blog{ 
+  color: #BDA0CB;
+}
+
+
 /* ----- code, syntax highlighting, etc ----- */
 
 code, pre { font-family: Monaco, Menlo, Consolas, "Courier New", monospace; }

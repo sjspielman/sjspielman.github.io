@@ -17,16 +17,24 @@
 <body>
   <div id="main">
 
+    <!-- Navigation bar -->
     <nav><ul>
       {% for node in site.posts reversed %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-        <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
+         {% if node.id contains "_blog" %}{% else %}        
+           <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
+          {% endif %}
       {% endfor %}
+     <li class="p-blog"><a href="http://sjspielman.org/blog.html">{{"Blog"}}</a></li>
     </ul></nav>
 
-
+    <!-- Content -->
     {% for page in site.posts reversed %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
+      
+      <!-- Skip over the actual blog posts 
+      {% if page.category == "blog" %}{% else %}-->
+      
       <div id="{{id}}" class="section p-{{id}}">
         {% if page.icon %}
         <div class="subtlecircle sectiondivider imaged">
@@ -46,8 +54,10 @@
           {{ page.content }}
         </div>
       </div>
+      
+      <!--{% endif %}-->
+      
     {% endfor %}
-
 
     <div id="footer" class="section text-white">
       <div class="container">
