@@ -52,4 +52,4 @@ during the 2009 pandemic influenza virus outbreak.](http://ve.oxfordjournals.org
 
 + **Spielman, SJ** and Wilke, CO. [Membrane environment imposes unique selection pressures in transmembrane domains of G-protein coupled receptors.](http://link.springer.com/article/10.1007%2Fs00239-012-9538-8) *J Mol Evol* 76(3):172-182. 2013.
 &nbsp;<a href="/files/SpielmanWilke2013_JME.pdf" class="info-link"><span class="fa fa-file-pdf-o">
-&nbsp;&nbsp;Erratum: <a href="/files/SpielmanWilke2013_JME_erratum.pdf" class="info-link"><span class="fa fa-file-pdf-o">
+  + Erratum: <a href="/files/SpielmanWilke2013_JME_erratum.pdf" class="info-link"><span class="fa fa-file-pdf-o">
