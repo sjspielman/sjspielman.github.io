@@ -9,7 +9,7 @@ permalink: /publications/
 
 ## 2015
 
-+ **Spielman SJ** and Wilke CO. [Pyvolve: A flexible Python module for simulating sequences along phylogenies.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0139047) *PLoS ONE.* 10(9): e0139047. 
++ **Spielman SJ** and Wilke CO. [Pyvolve: A flexible Python module for simulating sequences along phylogenies.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0139047) *PLOS ONE.* 10(9): e0139047. 
 &nbsp;<a href="https://github.com/sjspielman/pyvolve" class="info-link"><span class="fa fa-github"> 
 &nbsp;<a href="/files/SpielmanWilke2015_PLoSONE.pdf" class="info-link"><span class="fa fa-file-pdf-o">
 
@@ -46,7 +46,7 @@ during the 2009 pandemic influenza virus outbreak.](http://ve.oxfordjournals.org
 
 ## 2013
 
-+ Tien MZ, Meyer AG, Sydykova DK, **Spielman SJ**, and Wilke CO. [Maximum allowed solvent accessibilites of residues in proteins.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0080635) *PLoS One* 8(11):e80635. 2013. 
++ Tien MZ, Meyer AG, Sydykova DK, **Spielman SJ**, and Wilke CO. [Maximum allowed solvent accessibilites of residues in proteins.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0080635) *PLOS One* 8(11):e80635. 2013. 
 &nbsp;<a href="/files/Tienetal2013_PLoSONE.pdf" class="info-link"><span class="fa fa-file-pdf-o">
 
 
