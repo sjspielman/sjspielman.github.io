@@ -12,7 +12,7 @@ timezone: null
 lsi: false
 markdown: kramdown
 highlighter: pygments
-
+baseurl: ""
 
 ### content configuration ###
 title:       "SJS"
