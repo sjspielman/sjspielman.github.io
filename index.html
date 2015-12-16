@@ -2,18 +2,9 @@
 ---
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ site.title }}</title>
-	<meta name="keywords" content="{{ site.keywords }}">
-	<meta name="description" content="{{ site.description }}">
-  <link rel="stylesheet" href="combo.css">
-  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-  {% if site.favicon %}<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">{% endif %}
-	{% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
-</head>
+
+{% include head.html %}
+
 <body>
   <div id="main">
 
@@ -21,17 +12,15 @@
     <nav><ul>
       {% for node in site.posts reversed %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-           <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
+           <li class="p-{{id}}"><a href="{{ site.baseurl }}/{{id}}">{{node.title}}</a></li>
       {% endfor %}
     </ul></nav>
 
+    
     <!-- Content -->
     {% for page in site.posts reversed %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
-      
-      <!-- Skip over the actual blog posts 
-      {% if page.category == "blog" %}{% else %}-->
-      
+
       <div id="{{id}}" class="section p-{{id}}">
         {% if page.icon %}
         <div class="subtlecircle sectiondivider imaged">
@@ -51,9 +40,7 @@
           {{ page.content }}
         </div>
       </div>
-      
-      <!--{% endif %}-->
-      
+            
     {% endfor %}
 
     <div id="footer" class="section text-white">

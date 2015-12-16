@@ -26,19 +26,37 @@ html { box-sizing: border-box; }
 {% endfor %}
 
 
-/* Blog nav on index */
-nav .p-blog{ 
-  color: #BDA0CB;
+nav .p-Home
+{ border-color: "white";
+ }
+
+
+/* ------------------------------*/
+/* ----- Stephanie's Posts ----- */
+/* ------------------------------*/
+
+#blogpost {
+  padding: 100px;
+  min-height:0;
+  text-align:left;
+  background-color:#ececec;
 }
+#blogpost .container p{ 
+  font-size: 20px;
+  line-height: 30px;
+  margin: 2%; 
+}
+
+
 
 
 /* ----- code, syntax highlighting, etc ----- */
 
 code, pre { font-family: Monaco, Menlo, Consolas, "Courier New", monospace; }
 
-/* spesifically inline code */
 code {
-  background: rgba(255,255,255,0.2);
+  font-size: 16px;
+  background: rgba(255,255,255,0.6);
   display: inline;
   word-wrap: break-word;
 }
@@ -47,13 +65,9 @@ code {
 pre code { background: none; display: block; }
 pre {
   display: block;
-  margin: 20px 5%;
-  padding: 4px 8px;
-  background: rgba(255,255,255,0.1);
   word-wrap: break-word;
 }
 
-.highlighttable { margin:20px 5%; }
 
 
 /* ----- base elements ----- */

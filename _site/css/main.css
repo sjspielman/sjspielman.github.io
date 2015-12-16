@@ -1,0 +1,394 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  color: #4a4a4a;
+  background-color: #fafbfc;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  overflow: hidden;
+}
+
+a {
+  color: #4675A5;
+  text-decoration: none;
+}
+
+a img {
+  outline: none;
+}
+
+a:hover {
+  color: #846fb8;
+  border: none;
+}
+
+
+.separator {
+  color: #555;
+}
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+#logo {
+  max-width: 110px;
+}
+
+.posts a {
+  color: #444;
+}
+
+.posts a:hover {
+  color: #777;
+}
+
+
+.posts-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+
+.posts-list li {
+  text-align: left;
+  line-height: 3em;
+}
+
+.contact-info {
+  padding-left: 1.5em;
+}
+
+.side-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.side-list li {
+  text-align: center;
+  line-height: 3em;
+}
+
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site {
+  height: 100%;
+  width: 100%;
+  line-height: 1.25em;
+}
+
+.title {
+  display: inline-block;
+  text-align: center;
+  line-height: 25px;
+}
+
+.tagline {
+  font-size: 1.2em;
+  width: 100%;
+  color: #787878;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 0.5em;
+  display: block;
+}
+
+.posts {
+  margin-top: 1em;
+  padding-top: 1.5em;
+  padding-bottom: 1.25em;
+}
+
+.footer {
+  font-size: 0.95em;
+  border-top: 1px solid #e7e7e7;
+  padding-top: 1.25em;
+  padding-bottom: 0.75em;
+  overflow: hidden;
+  float: center;
+  text-align: center;
+}
+
+.horiz {
+  border-top: 4.5px solid #cfcfcf;
+  margin-left: 0em;
+  margin-right: 2em;
+  margin-top: 2em;
+  float: center;
+}
+
+.footer-link {
+  font-size: 1.3em;
+}
+
+
+
+.peptide {
+  float: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  max-width: 128px;
+}
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+#date {
+  font-size: 16px;
+  padding-top: 0.25em;
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #787878;
+}
+
+#cover-photo-container{
+    display: block;
+    margin-left: 15em;
+    margin-right: 15em;
+}
+
+
+#info-container {
+  display: block;
+  margin-top: 3em;
+}
+
+
+#title {
+  color: #4a4a4a;
+  margin-bottom: 0.35em;
+  font-size: 2.5em;
+  line-height: 30px;
+  text-align: center;
+}
+
+#title2 {
+  color: #4a4a4a;
+  margin-bottom: 2em;
+  font-size: 2em;
+  line-height: 40px;
+  text-align: center;
+}
+
+.post { 
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 5em;
+  margin-right: 5em;
+  clear: both;
+
+}
+
+.post h2 {
+  margin-top: 1.25em;
+  margin-left: -0.5em;
+  margin-bottom: 1.25em;
+}
+
+
+.post a:hover {
+  border: none;
+}
+
+/* standard */
+.post pre {
+  border: 1px solid #ddd;
+  
+}
+
+.post p {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 19px;
+  margin-bottom: 1.45em;
+  text-align: justify;
+}
+
+.post ul, .post ol, .post li {
+  margin-left: 2em;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 18px;
+}
+
+/* code from Architect theme, by Jason Long. I've slightly modified it. */
+code, pre {
+  margin-bottom: 20px;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: 15px;
+  color: #222;
+}
+
+code {
+  padding: 0 3px;
+  border: solid 1px #dbe7f3;
+}
+
+pre {
+  padding: 8px;
+  overflow: auto;
+  text-shadow: none;
+  background: #fff;
+  border: solid 1px #f2f2f2;
+}
+pre code {
+  padding: 0;
+  border: none;
+}
+
+.inlined{  display:inline; }
+
+/* end of Architect */
+
+/* original flex theme, probably
+.post code {
+  border: 1px solid #ddd;
+  font-size: 1.1em;
+  font-weight: 550;
+  padding: 0.2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+
+.post pre.terminal {
+  border: 1px solid #000;
+  color: #FFF;
+}
+*/
+
+
+/*****************************************************************************/
+/*
+/* Sidebar and Content
+/*
+/*****************************************************************************/
+
+.sidebar,
+.content {
+  vertical-align: top;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.sidebar {
+  float: left;
+  width: 15%;
+  padding-left: 2.5em;
+  padding-right: 2.25em;
+  border-right: 1px solid #e7e7e7;
+}
+
+.content {
+  padding-left: 2.125em;
+}
+
+.header {
+  text-align: center;
+  padding-top: 2.5em;
+  font-size: 1.1em;
+}
+
+
+.h2 { 
+    font-size: 0.75em;
+}
+
+.side-title {
+  font-weight: 600;
+  font-size: 1.25em;
+  float: center;
+  text-align: center;
+}
+
+
+.post-title {
+  font-weight: 700;
+  font-size: 1.5em;
+  padding-bottom: 5em;
+  padding-left: 1.25em;
+}
+
+
+.post-excerpt {
+  color: #4a4a4a;
+  font-size: 1em;
+  padding-left: 2em;
+  font-weight: 600;
+  line-height: 1.5em;
+
+}
+
+.post-date {
+  color: #4e4e4e;
+  font-family: Monaco, "Courier New", monospace;
+  font-weight: 600;
+  font-size: 0.95em;
+  display: block;
+  text-transform: uppercase;
+}
+
+#sidebar-button {
+  height: intrinsic;
+  cursor: pointer;
+  display: none;
+  padding: 15px 5px 0px 0px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+#sidebar-button:active,
+#sidebar-button:hover {
+  opacity: 0.7;
+}
+
+/*****************************************************************************/
+/*
+/* Colophon
+/*
+/*****************************************************************************/
+
+.colophon {
+  margin-top: 1.5em;
+  margin-bottom: 1.45em;
+  border-top: 1px dotted #e7e7e7;
+}
+
+.colophon p {
+  margin-top: 1.25em;
+  font-size: 0.95em;
+  color: #777;
+}
+
