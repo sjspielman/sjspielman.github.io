@@ -4,14 +4,17 @@ date:   2015-4-3
 permalink: /configure_yosemite_biocomputing/
 ---
 
+**If you are having issues with** *El Capitan*, **you may want to check out [this blog post](http://www.benjack.io/2016/01/02/el-capitan-biocomputing.html) or [this blog post](https://ohthehugemanatee.org/blog/2015/10/01/how-i-got-el-capitain-working-with-my-developer-tools/) instead!**
+<br><br>
+
+
 # Configuring Yosemite for Biocomputing
 
 I recently got myself the new 2015 Macbook Pro, and so far it's been great - especially considering that my old laptop's battery only held a charge for a whopping 2.5 hours. Now, 4 hours since the last charge, I still have 8 hours of battery life remaining. The world is my oyster!
 
 In any case, the first thing I did with the new computer was set up my biocomputing environment, and in my at-long-last-achieved-wisdom, I saved all the steps I took to get my computer up-and-running, and here it is! Bear in mind that these are the steps that I took, and they may or may not work for you.
 
-NOTE: If you are having issues with *El Capitan*, check out [this blog post](https://ohthehugemanatee.org/blog/2015/10/01/how-i-got-el-capitain-working-with-my-developer-tools/) - it was quite helpful for rescuing missing paths, disabling SIP, etc.
-<br><br>
+
 
 ### Step-by-step guide to a configuring a Biocomputing environment
 
