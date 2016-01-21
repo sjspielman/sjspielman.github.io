@@ -19,10 +19,10 @@ html { box-sizing: border-box; }
   {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
   {% capture bg %}{% if site.colors[node.bg] %}{{ site.colors[node.bg] }}{% else %}{{ node.bg }}{% endif %}{% endcapture %}
   {% capture fg %}{% if site.colors[node.color] %}{{ site.colors[node.color] }}{% else %}{{ node.color }}{% endif %}{% endcapture %}
+  {% capture linkcolor %}{% if site.colors[node.linkcolor] %}{{ site.colors[node.linkcolor] }}{% else %}{{ node.linkcolor }}{% endif %}{% endcapture %}
   nav .p-{{id}} { border-color: {{ bg }}; }
   #{{id}} { background-color: {{ bg }} !important; color: {{ fg }}; }
-  #{{id}} a { color: {{ fg }}; }
-  #{{id}} .sectiondivider { color: {{ bg }}; }
+  #{{id}} .sectiondivider { color:#590059; }
 {% endfor %}
 
 
@@ -43,7 +43,7 @@ nav .p-Home
 }
 #blogpost .container p{ 
   font-size: 20px;
-  line-height: 30px;
+  line-height: 33px;
   margin: 2%; 
 }
 
@@ -101,10 +101,12 @@ hr {
 }
 .container p, .container ol, .container ul {
   font-size: 20px;
-  line-height: 30px;
-  padding: 0 1%;
+  line-height: 31px;
+  margin-top: 10px;
 }
-.container ol, .container ul { padding: 0 8%; }
+
+
+.container ol, .container ul { padding: 0 5%; }
 .container p:first-of-type {
     margin-top: 40px;
 }
@@ -188,7 +190,6 @@ nav ul li:hover, nav ul li.active {
   border-top-width: {{navborder_active}}px;
   padding-top: 0;
 }
-
 
 /* ----- sections/articles ----- */
 
