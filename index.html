@@ -12,7 +12,7 @@
     <nav><ul>
       {% for node in site.posts reversed %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-           <li class="p-{{id}}"><a href="{{ site.baseurl }}/{{id}}">{{node.title}}</a></li>
+           <li class="p-{{id}}" ><a href="{{ site.baseurl }}/{{id}}" style="color:#fff2e5">{{node.title}}</a></li>
       {% endfor %}
     </ul></nav>
 

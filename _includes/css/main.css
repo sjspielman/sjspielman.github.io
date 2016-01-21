@@ -20,7 +20,7 @@ html { box-sizing: border-box; }
   {% capture bg %}{% if site.colors[node.bg] %}{{ site.colors[node.bg] }}{% else %}{{ node.bg }}{% endif %}{% endcapture %}
   {% capture fg %}{% if site.colors[node.color] %}{{ site.colors[node.color] }}{% else %}{{ node.color }}{% endif %}{% endcapture %}
   {% capture linkcolor %}{% if site.colors[node.linkcolor] %}{{ site.colors[node.linkcolor] }}{% else %}{{ node.linkcolor }}{% endif %}{% endcapture %}
-  nav .p-{{id}} { border-color: {{ bg }}; }
+  nav .p-{{id}} { border-color: {{ bg }};}
   #{{id}} { background-color: {{ bg }} !important; color: {{ fg }}; }
   #{{id}} .sectiondivider { color:#590059; }
 {% endfor %}
@@ -29,7 +29,8 @@ html { box-sizing: border-box; }
 nav .p-Home
 { border-color: "white";
  }
-
+ 
+ 
 
 /* ------------------------------*/
 /* ----- Stephanie's Posts ----- */
@@ -177,7 +178,6 @@ nav ul li {
 
 nav ul li a, nav ul li a:visited {
   display:block;
-  color:#fff;
   text-decoration:none;
   font-weight:600;
   opacity:.75;
