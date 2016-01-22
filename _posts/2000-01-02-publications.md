@@ -7,15 +7,14 @@ permalink: /publications/
 
 ## 2016
 
-+ Echave J, **Spielman SJ**, and Wilke CO. [Causes of evolutionary rate variation among protein sites.](http://dx.doi.org/10.1038/nrg.2015.18) *Nature Reviews Genetics.* (In press).
++ Echave J, **Spielman SJ**, and Wilke CO. [Causes of evolutionary rate variation among protein sites.](http://dx.doi.org/10.1038/nrg.2015.18) *Nature Rev Genet* 17: 109-121.
 &nbsp;&nbsp;<a href="/files/EchaveSpielmanWilke2016_NRG.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
-
 
 <br>
 
 ## 2015
 
-+ **Spielman SJ** and Wilke CO. [Pyvolve: A flexible Python module for simulating sequences along phylogenies.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0139047) *PLOS ONE.* 10(9): e0139047. 
++ **Spielman SJ** and Wilke CO. [Pyvolve: A flexible Python module for simulating sequences along phylogenies.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0139047) *PLOS ONE* 10(9): e0139047. 
 &nbsp;<a href="https://github.com/sjspielman/pyvolve" class="info-link"><span class="fa fa-github" style = "color:black"> 
 &nbsp;<a href="/files/SpielmanWilke2015_PLoSONE.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
