@@ -19,45 +19,20 @@ html { box-sizing: border-box; }
   {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
   {% capture bg %}{% if site.colors[node.bg] %}{{ site.colors[node.bg] }}{% else %}{{ node.bg }}{% endif %}{% endcapture %}
   {% capture fg %}{% if site.colors[node.color] %}{{ site.colors[node.color] }}{% else %}{{ node.color }}{% endif %}{% endcapture %}
-  {% capture linkcolor %}{% if site.colors[node.linkcolor] %}{{ site.colors[node.linkcolor] }}{% else %}{{ node.linkcolor }}{% endif %}{% endcapture %}
-  nav .p-{{id}} { border-color: {{ bg }};}
+  nav .p-{{id}} { border-color: {{ bg }}; }
   #{{id}} { background-color: {{ bg }} !important; color: {{ fg }}; }
-  #{{id}} .sectiondivider { color:#590059; }
+  #{{id}} a { color: {{ fg }}; }
+  #{{id}} .sectiondivider { color:"#c869bf" }
 {% endfor %}
-
-
-nav .p-Home
-{ border-color: "white";
- }
- 
- 
-
-/* ------------------------------*/
-/* ----- Stephanie's Posts ----- */
-/* ------------------------------*/
-
-#blogpost {
-  padding: 100px;
-  min-height:0;
-  text-align:left;
-  background-color:#ececec;
-}
-#blogpost .container p{ 
-  font-size: 20px;
-  line-height: 33px;
-  margin: 2%; 
-}
-
-
 
 
 /* ----- code, syntax highlighting, etc ----- */
 
 code, pre { font-family: Monaco, Menlo, Consolas, "Courier New", monospace; }
 
+/* spesifically inline code */
 code {
-  font-size: 16px;
-  background: rgba(255,255,255,0.6);
+  background: rgba(255,255,255,0.2);
   display: inline;
   word-wrap: break-word;
 }
@@ -66,9 +41,13 @@ code {
 pre code { background: none; display: block; }
 pre {
   display: block;
+  margin: 20px 5%;
+  padding: 4px 8px;
+  background: rgba(255,255,255,0.1);
   word-wrap: break-word;
 }
 
+.highlighttable { margin:20px 5%; }
 
 
 /* ----- base elements ----- */
@@ -103,15 +82,15 @@ hr {
 .container p, .container ol, .container ul {
   font-size: 20px;
   line-height: 31px;
+  font-weight: 500;
   margin-top: 10px;
 }
 
 
-.container ol, .container ul { padding: 0 5%; }
+.container ol, .container ul { padding: 0 8%; }
 .container p:first-of-type {
     margin-top: 40px;
 }
-
 /* keep embedded videos fluid! */
 .icontain {
   position: relative;
@@ -145,7 +124,7 @@ hr {
 {% assign navborder_active = 6 %}
 
 nav {
-  font-size:14px;
+  font-size:15px;
   width:100%;
   position:fixed;
   z-index:100;
@@ -178,6 +157,7 @@ nav ul li {
 
 nav ul li a, nav ul li a:visited {
   display:block;
+  color:#fff;
   text-decoration:none;
   font-weight:600;
   opacity:.75;
@@ -190,6 +170,7 @@ nav ul li:hover, nav ul li.active {
   border-top-width: {{navborder_active}}px;
   padding-top: 0;
 }
+
 
 /* ----- sections/articles ----- */
 

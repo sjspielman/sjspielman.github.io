@@ -1,6 +1,7 @@
 ---
 title: "Preprints"
-bg: '#a7bec4'
+bg: "#f5925e"
+color: black
 fa-icon: folder-open-o
 permalink: /preprints/
 ---

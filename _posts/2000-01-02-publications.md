@@ -1,6 +1,7 @@
 ---
 title: "Publications"
-bg: '#ccdae0'
+bg: '#f1665d'
+color: black
 fa-icon: newspaper-o
 permalink: /publications/
 ---

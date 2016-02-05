@@ -52,7 +52,7 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 24px/24px "HelveticaNeue";
+		font: 14px/21px "Raleway", "HelveticaNeue-Light", Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -74,12 +74,11 @@
 
 	p { margin: 0 0 20px 0; }
 	p img { margin: 0; }
-	/*p.lead { font-size: 21px; line-height: 27px; color: #777;  }*/
+	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
 	em { font-style: italic; }
 	strong { font-weight: bold; }
 	small { font-size: 80%; }
-
 
 /*	Blockquotes  */
 	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
@@ -93,11 +92,9 @@
 
 /* #Links
 ================================================== */
-	a:link, a:visited {
-        text-decoration: none;
-        color: #c0736a;
-    }
-	a:hover, a:focus { color: #90564f; }
+	a, a:visited { text-decoration: underline; outline: 0; }
+	a:hover, a:focus { }
+	p a, p a:visited { line-height: inherit; }
 
 
 /* #Lists
