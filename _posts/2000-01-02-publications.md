@@ -9,7 +9,7 @@ permalink: /publications/
 ## 2016
 
 
-+ EL Jackson, A Shahmoradi, **SJ Spielman**, BR Jack, and CO Wilke. Intermediate divergence levels maximize the strength of structure–sequence correlations in enzymes and viral proteins. *Protein Sci* (In press).
++ EL Jackson, A Shahmoradi, **SJ Spielman**, BR Jack, and CO Wilke. [Intermediate divergence levels maximize the strength of structure–sequence correlations in enzymes and viral proteins.](http://onlinelibrary.wiley.com/doi/10.1002/pro.2920/full) *Protein Sci* (In press).
 &nbsp;<a href="https://github.com/wilkelab/rate_variability_variation" class="info-link"><span class="fa fa-github" style = "color:black">
 
 
