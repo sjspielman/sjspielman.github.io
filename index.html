@@ -1,58 +1,18 @@
 ---
+layout: default
 ---
-<!DOCTYPE html>
-<html dir="ltr" lang="en">
 
-{% include head.html %}
 
-<body>
-  <div id="main">
 
-    <!-- Navigation bar -->
-    <nav><ul>
-      {% for node in site.posts reversed %}
-        {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-           <li class="p-{{id}}" ><a href="{{ site.baseurl }}/{{id}}">{{node.title}}</a></li>
-      {% endfor %}
-    </ul></nav>
+<div class="home">
 
-    
-    <!-- Content -->
-    {% for page in site.posts reversed %}
-      {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
+<h1>About Me</h1>
 
-      <div id="{{id}}" class="section p-{{id}}">
-        {% if page.icon %}
-        <div class="subtlecircle sectiondivider imaged">
-          <img src="{{page.icon}}" alt="section icon" />
-          <h5 class="icon-title" >{{ page.title }} </h5>
-        </div>
-        {% elsif page.fa-icon %}
-        <div class="subtlecircle sectiondivider faicon">
-          <span class="fa-stack">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-{{ page.fa-icon }} fa-stack-1x"></i>
-          </span>
-          <h5 class="icon-title">{{ page.title }}</h5>
-        </div>
-        {% endif %}
-        <div class="container {{ page.style }}">
-          {{ page.content }}
-        </div>
-      </div>
-            
-    {% endfor %}
+{% include image.html url="/images/me.png" width=175 align="center" %}
 
-    <div id="footer" class="section text-white">
-      <div class="container">
-        {% capture foottext %} {% include footer.md %} {% endcapture %}
-        {{ foottext | markdownify }}
-      </div>
-    </div>
-  </div>
+<p>
+I recently obtained my Ph.D. from the <a href="http://www.biosci.utexas.edu/graduate/eeb/"> Ecology, Evolution, and Behavior graduate program</a> at UT Austin, through <a href="http://wilkelab.org"> Claus Wilke's lab</a>. In August 2016, I will be joining the
+<a href="http://igem.temple.edu/"> Institute for Genomics and Evolutionary Medicine</a> at Temple University as a Postdoctoral Researcher with Dr. Sergei Pond. My research interests broadly encompass computational molecular evolution, phylogenetics, and protein evolution.
+</p>
 
-{% include analytics.html %}
-</body>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="site.js"></script>
-</html>
+</div>

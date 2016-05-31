@@ -1,38 +1,24 @@
----
+# Site settings
+title: Stephanie J. Spielman, Ph.D.
+email: stephanie.spielman@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Description of my website
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://sjspielman.org" # the base hostname & protocol for your site
+twitter_username: StephSpiel
+github_username:  sjspielman
 
-#port: 4000
-#host: 0.0.0.0
-#safe: false
+favicon: "images/favicon.ico"
 
-
-### site serving configuration ###
-exclude: [CNAME, README.md, .gitignore]
-permalink: /home ## disables post output
-timezone: null
-lsi: false
+# Build settings
 markdown: kramdown
-highlighter: rouge
-baseurl: ""
 
-### content configuration ###
-title:       "SJS"
-keywords:    "SinglePaged, jekyll, template, github, blog, single page"
-description: "Stephanie's homepage"
-source_link: "https://github.com/t413/SinglePaged"
-favicon:     "img/favicon.ico"
-google_analytics_key:  ## put YOUR key here to enable tracking! (blank to disable)
+# Other options
+permalink: blog/:year/:month/:title
+# job.title: "Assistant Professor"
+excerpt_separator: "<!--more-->"
 
-
-### template colors, used site-wide via css ###
-colors:
- black:     '#111111'
- white:     '#f8f8f8'
- blue:      '#49a7e9'
- green:     '#9bcf2f'
- purple:    '#c869bf'
- orange:    '#fab125'
- turquoise: '#0fbfcf'
-
-#kramdown:
-#  auto_ids:  false
-
+# SEO stuff
+# google_author: ""
+# google_site_verification: ""
+# bing_webmastertools_id: ""
