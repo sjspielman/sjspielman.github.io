@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Courses
+permalink: /courses/
 ---
 I have been involved in teaching and designing a wide variety of courses. As a TA, I have taught Evolutionary Biology (both at UT Austin and Brown University), Biostatistics, and Computational Biology. Furthermore, during the summer of 2011, I worked for UT Austin's Statistics and Data Sciences department (then the Statistics and Scientific Computing division) to re-design the undergraduate Biostatistics curriculum. In this capacity, I developed computer lab exerises and video tutorials for basic biostatistics analysis, ranging from summary statistics to multivariate linear modeling, in R.
 

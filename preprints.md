@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Preprints and Opinions
+permalink: /preprints/
 ---
 
 <br>

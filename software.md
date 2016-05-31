@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Software
+permalink: /software/
 ---
 
 + [Pyvolve]({{ base.url }}/pyvolve), a python platform to simulate sequences along a phylogeny using continuous-time Markov models.
