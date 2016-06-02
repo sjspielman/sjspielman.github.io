@@ -16,9 +16,9 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%----------------------------------------------------------------------------------------
+% --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
+% --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --
 
 \documentclass{resume} % Use the custom resume.cls style
 
@@ -26,45 +26,61 @@
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 \usepackage{hyperref}
+\usepackage{float}
+
 
 \name{Stephanie J. Spielman} % Your name
-\address{The University of Texas at Austin} % Your address
-\address{2500 Speedway, Austin, TX 78712} % Your address
+%\address{The University of Texas at Austin} % Your address
+%\address{2500 Speedway, Austin, TX 78712} % Your address
 
 
 \begin{document}
 
-%----------------------------------------------------------------------------------------
+% --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --
 %	CONTACT INFORMATION SECTION
-%----------------------------------------------------------------------------------------
+% --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --
 
 \begin{rSection}{Contact Information}
 
 \vspace*{0.5cm}
 
-Email: \href{mailto:stephanie.spielman@utexas.edu}{stephanie.spielman@utexas.edu} \\
-Website: \url{http://sjspielman.org} \\ 
-Github: \url{https://www.github.com/sjspielman} \\ 
-
+\begin{table}[H]
+	\begin{tabular}{ll}
+		Email & \texttt{\href{mailto:stephanie.spielman@gmail.com}{stephanie.spielman@gmail.com}} \\
+		Website & \url{http://sjspielman.org} \\
+		Github &  \url{https://www.github.com/sjspielman} \\
+	\end{tabular}
+\end{table}
 \end{rSection}
 
+% --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --
+%	APPOINTMENTS SECTION
+% --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --
+% \vspace*{0.25cm}
+% \begin{rSection}{Academic Appointments}
+% \vspace*{0.5cm}
+%
+% {\bf Research Assistant Professor} \hfill {2016 -- Present} \\
+% Institute for Evolutionary Genomics and Medicine, Temple University \\
+%
+% \end{rSection}
 
-%----------------------------------------------------------------------------------------
+% --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --
 %	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
+% --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --
 
 \begin{rSection}{Education}
-	
-\vspace*{0.5cm}
 
-{\bf The University of Texas at Austin} \hfill {2011 - 2016} \\ 
+\vspace*{0.25cm}
+
+{\bf The University of Texas at Austin} \hfill {2011 -- 2016} \\
 Ph.D. in Ecology, Evolution and Behavior \\
 Research focus in Computational Molecular Evolution \\
 Advisor: Claus O. Wilke \\
 
 \smallskip
 
-{\bf Brown University} \hfill {2006 - 2010} \\ 
+{\bf Brown University} \hfill {2006 -- 2010} \\
 Sc.B. in Biology, with Honors \\
 Concentration in Ecology and Evolutionary Biology \\
 Advisor: Daniel M. Weinreich \\
@@ -73,9 +89,9 @@ Advisor: Daniel M. Weinreich \\
 
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
+% --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --
 %	Awards and Honors
-%----------------------------------------------------------------------------------------
+% --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --
 
 \vspace*{0.5cm}
 \begin{rSection}{Fellowships and Awards}
@@ -117,9 +133,9 @@ Advisor: Daniel M. Weinreich \\
 
 
 
-%----------------------------------------------------------------------------------------
-%	PEER-REVIEWED 
-%----------------------------------------------------------------------------------------
+% --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --
+%	PEER-REVIEWED
+% --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --
 \vspace*{0.5cm}
 \begin{rSection}{Peer-reviewed Publications}
 \vspace*{0.25cm}
@@ -130,31 +146,31 @@ Advisor: Daniel M. Weinreich \\
 \item Jackson EL, Shahmoradi A, \textbf{Spielman SJ}, Jack BR, and Wilke CO. 2016. \emph{Intermediate divergence levels maximize the strength of structure--sequence correlations in enzymes and viral proteins.} Protein Sci (In press).\\
 
 
-\item Echave J, \textbf{Spielman SJ}, and Wilke CO. 2016. \emph{Causes of evolutionary rate variation among protein sites.} Nature Rev Genet 17: 109--121.\\
+\item Echave J, \textbf{Spielman SJ}, and Wilke CO. 2016. \emph{Causes of evolutionary rate variation among protein sites.} Nature Rev Genet 17: 109 -- 121.\\
 
 
 \item \textbf{Spielman SJ} and Wilke CO. 2015. \emph{Pyvolve: A flexible Python module for simulating sequences along phylogenies.} PLOS ONE 10(9): e0139047.\\
 
 
-\item Meyer AG, \textbf{Spielman SJ}, Bedford T, and Wilke CO.  \emph{Time dependence of evolutionary metrics during the 2009 pandemic influenza virus outbreak.} Virus Evolution 1(1): vev006--10. \\
-	
-
-\item \textbf{Spielman SJ}, Kumar K$^\ast$, and Wilke CO.  \emph{Comprehensive, structurally-curated alignment and phylogeny of vertebrate biogenic amine receptors.} PeerJ 3: e773. \\ 
+\item Meyer AG, \textbf{Spielman SJ}, Bedford T, and Wilke CO.  \emph{Time dependence of evolutionary metrics during the 2009 pandemic influenza virus outbreak.} Virus Evolution 1(1): vev006 -- 10. \\
 
 
-\item \textbf{Spielman SJ} and Wilke CO. \emph{The relationship between dN/dS and scaled selection coefficients.} Mol Biol Evol 32(4): 1097--1108.\\
+\item \textbf{Spielman SJ}, Kumar K$^\ast$, and Wilke CO.  \emph{Comprehensive, structurally-curated alignment and phylogeny of vertebrate biogenic amine receptors.} PeerJ 3: e773. \\
 
 
-\item Shahmoradi A, Sydykova DK$^\ast$, \textbf{Spielman SJ}, Jackson EL, Dawson ET$^\ast$ Meyer AG, and Wilke CO. 2014. \emph{Predicting evolutionary site variability from structure in viral proteins: buriedness, flexibility, and design.} J Mol Evol 79: 130--142. \\
+\item \textbf{Spielman SJ} and Wilke CO. \emph{The relationship between dN/dS and scaled selection coefficients.} Mol Biol Evol 32(4): 1097 -- 1108.\\
 
 
-\item \textbf{Spielman SJ}, Dawson ET$^\ast$, and Wilke CO. 2014. \emph{Limited utility of residue masking for positive-selection inference.} Mol Biol Evol 31(9): 2496--2500. \\
+\item Shahmoradi A, Sydykova DK$^\ast$, \textbf{Spielman SJ}, Jackson EL, Dawson ET$^\ast$ Meyer AG, and Wilke CO. 2014. \emph{Predicting evolutionary site variability from structure in viral proteins: buriedness, flexibility, and design.} J Mol Evol 79: 130 -- 142. \\
+
+
+\item \textbf{Spielman SJ}, Dawson ET$^\ast$, and Wilke CO. 2014. \emph{Limited utility of residue masking for positive-selection inference.} Mol Biol Evol 31(9): 2496 -- 2500. \\
 
 
 \item Tien MZ$^\ast$, Meyer AG, Sydykova DK$^\ast$, \textbf{Spielman SJ}, and Wilke CO. 2013. \emph{Maximum allowed solvent accessibilites of residues in proteins.} PLOS ONE 8(11): e80635. \\
 
 
-\item \textbf{Spielman SJ} and Wilke CO. 2013. \emph{Membrane environment imposes unique selection pressures in transmembrane domains of G-protein coupled receptors.} J Mol Evol 76(3): 172--182. \\
+\item \textbf{Spielman SJ} and Wilke CO. 2013. \emph{Membrane environment imposes unique selection pressures in transmembrane domains of G-protein coupled receptors.} J Mol Evol 76(3): 172 -- 182. \\
 
 \end{etaremune}
 
@@ -169,33 +185,33 @@ $^\ast$Denotes undergraduate co-author.
 
 
 
-%----------------------------------------------------------------------------------------
-%	PREPRINT AND OPINION  
-%----------------------------------------------------------------------------------------
+% --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --
+%	PREPRINT AND OPINION
+% --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --
 
 
 \vspace*{0.5cm}
-\begin{rSection}{Preprints and Opinions}	
+\begin{rSection}{Preprints and Opinions}
 \vspace*{0.25cm}
-	
+
 \begin{etaremune}[leftmargin=1.5em]
-	
+
 \item \textbf{Spielman SJ}, Wan S, and Wilke CO. 2015. \emph{A comparison of one-rate and two-rate inference frameworks for site-specific $dN/dS$ estimation.} bioRxiv. \href{http://dx.doi.org/10.1101/032805}{http://dx.doi.org/10.1101/032805}.\\
 
-\item \textbf{Spielman SJ}$^\dagger$, Meyer, AG$^\dagger$, and Wilke CO. 2014. \emph{Increased evolutionary rate in the 2014 West African Ebola outbreak is due to transient polymorphism and not 
-positive selection.} bioRxiv. \href{http://dx.doi.org/10.1101/01142}{http://dx.doi.org/10.1101/01142}. 
+\item \textbf{Spielman SJ}$^\dagger$, Meyer, AG$^\dagger$, and Wilke CO. 2014. \emph{Increased evolutionary rate in the 2014 West African Ebola outbreak is due to transient polymorphism and not
+positive selection.} bioRxiv. \href{http://dx.doi.org/10.1101/01142}{http://dx.doi.org/10.1101/01142}.
 \\\noindent$^\dagger$Authors contributed equally.
-			
+
 \end{etaremune}
 
-	
+
 \end{rSection}
 
 
 
-%----------------------------------------------------------------------------------------
+% --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --
 %	PRESENTATIONS AND POSTERS
-%----------------------------------------------------------------------------------------
+% --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --
 
 
 
@@ -204,7 +220,7 @@ positive selection.} bioRxiv. \href{http://dx.doi.org/10.1101/01142}{http://dx.d
 \begin{rSection}{Presentations and Posters}
 \vspace*{0.25cm}
 
-\textbf{On the relationship between coding-sequence evolution modeling frameworks}
+\textbf{On the relationship between coding-sequence evolution modeling frameworks.}
 \\Contributed talk at \emph{SMBE 2015}
 \\ Vienna, Austria 2015.\\
 
@@ -235,9 +251,9 @@ positive selection.} bioRxiv. \href{http://dx.doi.org/10.1101/01142}{http://dx.d
 
 
 
-%----------------------------------------------------------------------------------------
+% --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --
 %	Teaching
-%----------------------------------------------------------------------------------------
+% --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --
 
 \vspace*{0.5cm}
 \begin{rSection}{Teaching Experience}
@@ -245,20 +261,20 @@ positive selection.} bioRxiv. \href{http://dx.doi.org/10.1101/01142}{http://dx.d
 
 
 
-\textbf{Co-instructor, Peer-led Introduction to Biocomputing} \hfill Spring 2015, 2016 \\ Center for Computational Biology and Bioinformatics, UT Austin \\ 
+\textbf{Co-instructor, Peer-led Introduction to Biocomputing} \hfill Spring 2015, 2016 \\ Center for Computational Biology and Bioinformatics, UT Austin \\
 
-\textbf{Lead Instructor, Introduction to Python} \hfill May 2015, 2016 \\ Big Data in Biology Summer School \\ Center for Computational Biology and Bioinformatics, UT Austin \\ 
+\textbf{Lead Instructor, Introduction to Python} \hfill May 2015, 2016 \\ Big Data in Biology Summer School \\ Center for Computational Biology and Bioinformatics, UT Austin \\
 
-\textbf{Teaching Assistant, Computational Biology and Bioinformatics} \hfill Spring 2015 \\ Department of Statistics and Data Science, UT Austin \\ 
+\textbf{Teaching Assistant, Computational Biology and Bioinformatics} \hfill Spring 2015 \\ Department of Statistics and Data Science, UT Austin \\
 Supervisor: Dr. Claus Wilke \\
 
-\textbf{Co-instructor, Introduction to Python} \hfill May 2014 \\ Big Data Summer School \\ Center for Computational Biology and Bioinformatics, UT Austin \\ 
+\textbf{Co-instructor, Introduction to Python} \hfill May 2014 \\ Big Data Summer School \\ Center for Computational Biology and Bioinformatics, UT Austin \\
 
 
-\textbf{Teaching Assistant, Biostatistics} \hfill Fall 2013, 2012 \\ Department of Statistics and Data Science, UT Austin \\ 
+\textbf{Teaching Assistant, Biostatistics} \hfill Fall 2013, 2012 \\ Department of Statistics and Data Science, UT Austin \\
 Supervisor: Dr. Claus Wilke \\
 
-\textbf{Teaching Assistant, Evolution} \hfill Spring 2013 \\ Department of Integrative Biology, UT Austin \\ 
+\textbf{Teaching Assistant, Evolution} \hfill Spring 2013 \\ Department of Integrative Biology, UT Austin \\
 Supervisors: Dr. Mark Kirkpatrick and Dr. C. Randal Linder \\
 
 \textbf{Teaching Assistant, Evolutionary Biology} \hfill Fall 2009  \\ Department of Biology, Brown University \\
