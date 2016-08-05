@@ -4,10 +4,14 @@ title: Publications
 permalink: /publications/
 ---
 
-## 2016
+### 2016
 
 
-+ EL Jackson, A Shahmoradi, **SJ Spielman**, BR Jack, and CO Wilke. [Intermediate divergence levels maximize the strength of structure–sequence correlations in enzymes and viral proteins.](http://onlinelibrary.wiley.com/doi/10.1002/pro.2920/full) *Protein Sci* (In press).
++ **SJ Spielman** and CO Wilke. Extensively parameterized mutation--selection models reliably capture site-specific selective constraint. *Mol Biol Evol* (In press).
+&nbsp;<a href="https://github.com/sjspielman/mutsel_benchmark" class="info-link"><span class="fa fa-github" style = "color:black">
+&nbsp;<a href="/files/SpielmanWilke2016_MBE_rawpdf.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
+
++ EL Jackson, A Shahmoradi, **SJ Spielman**, BR Jack, and CO Wilke. [Intermediate divergence levels maximize the strength of structure–sequence correlations in enzymes and viral proteins.](http://onlinelibrary.wiley.com/doi/10.1002/pro.2920/full) *Protein Sci* 25(7): 1341-1353.
 &nbsp;<a href="https://github.com/wilkelab/rate_variability_variation" class="info-link"><span class="fa fa-github" style = "color:black">
 
 
@@ -15,7 +19,7 @@ permalink: /publications/
 &nbsp;<a href="/files/EchaveSpielmanWilke2016_NRG.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
 
-## 2015
+### 2015
 
 + **SJ Spielman** and CO Wilke. [Pyvolve: A flexible Python module for simulating sequences along phylogenies.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0139047) *PLOS ONE* 10(9): e0139047.
 &nbsp;<a href="https://github.com/sjspielman/pyvolve" class="info-link"><span class="fa fa-github" style = "color:black">
@@ -37,7 +41,7 @@ during the 2009 pandemic influenza virus outbreak.](http://ve.oxfordjournals.org
 &nbsp;<a href="/files/SpielmanKumarWilke2015_PeerJ.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
 
-## 2014
+### 2014
 
 
 + **SJ Spielman**, ET Dawson, and CO Wilke. [Limited utility of residue masking for positive-selection inference.](http://mbe.oxfordjournals.org/content/31/9/2496.long) *Mol Biol Evol* 31(9): 2496-2500. 2014.
@@ -50,7 +54,7 @@ during the 2009 pandemic influenza virus outbreak.](http://ve.oxfordjournals.org
 &nbsp;<a href="/files/Shahmoradietal2014_JME.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
 
-## 2013
+### 2013
 
 + MZ Tien, AG Meyer, DK Sydykova, **SJ Spielman**, and CO Wilke. [Maximum allowed solvent accessibilites of residues in proteins.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0080635) *PLOS One* 8(11):e80635. 2013.
 &nbsp;<a href="/files/Tienetal2013_PLoSONE.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">

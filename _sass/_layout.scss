@@ -212,9 +212,9 @@ h1 /* .post-title */ {
     }
 
     h3 {
-		font-style: italic;
-/*        font-size: 26px; */
-
+		/*font-style: italic; */
+        font-size: 26px;
+        margin-top: 45px;
         @include media-query($on-laptop) {
 /*            font-size: 22px; */
         }

@@ -4,7 +4,7 @@
 % This template has been downloaded from:
 % http://www.LaTeXTemplates.com
 %
-% This class file defines the structure and design of the template. 
+% This class file defines the structure and design of the template.
 %
 % Original header:
 % Copyright (C) 2010 by Trey Hunner
@@ -37,7 +37,7 @@
 
 \def \addressSep {$\diamond$} % Set default address separator to a diamond
 
-% One, two or three address lines can be specified 
+% One, two or three address lines can be specified
 \let \@addressone \relax
 \let \@addresstwo \relax
 \let \@addressthree \relax
@@ -58,7 +58,7 @@
 \def \printaddress #1{
   \begingroup
     \def \\ {\addressSep\ }
-    \centerline{#1}
+    \centerline{\small{#1}}
   \endgroup
   \par
   \addressskip
@@ -67,7 +67,7 @@
 % \printname is used to print the name as a page header
 \def \printname {
   \begingroup
-    \hfil{\MakeUppercase{\fontsize{17pt}{17pt}\bf \@name}}\hfil
+    \hfil{\MakeUppercase{\fontsize{15pt}{15pt}\bf \@name}}\hfil
     \nameskip\break
   \endgroup
 }
@@ -122,8 +122,8 @@
 }
 
 % The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
-\def\namesize{\large} % Size of the name at the top of the document
-\def\addressskip{\smallskip} % The space between the two address (or phone/email) lines
-\def\sectionlineskip{\medskip} % The space above the horizontal line for each section 
-\def\nameskip{\bigskip} % The space after your name at the top
+\def\namesize{\normalsize} % Size of the name at the top of the document
+\def\addressskip{} % The space between the two address (or phone/email) lines
+\def\sectionlineskip{\medskip} % The space above the horizontal line for each section
+\def\nameskip{\smallskip} % The space after your name at the top
 \def\sectionskip{\medskip} % The space after the heading section
