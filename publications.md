@@ -6,8 +6,12 @@ permalink: /publications/
 
 ### 2016
 
++ **SJ Spielman**, S Wan, and CO Wilke. A comparison of one-rate and two-rate inference frameworks for site-specific *$dN/dS* estimation]. *Genetics*.
+&nbsp;<a href="https://github.com/sjspielman/dnds_1rate_2rate" class="info-link"><span class="fa fa-github" style = "color:black">
+&nbsp;<a href="/files/SpielmanWanWilke2016_Genetics_rawpdf.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
-+ **SJ Spielman** and CO Wilke. Extensively parameterized mutation--selection models reliably capture site-specific selective constraint. *Mol Biol Evol* (In press).
+
++ **SJ Spielman** and CO Wilke. [Extensively parameterized mutation--selection models reliably capture site-specific selective constraint.](http://mbe.oxfordjournals.org/content/early/2016/08/10/molbev.msw171.abstract?keytype=ref&ijkey=zK9iGDcxRXlgq6n) *Mol Biol Evol* (In press).
 &nbsp;<a href="https://github.com/sjspielman/mutsel_benchmark" class="info-link"><span class="fa fa-github" style = "color:black">
 &nbsp;<a href="/files/SpielmanWilke2016_MBE_rawpdf.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
