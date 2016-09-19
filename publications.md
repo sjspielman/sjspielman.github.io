@@ -6,12 +6,12 @@ permalink: /publications/
 
 ### 2016
 
-+ **SJ Spielman**, S Wan, and CO Wilke. 2016. [A comparison of one-rate and two-rate inference frameworks for site-specific *dN/dS* estimation.](http://www.genetics.org/content/early/2016/08/15/genetics.115.185264) *Genetics*.
++ **SJ Spielman**, S Wan, and CO Wilke. 2016. [A comparison of one-rate and two-rate inference frameworks for site-specific *dN/dS* estimation.](http://www.genetics.org/content/early/2016/08/15/genetics.115.185264) *Genetics* 204(1).
 &nbsp;<a href="https://github.com/sjspielman/dnds_1rate_2rate" class="info-link"><span class="fa fa-github" style = "color:black">
 &nbsp;<a href="/files/SpielmanWanWilke2016_Genetics_rawpdf.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
 
-+ **SJ Spielman** and CO Wilke. 2016. [Extensively parameterized mutation--selection models reliably capture site-specific selective constraint.](http://mbe.oxfordjournals.org/content/early/2016/08/10/molbev.msw171.abstract?keytype=ref&ijkey=zK9iGDcxRXlgq6n) *Mol Biol Evol* (In press).
++ **SJ Spielman** and CO Wilke. 2016. [Extensively parameterized mutation--selection models reliably capture site-specific selective constraint.](http://mbe.oxfordjournals.org/content/early/2016/09/08/molbev.msw171) *Mol Biol Evol* (In press).
 &nbsp;<a href="https://github.com/sjspielman/mutsel_benchmark" class="info-link"><span class="fa fa-github" style = "color:black">
 &nbsp;<a href="/files/SpielmanWilke2016_MBE_rawpdf.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
@@ -49,6 +49,7 @@ during the 2009 pandemic influenza virus outbreak.](http://ve.oxfordjournals.org
 
 ### 2014
 
++ **SJ Spielman**\* , AG Meyer\*, and CO Wilke. [Increased evolutionary rate in the 2014 West African Ebola outbreak is due to transient polymorphism and not positive selection.](http://dx.doi.org/10.1101/011429) *bioRxiv*. 2014. \*Authors contributed equally to this work.&nbsp;&nbsp;<a href="https://github.com/wilkelab/EBOV_H1N1" class="info-link"><span class="fa fa-github" style = "color:black">
 
 + **SJ Spielman**, ET Dawson, and CO Wilke. 2014. [Limited utility of residue masking for positive-selection inference.](http://mbe.oxfordjournals.org/content/31/9/2496.long) *Mol Biol Evol* 31(9): 2496-2500. 2014.
 &nbsp;<a href="http://github.com/sjspielman/alignment_filtering" class="info-link"><span class="fa fa-github" style = "color:black">
@@ -67,5 +68,5 @@ during the 2009 pandemic influenza virus outbreak.](http://ve.oxfordjournals.org
 
 
 + **SJ Spielman** and CO Wilke. 2013. [Membrane environment imposes unique selection pressures in transmembrane domains of G-protein coupled receptors.](http://link.springer.com/article/10.1007%2Fs00239-012-9538-8) *J Mol Evol* 76(3):172-182. 2013.
+&nbsp;<a href="http://github.com/sjspielman/mammalian_gpcr_selection" class="info-link"><span class="fa fa-github" style = "color:black">
 &nbsp;<a href="/files/SpielmanWilke2013_JME.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
-  + Erratum: <a href="/files/SpielmanWilke2013_JME_erratum.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
