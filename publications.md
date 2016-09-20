@@ -8,12 +8,12 @@ permalink: /publications/
 
 + **SJ Spielman**, S Wan, and CO Wilke. 2016. [A comparison of one-rate and two-rate inference frameworks for site-specific *dN/dS* estimation.](http://www.genetics.org/content/early/2016/08/15/genetics.115.185264) *Genetics* 204(1).
 &nbsp;<a href="https://github.com/sjspielman/dnds_1rate_2rate" class="info-link"><span class="fa fa-github" style = "color:black">
-&nbsp;<a href="/files/SpielmanWanWilke2016_Genetics_rawpdf.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
+&nbsp;<a href="/files/SpielmanWanWilke2016_Genetics.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
 
 + **SJ Spielman** and CO Wilke. 2016. [Extensively parameterized mutation--selection models reliably capture site-specific selective constraint.](http://mbe.oxfordjournals.org/content/early/2016/09/08/molbev.msw171) *Mol Biol Evol* (In press).
 &nbsp;<a href="https://github.com/sjspielman/mutsel_benchmark" class="info-link"><span class="fa fa-github" style = "color:black">
-&nbsp;<a href="/files/SpielmanWilke2016_MBE_rawpdf.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
+&nbsp;<a href="/files/SpielmanWilke2016_MBE.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
 + EL Jackson, A Shahmoradi, **SJ Spielman**, BR Jack, and CO Wilke. 2016. [Intermediate divergence levels maximize the strength of structure–sequence correlations in enzymes and viral proteins.](http://onlinelibrary.wiley.com/doi/10.1002/pro.2920/full) *Protein Sci* 25(7): 1341-1353.
 &nbsp;<a href="https://github.com/wilkelab/rate_variability_variation" class="info-link"><span class="fa fa-github" style = "color:black">
