@@ -4,14 +4,23 @@ title: Publications
 permalink: /publications/
 ---
 
+### Submitted Manuscripts
+
+
++ EL Jackson, **SJ Spielman**, and CO Wilke. 2016. [Computational prediction of the tolerance to amino-acid deletion in green-fluorescent protein](http://biorxiv.org/content/early/2016/10/04/079061). *Under Review*.
+&nbsp;<a href="https://github.com/wilkelab/eGFP_deletion_prediction" class="info-link"><span class="fa fa-github" style = "color:black">
+&nbsp;<a href="/files/JacksonSpielmanWilke2016_bioRxiv.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
+
++ Z Kadlecova, **SJ Spielman**, D Loerke, A Mohanakrishnan, DK Reed, and SL Schmid. 2016. Regulation of clathrin-mediated endocytosis by hierarchical allosteric activation of AP2. *Under Review*.
+
 ### 2016
 
-+ **SJ Spielman**, S Wan, and CO Wilke. 2016. [A comparison of one-rate and two-rate inference frameworks for site-specific *dN/dS* estimation.](http://www.genetics.org/content/early/2016/08/15/genetics.115.185264) *Genetics* 204(1).
++ **SJ Spielman**, S Wan, and CO Wilke. 2016. [A comparison of one-rate and two-rate inference frameworks for site-specific *dN/dS* estimation.](http://www.genetics.org/content/early/2016/08/15/genetics.115.185264) *Genetics* 204(2): 499--511.
 &nbsp;<a href="https://github.com/sjspielman/dnds_1rate_2rate" class="info-link"><span class="fa fa-github" style = "color:black">
 &nbsp;<a href="/files/SpielmanWanWilke2016_Genetics.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
 
-+ **SJ Spielman** and CO Wilke. 2016. [Extensively parameterized mutation--selection models reliably capture site-specific selective constraint.](http://mbe.oxfordjournals.org/content/early/2016/09/08/molbev.msw171) *Mol Biol Evol* (In press).
++ **SJ Spielman** and CO Wilke. 2016. [Extensively parameterized mutation--selection models reliably capture site-specific selective constraint.](http://mbe.oxfordjournals.org/content/early/2016/09/08/molbev.msw171) *Mol Biol Evol* 33(11): 2990--3002.
 &nbsp;<a href="https://github.com/sjspielman/mutsel_benchmark" class="info-link"><span class="fa fa-github" style = "color:black">
 &nbsp;<a href="/files/SpielmanWilke2016_MBE.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
