@@ -11,14 +11,20 @@ permalink: /publications/
 &nbsp;<a href="https://github.com/wilkelab/eGFP_deletion_prediction" class="info-link"><span class="fa fa-github" style = "color:black">
 &nbsp;<a href="/files/JacksonSpielmanWilke2016_bioRxiv.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
-+ Z Kadlecova, **SJ Spielman**, D Loerke, A Mohanakrishnan, DK Reed, and SL Schmid. 2016. Regulation of clathrin-mediated endocytosis by hierarchical allosteric activation of AP2. *Under Review*.
+
+### 2017
+
+
++ Z Kadlecova, **SJ Spielman**, D Loerke, A Mohanakrishnan, DK Reed, and SL Schmid. 2017. [Regulation of clathrin-mediated endocytosis by hierarchical allosteric activation of AP2.](http://jcb.rupress.org/content/216/1/167) *J Cell Biol* 216(1): 167--179.
+&nbsp;<a href="/files/Kadlecovaetal2017_JCB.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
+
+
 
 ### 2016
 
 + **SJ Spielman**, S Wan, and CO Wilke. 2016. [A comparison of one-rate and two-rate inference frameworks for site-specific *dN/dS* estimation.](http://www.genetics.org/content/early/2016/08/15/genetics.115.185264) *Genetics* 204(2): 499--511.
 &nbsp;<a href="https://github.com/sjspielman/dnds_1rate_2rate" class="info-link"><span class="fa fa-github" style = "color:black">
 &nbsp;<a href="/files/SpielmanWanWilke2016_Genetics.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
-
 
 + **SJ Spielman** and CO Wilke. 2016. [Extensively parameterized mutation--selection models reliably capture site-specific selective constraint.](http://mbe.oxfordjournals.org/content/early/2016/09/08/molbev.msw171) *Mol Biol Evol* 33(11): 2990--3002.
 &nbsp;<a href="https://github.com/sjspielman/mutsel_benchmark" class="info-link"><span class="fa fa-github" style = "color:black">
@@ -27,8 +33,6 @@ permalink: /publications/
 + EL Jackson, A Shahmoradi, **SJ Spielman**, BR Jack, and CO Wilke. 2016. [Intermediate divergence levels maximize the strength of structure–sequence correlations in enzymes and viral proteins.](http://onlinelibrary.wiley.com/doi/10.1002/pro.2920/full) *Protein Sci* 25(7): 1341-1353.
 &nbsp;<a href="https://github.com/wilkelab/rate_variability_variation" class="info-link"><span class="fa fa-github" style = "color:black">
 &nbsp;<a href="/files/Jacksonetal2016_ProtSci.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
-
-
 
 + J Echave, **SJ Spielman**, and CO Wilke. 2016. [Causes of evolutionary rate variation among protein sites.](http://dx.doi.org/10.1038/nrg.2015.18) *Nature Rev Genet* 17: 109-121.
 &nbsp;<a href="/files/EchaveSpielmanWilke2016_NRG.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
