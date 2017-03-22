@@ -4,15 +4,16 @@ title: Publications
 permalink: /publications/
 ---
 
-### Submitted Manuscripts
+<!--### Submitted Manuscripts-->
 
 
-+ EL Jackson, **SJ Spielman**, and CO Wilke. 2016. [Computational prediction of the tolerance to amino-acid deletion in green-fluorescent protein](http://biorxiv.org/content/early/2016/10/04/079061). *Under Review*.
-&nbsp;<a href="https://github.com/wilkelab/eGFP_deletion_prediction" class="info-link"><span class="fa fa-github" style = "color:black">
-&nbsp;<a href="/files/JacksonSpielmanWilke2016_bioRxiv.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
 
 ### 2017
+
++ EL Jackson, **SJ Spielman**, and CO Wilke. 2017. [Computational prediction of the tolerance to amino-acid deletion in green-fluorescent protein](http://biorxiv.org/content/early/2016/10/04/079061). *PLOS ONE* (In press).
+&nbsp;<a href="https://github.com/wilkelab/eGFP_deletion_prediction" class="info-link"><span class="fa fa-github" style = "color:black">
+&nbsp;<a href="/files/JacksonSpielmanWilke2016_bioRxiv.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
 
 + Z Kadlecova, **SJ Spielman**, D Loerke, A Mohanakrishnan, DK Reed, and SL Schmid. 2017. [Regulation of clathrin-mediated endocytosis by hierarchical allosteric activation of AP2.](http://jcb.rupress.org/content/216/1/167) *J Cell Biol* 216(1): 167--179.
