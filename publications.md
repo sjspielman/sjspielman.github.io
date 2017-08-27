@@ -11,7 +11,7 @@ permalink: /publications/
 
 ### 2017
 
-+ EL Jackson, **SJ Spielman**, and CO Wilke. 2017. [Computational prediction of the tolerance to amino-acid deletion in green-fluorescent protein](http://biorxiv.org/content/early/2016/10/04/079061). *PLOS ONE* 12(4): e0164905.
++ EL Jackson, **SJ Spielman**, and CO Wilke. 2017. [Computational prediction of the tolerance to amino-acid deletion in green-fluorescent protein](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0164905). *PLOS ONE* 12(4): e0164905.
 &nbsp;<a href="https://github.com/wilkelab/eGFP_deletion_prediction" class="info-link"><span class="fa fa-github" style = "color:black">
 &nbsp;<a href="/files/JacksonSpielmanWilke2016_PLOSONE.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
