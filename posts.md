@@ -4,6 +4,10 @@ title: Posts
 permalink: /posts/
 ---
 
+<br>
+
+This page contains my impressively-barebones blog, which one day will perhaps take off.
+
 <ul class="listing">
 {% for post in site.posts %}
  <li>

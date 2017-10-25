@@ -4,12 +4,21 @@ title: Publications
 permalink: /publications/
 ---
 
-<!--### Submitted Manuscripts-->
+<br>
 
+### Pre-prints
+
++ **SJ Spielman** and SL Kosakovsky Pond. 2017. [Relative evolutionary rate inference in HyPhy with LEISR](https://doi.org/10.1101/206011). *bioRxiv*. &nbsp;<a href="https://github.com/sjspielman/leisr_validation" class="info-link"><span class="fa fa-github" style = "color:black">
+
+
++ **SJ Spielman**\* , AG Meyer\*, and CO Wilke. 2014. [Increased evolutionary rate in the 2014 West African Ebola outbreak is due to transient polymorphism and not positive selection.](http://dx.doi.org/10.1101/011429) *bioRxiv*. \*Authors contributed equally to this work.&nbsp;&nbsp;<a href="https://github.com/wilkelab/EBOV_H1N1" class="info-link"><span class="fa fa-github" style = "color:black">
 
 
 
 ### 2017
+
++ **SJ Spielman**, S Weaver, SD Shank, BR Magalas, M Li, SL Kosakovsky Pond. *In press.* Evolution of viral genomes: Interplay between selection,
+recombination and other forces. In: Anisimova M. (eds) *Evolutionary Genomics. Methods in Molecular Biology (Methods and Protocols).* Humana Press. &nbsp;<a href="https://github.com/veg/evogenomics_hyphy" class="info-link"><span class="fa fa-github" style = "color:black">
 
 + EL Jackson, **SJ Spielman**, and CO Wilke. 2017. [Computational prediction of the tolerance to amino-acid deletion in green-fluorescent protein](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0164905). *PLOS ONE* 12(4): e0164905.
 &nbsp;<a href="https://github.com/wilkelab/eGFP_deletion_prediction" class="info-link"><span class="fa fa-github" style = "color:black">
@@ -56,14 +65,13 @@ during the 2009 pandemic influenza virus outbreak.](http://ve.oxfordjournals.org
 &nbsp;<a href="/files/SpielmanWilke2015_MBE.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
 
-+ **SJ Spielman**, K Kumar, and CO Wilke. [Comprehensive, structurally-curated alignment and phylogeny of vertebrate biogenic amine receptors.](http://dx.doi.org/10.7717/peerj.773) *PeerJ* 3:e773. 2015.
++ **SJ Spielman**, K Kumar, and CO Wilke. 2015. [Comprehensive, structurally-curated alignment and phylogeny of vertebrate biogenic amine receptors.](http://dx.doi.org/10.7717/peerj.773) *PeerJ* 3:e773.
 &nbsp;<a href="http://github.com/sjspielman/amine_receptors" class="info-link"><span class="fa fa-github" style = "color:black">
 &nbsp;<a href="/files/SpielmanKumarWilke2015_PeerJ.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
 
 ### 2014
 
-+ **SJ Spielman**\* , AG Meyer\*, and CO Wilke. [Increased evolutionary rate in the 2014 West African Ebola outbreak is due to transient polymorphism and not positive selection.](http://dx.doi.org/10.1101/011429) *bioRxiv*. 2014. \*Authors contributed equally to this work.&nbsp;&nbsp;<a href="https://github.com/wilkelab/EBOV_H1N1" class="info-link"><span class="fa fa-github" style = "color:black">
 
 + **SJ Spielman**, ET Dawson, and CO Wilke. 2014. [Limited utility of residue masking for positive-selection inference.](http://mbe.oxfordjournals.org/content/31/9/2496.long) *Mol Biol Evol* 31(9): 2496-2500. 2014.
 &nbsp;<a href="http://github.com/sjspielman/alignment_filtering" class="info-link"><span class="fa fa-github" style = "color:black">
