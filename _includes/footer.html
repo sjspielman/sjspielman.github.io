@@ -1,22 +1,44 @@
 <footer class="site-footer">
 
-<div>
-  <a href="mailto:{{ site.email }}">
-      <span class="fa fa-envelope fa-1x" style = "color:grey"></span>
-      <span class="username">{{ site.email }}</span>
-  </a>&nbsp&nbsp&nbsp&nbsp
+  <div class="wrapper">
 
-  <a href="https://github.com/{{ site.github_username }}">
-    <span class="fa fa-github fa-1x" style = "color:grey"></span>
-    <span class="username">{{ site.github_username }}</span>
-  </a>&nbsp&nbsp&nbsp&nbsp
+    <!--<h2 class="footer-heading">{{ site.title | escape }}</h2>-->
 
-  <a href="https://twitter.com/{{ site.twitter_username }}">
-    <span class="fa fa-twitter fa-1x" style = "color:grey"></span>
-    <span class="username">{{ site.twitter_username }}</span>
-  </a>
-</div>
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>{{ site.author | escape }}</li>
+          <li>{{ site.dept | escape }}</li>
+          <li>{{ site.office | escape }}</li>
+          <li>{{ site.employer | escape }}</li>
+          <li>{{ site.address | escape }}</li>
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        </ul>
+      </div>
 
+      <div class="footer-col footer-col-2">
+      
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
 
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+<!--    
+      <div class="footer-col footer-col-3">
+        <p>{{ site.description | escape }}</p>
+      </div>
+-->
+    </div>
+
+  </div>
 
 </footer>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Configuring Yosemite for Biocomputing</title>
+  <meta name="description" content="If you are having issues with El Capitan, you may want to check out this blog post or this blog post instead!">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/2015/04/03/setup-yosemite.html">
+  <link rel="alternate" type="application/rss+xml" title="Home" href="/feed.xml">
+  <link rel="stylesheet" href="/assets/prism.css">
+  <script src="https://use.fontawesome.com/a672cf20b0.js"></script>
+  
+</head>
+
+
+  <body>
+    <script src="/assets/prism.js"></script>
+    <header class="site-header" role="banner">
+
+  <div class="wrapper-header">
+    
+    
+    <a class="site-title" href="/">Home</a>
+  
+    
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+          
+            
+            
+            <a class="page-link" href="/cv/">CV</a>
+            
+          
+            
+            
+            <a class="page-link" href="/publications/">Publications</a>
+            
+          
+            
+            
+            <a class="page-link" href="/courses/">Courses</a>
+            
+          
+            
+            
+            <a class="page-link" href="/software/">Software</a>
+            
+          
+            
+            
+            <a class="page-link" href="/posts/">Posts</a>
+            
+          
+        </div>
+      </nav>
+    
+  </div>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Configuring Yosemite for Biocomputing</h1>
+    <p class="post-meta">
+      <time datetime="2015-04-03T00:00:00-04:00" itemprop="datePublished">
+        
+        Apr 3, 2015
+      </time>
+      </p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p><strong>If you are having issues with</strong> <em>El Capitan</em>, <strong>you may want to check out <a href="http://www.benjack.io/2016/01/02/el-capitan-biocomputing.html">this blog post</a> or <a href="https://ohthehugemanatee.org/blog/2015/10/01/how-i-got-el-capitain-working-with-my-developer-tools/">this blog post</a> instead!</strong>
+<br /><br /></p>
+
+<p>I recently got myself the new 2015 Macbook Pro, and so far it’s been great - especially considering that my old laptop’s battery only held a charge for a whopping 2.5 hours. Now, 4 hours since the last charge, I still have 8 hours of battery life remaining. The world is my oyster!</p>
+
+<p>In any case, the first thing I did with the new computer was set up my biocomputing environment, and in my at-long-last-achieved-wisdom, I saved all the steps I took to get my computer up-and-running, and here it is! Bear in mind that these are the steps that I took, and they may or may not work for you.</p>
+
+<h3 id="step-by-step-guide-to-a-configuring-a-biocomputing-environment">Step-by-step guide to a configuring a Biocomputing environment</h3>
+
+<p><strong>1.</strong> Download XCode from the App Store. This will give you the basics you need to proceed, like clang/clang++ compilers, git, and other goodies. However, note that XCode won’t give you a fortran compiler. The quickest option for getting one is to download and install from this link: <a href="http://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2">http://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2</a>.</p>
+
+<p><br />
+<strong>2.</strong> XCode comes with it’s own text editor, although I am partial to TextWrangler (available here: <a href="http://www.barebones.com/products/textwrangler/download.html">http://www.barebones.com/products/textwrangler/download.html</a>), which I installed next.</p>
+
+<p><br />
+<strong>3.</strong> Set up the global configurations for git by typing the following lines into terminal:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">git config --global user.name <span class="s2">"first last"</span>
+git config --global user.email <span class="s2">"email"</span></code></pre></figure>
+
+<p>where “first last” are replaced with your first and last name (“Stephanie Spielman” for me), and the “email” is replaced with your email.</p>
+
+<p><br />
+<strong>4.</strong> Install Homebrew, a convenient and comprehensive Mac package manager. Personally, I do prefer homebrew over MacPorts or other package managers, although I have no real basis for this preference. If MacPorts or other is your thing, then the next few steps might not be so helpful.
+<br />To get homebrew, enter this code into the command line:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">ruby -e <span class="s2">"</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install<span class="k">)</span><span class="s2">"</span></code></pre></figure>
+
+<p>Note that you might need to “sudo” that command. Also, if you ever want to update your homebrew, use this command:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">brew update</code></pre></figure>
+
+<p><br />
+<strong>5.</strong> While Mac does come with its own python distribution, this distribution tends to get wonky when dealing with python modules. In the past, I’ve had some really annoyances trying to get numpy and scipy running properly, so I abandoned Mac’s python in favor of homebrew’s.
+So, once homebrew is installed (it will be in “/usr/local/Cellar/”), use it to download their python version. To make sure that, when using the python interpretter, that you can freely press the up/down/left/right arrows without annoying characters appearing, install readline first!:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">brew install readline --universal
+brew install python</code></pre></figure>
+
+<p>By default, this will give you python-2.7. If you want python3, use this command instead:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">brew install python3</code></pre></figure>
+
+<p><br />
+<strong>6.</strong> Next, just to make sure that Mac’s python doesn’t interfere with homebrew’s, enter these commands:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd</span> /System/Library/Frameworks/Python.framework/Versions
+sudo rm Current
+<span class="c"># Note that the "2.7.9" below will need to be replaced if its not the version on your system!</span>
+sudo ln -s /usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/Current</code></pre></figure>
+
+<p><br />
+<strong>7.</strong> Homebrew’s python comes with pip, which you can use to download various libraries. Here’s what I did:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">pip install numpy
+pip install scipy
+pip install <span class="s2">"ipython[notebook]"</span> <span class="c"># install iPython and notebook</span>
+pip install ipython --upgrade   <span class="c"># the above command does not seem to install most recent iPython, so this line fixes that issue</span>
+pip install pandas</code></pre></figure>
+
+<p><br />
+<strong>8.</strong> Unfortunately, you can’t get Biopython with pip, so you have to download from source. You can get Biopython from this website: <a href="http://biopython.org/wiki/Download">http://biopython.org/wiki/Download</a>. Download either biopython-1.65.zip or biopython-1.65.tar.gz, uncompress, and navigate to the directory. Once in the biopython directory, enter the following in terminal to install Biopython:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">python setup.py build
+sudo python setup.py install</code></pre></figure>
+
+<p><br />
+<strong>9.</strong> Pandoc, a package for converting file formats (often from markdown or ipython notebook to html or pdf, etc.), is an especially useful thing to have around. Download from the website: <a href="https://github.com/jgm/pandoc/releases">https://github.com/jgm/pandoc/releases</a>.</p>
+
+<p><br />
+<strong>10.</strong> If you want to convert to pdf, though, you’ll need LaTeX on your system (surprisingly enough, if you want to use LaTeX for anything else, you’ll still need LaTeX!). For this, you have to download MacTex (from this website: <a href="https://tug.org/mactex/downloading.html">https://tug.org/mactex/downloading.html</a>). This will give you a convenient installer which guides you through the process. The package is super big though (2.4 GB), so if you internet is not lightning-speed, this might be a good time for a coffee break!</p>
+
+<p><br />
+<strong>11.</strong> Next, we’ll get R up and running. This is pretty straightforward - just download the R package installer (the one for Mavericks!) from this website: <a href="http://www.r-project.org">http://www.r-project.org</a>. I recommend against building from source, since this requires a fortran compiler, and as previously mentioned, you’ll have to get this running on your own - this link should do it: <a href="[http://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2]">http://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2</a>.</p>
+
+<p><br />
+<strong>12.</strong> Download, if you want, RStudio from this website: <a href="http://www.rstudio.com">http://www.rstudio.com</a>. You’ll also need XQuartz, which you can download from this website: <a href="http://xquartz.macosforge.org/landing/">http://xquartz.macosforge.org/landing/</a></p>
+
+<p><br />
+<strong>13.</strong> Once R is running, you can install any packages you’ll need. I ran the following commands in R for installation:</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">install.packages</span><span class="p">(</span><span class="s2">"dplyr"</span><span class="p">,</span><span class="w"> </span><span class="n">dep</span><span class="o">=</span><span class="nb">T</span><span class="p">)</span><span class="w">
+</span><span class="n">install.packages</span><span class="p">(</span><span class="s2">"tidyr"</span><span class="p">,</span><span class="w"> </span><span class="n">dep</span><span class="o">=</span><span class="nb">T</span><span class="p">)</span><span class="w">
+</span><span class="n">install.packages</span><span class="p">(</span><span class="s2">"ggplot2"</span><span class="p">,</span><span class="w"> </span><span class="n">dep</span><span class="o">=</span><span class="nb">T</span><span class="p">)</span><span class="w">
+</span><span class="n">install.packages</span><span class="p">(</span><span class="s2">"cowplot"</span><span class="p">,</span><span class="w"> </span><span class="n">dep</span><span class="o">=</span><span class="nb">T</span><span class="p">)</span><span class="w"> </span><span class="c1"># for sexier ggplot-ing
+</span><span class="n">install.packages</span><span class="p">(</span><span class="s2">"ape"</span><span class="p">,</span><span class="w"> </span><span class="n">dep</span><span class="o">=</span><span class="nb">T</span><span class="p">)</span><span class="w"> </span><span class="c1"># for phylogeny manipulation
+</span><span class="n">install.packages</span><span class="p">(</span><span class="s2">"lme4"</span><span class="p">,</span><span class="w"> </span><span class="n">dep</span><span class="o">=</span><span class="nb">T</span><span class="p">)</span><span class="w"> </span><span class="err">#</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">more</span><span class="w"> </span><span class="n">linear</span><span class="w"> </span><span class="n">modeling</span></code></pre></figure>
+
+<p><br />
+And now, for the most part, you have a functioning biocomputing environment for git, Python, and R!</p>
+
+  </div>
+
+  
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <!--<h2 class="footer-heading">Home</h2>-->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Stephanie J. Spielman, PhD</li>
+          <li>Institute for Genomics and Evolutionary Medicine</li>
+          <li>Science and Education Research Center (SERC) 643</li>
+          <li>Temple University</li>
+          <li>1925 N 12th Street, Philadelphia, PA 19122</li>
+          <li><a href="mailto:stephanie.spielman@temple.edu">stephanie.spielman@temple.edu</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+      
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/sjspielman"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">sjspielman</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/stephspiel"><span class="icon icon--twitter"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">stephspiel</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+<!--    
+      <div class="footer-col footer-col-3">
+        <p>Institute for Genomics and Evolutionary Medicine
+</p>
+      </div>
+-->
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

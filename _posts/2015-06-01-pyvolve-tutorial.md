@@ -5,8 +5,6 @@ date:  2015-06-01
 ---
 
 
-# Brief introduction to Pyvolve
-
 This blog post contains a brief tutorial for [Pyvolve](http://sjspielman.org/pyvolve), an open-source Python module for simulating sequences along phylogenies ([Spielman and Wilke, 2015](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0139047)). A comprehensive user-manual for Pyvolve is available with the most recent release from this [github repository](https://github.com/sjspielman/pyvolve).
 
 Pyvolve is written in pure Python, with dependencies of NumPy, SciPy, and Biopython. The Pyvolve framework is extremely flexible, allowing you to simulate sequences according to virtually all standard models of nucleotide, amino acid, and codon data, and you can customize *all* model parameters to your heart's content. Further, Pyvolve allows you to provide a custom rate matrix, if the available models are not quite what you're looking for (however, please feel free to get in touch with me if you would like to request that a new model be included!).
