@@ -6,7 +6,11 @@ permalink: /publications/
 
 <br>
 
-### Pre-prints
+### Pre-prints and Submitted manuscripts
+
+
++ S Weaver, SD Shank, **SJ Spielman**, M Li, SV Muse, and SL Kosakovsky Pond. 2017. Datamonkey 2.0: A modern web application for characterizing selective and other evolutionary processes. *Mol. Biol. Evol.* Under Review.
+
 
 + **SJ Spielman** and SL Kosakovsky Pond. 2017. [Relative evolutionary rate inference in HyPhy with LEISR](https://doi.org/10.1101/206011). *bioRxiv*. &nbsp;<a href="https://github.com/sjspielman/leisr_validation" class="info-link"><span class="fa fa-github" style = "color:black">
 
