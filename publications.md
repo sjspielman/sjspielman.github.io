@@ -9,6 +9,8 @@ permalink: /publications/
 ### Pre-prints and Submitted manuscripts
 
 
++ **SJ Spielman**. 2017. [phyphy: Python package for facilitating the execution and parsing of HyPhy standard analyses](http://joss.theoj.org/papers/9f65f1bc47bf8f17d773d09928a89b90). *The Journal of Open Source Software.* Under Review. href="https://github.com/sjspielman/phyphy" class="info-link"><span class="fa fa-github" style = "color:black">
+
 + S Weaver, SD Shank, **SJ Spielman**, M Li, SV Muse, and SL Kosakovsky Pond. 2017. Datamonkey 2.0: A modern web application for characterizing selective and other evolutionary processes. *Mol. Biol. Evol.* Under Review.
 
 

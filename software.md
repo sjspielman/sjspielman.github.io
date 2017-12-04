@@ -14,5 +14,5 @@ Software packages I have developed separately include the following:
 
 + [alignfigR]({{ base.url }}/alignfigR), an R package to create multiple sequence alignment figures.
 
-+ [phyphy](https://github.com/sjspielman/phyphy), [**In development**] a python library for faciliating and parsing [HyPhy](http://hyphy.org) batch analyses
++ [phyphy]({{ base.url }}/phyphy), a Python library for faciliating and parsing [HyPhy](http://hyphy.org) standard analyses
 
