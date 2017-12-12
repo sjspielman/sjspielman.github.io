@@ -6,18 +6,16 @@ permalink: /publications/
 
 <br>
 
-### Pre-prints and Submitted manuscripts
+### Submitted manuscripts
 
 
-+ **SJ Spielman**. 2017. [phyphy: Python package for facilitating the execution and parsing of HyPhy standard analyses](http://joss.theoj.org/papers/9f65f1bc47bf8f17d773d09928a89b90). *The Journal of Open Source Software.* Under Review. href="https://github.com/sjspielman/phyphy" class="info-link"><span class="fa fa-github" style = "color:black">
++ **SJ Spielman**. 2017. [phyphy: Python package for facilitating the execution and parsing of HyPhy standard analyses](http://joss.theoj.org/papers/9f65f1bc47bf8f17d773d09928a89b90). *Under Review at The Journal of Open Source Software.* &nbsp;<a href="https://github.com/sjspielman/phyphy" class="info-link"><span class="fa fa-github" style = "color:black">
 
-+ S Weaver, SD Shank, **SJ Spielman**, M Li, SV Muse, and SL Kosakovsky Pond. 2017. Datamonkey 2.0: A modern web application for characterizing selective and other evolutionary processes. *Mol. Biol. Evol.* Under Review.
-
-
-+ **SJ Spielman** and SL Kosakovsky Pond. 2017. [Relative evolutionary rate inference in HyPhy with LEISR](https://doi.org/10.1101/206011). *bioRxiv*. &nbsp;<a href="https://github.com/sjspielman/leisr_validation" class="info-link"><span class="fa fa-github" style = "color:black">
++ S Weaver, SD Shank, **SJ Spielman**, M Li, SV Muse, and SL Kosakovsky Pond. 2017. Datamonkey 2.0: A modern web application for characterizing selective and other evolutionary processes. *Under Review at Mol. Biol. Evol.*
 
 
-+ **SJ Spielman**\* , AG Meyer\*, and CO Wilke. 2014. [Increased evolutionary rate in the 2014 West African Ebola outbreak is due to transient polymorphism and not positive selection.](http://dx.doi.org/10.1101/011429) *bioRxiv*. \*Authors contributed equally to this work.&nbsp;&nbsp;<a href="https://github.com/wilkelab/EBOV_H1N1" class="info-link"><span class="fa fa-github" style = "color:black">
++ **SJ Spielman** and SL Kosakovsky Pond. 2017. [Relative evolutionary rate inference in HyPhy with LEISR](https://doi.org/10.1101/206011). *Under Review at PeerJ*. &nbsp;<a href="https://github.com/sjspielman/leisr_validation" class="info-link"><span class="fa fa-github" style = "color:black">
+
 
 
 
@@ -87,6 +85,9 @@ during the 2009 pandemic influenza virus outbreak.](http://ve.oxfordjournals.org
 + A Shahmoradi, DK Sydykova, **SJ Spielman**, EL Jackson, ET Dawson, AG Meyer, and CO Wilke. 2014. [Predicting evolutionary site variability from structure in viral proteins: buriedness, packing, flexibility, and design.](http://dx.doi.org/10.1007/s00239-014-9644-x) *J Mol Evol* 79:130–142. 2014.
 &nbsp;<a href="https://github.com/clauswilke/structural_prediction_of_ER" class="info-link"><span class="fa fa-github" style = "color:black">
 &nbsp;<a href="/files/Shahmoradietal2014_JME.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
+
+
++ *[PREPRINT]* **SJ Spielman**\* , AG Meyer\*, and CO Wilke. 2014. [Increased evolutionary rate in the 2014 West African Ebola outbreak is due to transient polymorphism and not positive selection.](http://dx.doi.org/10.1101/011429) *bioRxiv*. \*Authors contributed equally to this work.&nbsp;&nbsp;<a href="https://github.com/wilkelab/EBOV_H1N1" class="info-link"><span class="fa fa-github" style = "color:black">
 
 
 ### 2013

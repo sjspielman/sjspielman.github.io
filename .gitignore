@@ -1,0 +1,6 @@
+**/.DS_Store
+.sass-cache/
+Icon*
+_site/
+**/.Rhistory
+**/.RData
