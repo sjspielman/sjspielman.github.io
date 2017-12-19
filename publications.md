@@ -6,12 +6,17 @@ permalink: /publications/
 
 <br>
 
+### Accepted manuscripts
+
++ S Weaver, SD Shank, **SJ Spielman**, M Li, SV Muse, and SL Kosakovsky Pond. 2017. Datamonkey 2.0: A modern web application for characterizing selective and other evolutionary processes. *Mol. Biol. Evol.*
+
++ **SJ Spielman**, S Weaver, SD Shank, BR Magalas, M Li, SL Kosakovsky Pond. *In press.* Evolution of viral genomes: Interplay between selection,
+recombination and other forces. In: Anisimova M. (eds) *Evolutionary Genomics. Methods in Molecular Biology (Methods and Protocols).* Humana Press. &nbsp;<a href="https://github.com/veg/evogenomics_hyphy" class="info-link"><span class="fa fa-github" style = "color:black">
+
 ### Submitted manuscripts
 
 
 + **SJ Spielman**. 2017. [phyphy: Python package for facilitating the execution and parsing of HyPhy standard analyses](http://joss.theoj.org/papers/9f65f1bc47bf8f17d773d09928a89b90). *Under Review at The Journal of Open Source Software.* &nbsp;<a href="https://github.com/sjspielman/phyphy" class="info-link"><span class="fa fa-github" style = "color:black">
-
-+ S Weaver, SD Shank, **SJ Spielman**, M Li, SV Muse, and SL Kosakovsky Pond. 2017. Datamonkey 2.0: A modern web application for characterizing selective and other evolutionary processes. *Under Review at Mol. Biol. Evol.*
 
 
 + **SJ Spielman** and SL Kosakovsky Pond. 2017. [Relative evolutionary rate inference in HyPhy with LEISR](https://doi.org/10.1101/206011). *Under Review at PeerJ*. &nbsp;<a href="https://github.com/sjspielman/leisr_validation" class="info-link"><span class="fa fa-github" style = "color:black">
@@ -20,9 +25,6 @@ permalink: /publications/
 
 
 ### 2017
-
-+ **SJ Spielman**, S Weaver, SD Shank, BR Magalas, M Li, SL Kosakovsky Pond. *In press.* Evolution of viral genomes: Interplay between selection,
-recombination and other forces. In: Anisimova M. (eds) *Evolutionary Genomics. Methods in Molecular Biology (Methods and Protocols).* Humana Press. &nbsp;<a href="https://github.com/veg/evogenomics_hyphy" class="info-link"><span class="fa fa-github" style = "color:black">
 
 + EL Jackson, **SJ Spielman**, and CO Wilke. 2017. [Computational prediction of the tolerance to amino-acid deletion in green-fluorescent protein](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0164905). *PLOS ONE* 12(4): e0164905.
 &nbsp;<a href="https://github.com/wilkelab/eGFP_deletion_prediction" class="info-link"><span class="fa fa-github" style = "color:black">
