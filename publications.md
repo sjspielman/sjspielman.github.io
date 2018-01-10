@@ -15,11 +15,11 @@ recombination and other forces. In: Anisimova M. (eds) *Evolutionary Genomics. M
 
 ### Submitted manuscripts
 
++ R Maddamsetti, DT Johnson, **SJ Spielman**, KL Petrie, DS Marks, and JR Meyer. [Viral gain-of-function experiments uncover residues under diversifying selection in nature](https://doi.org/10.1101/242495). *Under Review at Nature Ecology and Evolution.*
 
-+ **SJ Spielman**. 2017. [phyphy: Python package for facilitating the execution and parsing of HyPhy standard analyses](http://joss.theoj.org/papers/9f65f1bc47bf8f17d773d09928a89b90). *Under Review at The Journal of Open Source Software.* &nbsp;<a href="https://github.com/sjspielman/phyphy" class="info-link"><span class="fa fa-github" style = "color:black">
++ **SJ Spielman**. [phyphy: Python package for facilitating the execution and parsing of HyPhy standard analyses](http://joss.theoj.org/papers/9f65f1bc47bf8f17d773d09928a89b90). *Under Review at The Journal of Open Source Software.* &nbsp;<a href="https://github.com/sjspielman/phyphy" class="info-link"><span class="fa fa-github" style = "color:black">
 
-
-+ **SJ Spielman** and SL Kosakovsky Pond. 2017. [Relative evolutionary rate inference in HyPhy with LEISR](https://doi.org/10.1101/206011). *Under Review at PeerJ*. &nbsp;<a href="https://github.com/sjspielman/leisr_validation" class="info-link"><span class="fa fa-github" style = "color:black">
++ **SJ Spielman** and SL Kosakovsky Pond. [Relative evolutionary rate inference in HyPhy with LEISR](https://doi.org/10.1101/206011). *Under Review at PeerJ*. &nbsp;<a href="https://github.com/sjspielman/leisr_validation" class="info-link"><span class="fa fa-github" style = "color:black">
 
 
 
