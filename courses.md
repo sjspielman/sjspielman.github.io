@@ -8,7 +8,9 @@ permalink: /courses/
 
 #### **Courses taught at [Temple University](https://www.temple.edu/)**
 
++ [Genomics and Evolutionary Medicine (Spring 2018)](http://sjspielman.org/biol5112_spring2018)
 + [Biostatistics (Spring 2017)](http://sjspielman.org/bio5312_fall2017)
+
 
 <br>
 
