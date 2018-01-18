@@ -11,9 +11,11 @@ permalink: /publications/
 
 + R Maddamsetti, DT Johnson, **SJ Spielman**, KL Petrie, DS Marks, and JR Meyer. [Viral gain-of-function experiments uncover residues under diversifying selection in nature](https://doi.org/10.1101/242495). *Under Review at Nature Ecology and Evolution.*
 
-+ **SJ Spielman** and SL Kosakovsky Pond. [Relative evolutionary rate inference in HyPhy with LEISR](https://doi.org/10.1101/206011). *Under Review at PeerJ*. &nbsp;<a href="https://github.com/sjspielman/leisr_validation" class="info-link"><span class="fa fa-github" style = "color:black">
+
 
 ### 2018
+
++ **SJ Spielman** and SL Kosakovsky Pond. 2018. [Relative evolutionary rate inference in HyPhy with LEISR](https://doi.org/10.1101/206011). *PeerJ*. In Press. &nbsp;<a href="https://github.com/sjspielman/leisr_validation" class="info-link"><span class="fa fa-github" style = "color:black">
 
 + **SJ Spielman**. 2018. [phyphy: Python package for facilitating the execution and parsing of HyPhy standard analyses](https://doi.org/10.21105/joss.00514). Journal of Open Source Software, 3(21), 514. &nbsp;<a href="https://github.com/sjspielman/phyphy" class="info-link"><span class="fa fa-github" style = "color:black">
 
