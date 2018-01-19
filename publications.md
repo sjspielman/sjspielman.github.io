@@ -12,7 +12,6 @@ permalink: /publications/
 + R Maddamsetti, DT Johnson, **SJ Spielman**, KL Petrie, DS Marks, and JR Meyer. [Viral gain-of-function experiments uncover residues under diversifying selection in nature](https://doi.org/10.1101/242495). *Under Review at Nature Ecology and Evolution.*
 
 
-
 ### 2018
 
 + **SJ Spielman** and SL Kosakovsky Pond. 2018. [Relative evolutionary rate inference in HyPhy with LEISR](https://doi.org/10.1101/206011). *PeerJ*. In Press. &nbsp;<a href="https://github.com/sjspielman/leisr_validation" class="info-link"><span class="fa fa-github" style = "color:black">
@@ -26,6 +25,8 @@ recombination and other forces. In: Anisimova M. (eds) *Evolutionary Genomics. M
 
 
 ### 2017
+
++ DK Sydykova, BR Jack, **SJ Spielman**, and CO Wilke. 2017. [Measuring evolutionary rates of proteins in a structural context.](https://f1000research.com/articles/6-1845/v1). *F1000Research* 6:1845. &nbsp;<a href="https://github.com/clauswilke/proteinER/" class="info-link"><span class="fa fa-github" style = "color:black">
 
 + EL Jackson, **SJ Spielman**, and CO Wilke. 2017. [Computational prediction of the tolerance to amino-acid deletion in green-fluorescent protein](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0164905). *PLOS ONE* 12(4): e0164905.
 &nbsp;<a href="https://github.com/wilkelab/eGFP_deletion_prediction" class="info-link"><span class="fa fa-github" style = "color:black">
