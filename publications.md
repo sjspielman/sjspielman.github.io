@@ -91,7 +91,8 @@ during the 2009 pandemic influenza virus outbreak.](http://ve.oxfordjournals.org
 &nbsp;<a href="/files/Shahmoradietal2014_JME.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
 
-+ *[PREPRINT]* **SJ Spielman**\* , AG Meyer\*, and CO Wilke. 2014. [Increased evolutionary rate in the 2014 West African Ebola outbreak is due to transient polymorphism and not positive selection.](http://dx.doi.org/10.1101/011429) *bioRxiv*. \*Authors contributed equally to this work.&nbsp;&nbsp;<a href="https://github.com/wilkelab/EBOV_H1N1" class="info-link"><span class="fa fa-github" style = "color:black">
++ *[PREPRINT]* **SJ Spielman**\* , AG Meyer\*, and CO Wilke. 2014. [Increased evolutionary rate in the 2014 West African Ebola outbreak is due to transient polymorphism and not positive selection.](http://dx.doi.org/10.1101/011429) *bioRxiv*. \*Authors contributed equally to this work.&nbsp;&nbsp;<a href="https://github.com/wilkelab/EBOV_H1N1" class="info-link"><span class="fa fa-github" style = "color:black"> &nbsp;<a href="/files/SpielmanMeyerWilke2014_bioRxiv.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
+
 
 
 ### 2013
