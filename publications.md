@@ -9,14 +9,14 @@ permalink: /publications/
 
 ### Submitted manuscripts
 
-+ R Maddamsetti, DT Johnson, **SJ Spielman**, KL Petrie, DS Marks, and JR Meyer. [Viral gain-of-function experiments uncover residues under diversifying selection in nature](https://doi.org/10.1101/242495). *Under Review at Nature Ecology and Evolution.*
++ R Maddamsetti, DT Johnson, **SJ Spielman**, KL Petrie, DS Marks, and JR Meyer. [Viral gain-of-function experiments uncover residues under diversifying selection in nature](https://doi.org/10.1101/242495). *Under Review.*
 
 
 ### 2018
 
-+ **SJ Spielman** and SL Kosakovsky Pond. 2018. [Relative evolutionary rate inference in HyPhy with LEISR](https://doi.org/10.1101/206011). *PeerJ*. In Press. &nbsp;<a href="https://github.com/sjspielman/leisr_validation" class="info-link"><span class="fa fa-github" style = "color:black">
++ **SJ Spielman** and SL Kosakovsky Pond. 2018. [Relative evolutionary rate inference in HyPhy with LEISR](https://doi.org/10.1101/206011). *PeerJ* 6:e4339. &nbsp;<a href="https://github.com/sjspielman/leisr_validation" class="info-link"><span class="fa fa-github" style = "color:black"> &nbsp;<a href="/files/SpielmanPond2018_PeerJ.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
-+ **SJ Spielman**. 2018. [phyphy: Python package for facilitating the execution and parsing of HyPhy standard analyses](https://doi.org/10.21105/joss.00514). Journal of Open Source Software, 3(21), 514. &nbsp;<a href="https://github.com/sjspielman/phyphy" class="info-link"><span class="fa fa-github" style = "color:black">
++ **SJ Spielman**. 2018. [phyphy: Python package for facilitating the execution and parsing of HyPhy standard analyses](https://doi.org/10.21105/joss.00514). Journal of Open Source Software, 3(21), 514. &nbsp;<a href="https://github.com/sjspielman/phyphy" class="info-link"><span class="fa fa-github" style = "color:black"> &nbsp;<a href="/files/Spielman2018_JOSS.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
 + S Weaver, SD Shank, **SJ Spielman**, M Li, SV Muse, and SL Kosakovsky Pond. 2017. [Datamonkey 2.0: A modern web application for characterizing selective and other evolutionary processes.](https://doi.org/10.1093/molbev/msx335) *Mol. Biol. Evol.* In Press. 
 
