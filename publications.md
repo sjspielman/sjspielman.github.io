@@ -14,7 +14,7 @@ permalink: /publications/
 
 ### 2018
 
-+ **SJ Spielman** and SL Kosakovsky Pond. 2018. [Relative evolutionary rate inference in HyPhy with LEISR](https://doi.org/10.1101/206011). *PeerJ* 6:e4339. &nbsp;<a href="https://github.com/sjspielman/leisr_validation" class="info-link"><span class="fa fa-github" style = "color:black"> &nbsp;<a href="/files/SpielmanPond2018_PeerJ.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
++ **SJ Spielman** and SL Kosakovsky Pond. 2018. [Relative evolutionary rate inference in HyPhy with LEISR](https://peerj.com/articles/4339/). *PeerJ* 6:e4339. &nbsp;<a href="https://github.com/sjspielman/leisr_validation" class="info-link"><span class="fa fa-github" style = "color:black"> &nbsp;<a href="/files/SpielmanPond2018_PeerJ.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
 + **SJ Spielman**. 2018. [phyphy: Python package for facilitating the execution and parsing of HyPhy standard analyses](https://doi.org/10.21105/joss.00514). Journal of Open Source Software, 3(21), 514. &nbsp;<a href="https://github.com/sjspielman/phyphy" class="info-link"><span class="fa fa-github" style = "color:black"> &nbsp;<a href="/files/Spielman2018_JOSS.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
