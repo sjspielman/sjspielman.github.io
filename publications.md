@@ -18,7 +18,7 @@ permalink: /publications/
 
 + **SJ Spielman**. 2018. [phyphy: Python package for facilitating the execution and parsing of HyPhy standard analyses](https://doi.org/10.21105/joss.00514). Journal of Open Source Software, 3(21), 514. &nbsp;<a href="https://github.com/sjspielman/phyphy" class="info-link"><span class="fa fa-github" style = "color:black"> &nbsp;<a href="/files/Spielman2018_JOSS.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
-+ S Weaver, SD Shank, **SJ Spielman**, M Li, SV Muse, and SL Kosakovsky Pond. 2017. [Datamonkey 2.0: A modern web application for characterizing selective and other evolutionary processes.](https://doi.org/10.1093/molbev/msx335) *Mol. Biol. Evol.* In Press. 
++ S Weaver, SD Shank, **SJ Spielman**, M Li, SV Muse, and SL Kosakovsky Pond. 2017. [Datamonkey 2.0: A modern web application for characterizing selective and other evolutionary processes.](https://doi.org/10.1093/molbev/msx335) *Mol. Biol. Evol.* 35(3): 773-777.
 
 + **SJ Spielman**, S Weaver, SD Shank, BR Magalas, M Li, SL Kosakovsky Pond. *In press.* Evolution of viral genomes: Interplay between selection,
 recombination and other forces. In: Anisimova M. (eds) *Evolutionary Genomics. Methods in Molecular Biology (Methods and Protocols).* Humana Press. In Press. &nbsp;<a href="https://github.com/veg/evogenomics_hyphy" class="info-link"><span class="fa fa-github" style = "color:black">
