@@ -11,6 +11,7 @@ permalink: /publications/
 
 + R Maddamsetti, DT Johnson, **SJ Spielman**, KL Petrie, DS Marks, and JR Meyer. [Viral gain-of-function experiments uncover residues under diversifying selection in nature](https://doi.org/10.1101/242495). *Under Review.*
 
++ **SJ Spielman** and SL Kosakovsky Pond. [Relative evolutionary rates in proteins are largely insensitive to the substitution model](https://doi.org/10.1101/304758). *Under Review.*
 
 ### 2018
 
