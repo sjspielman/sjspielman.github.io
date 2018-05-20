@@ -16,6 +16,9 @@ permalink: /courses/
 
 #### **Courses taught for UT Austin's [Center for Computational Biology and Bioinformatics](http://ccbb.biosci.utexas.edu/)**
 
++ [CCBB Big Data in Biology Summer School: Introduction to Python (May 2018)](http://sjspielman.org/bdib2018_python)
+	+ I highly recommend this version of my Python course over the older ones below.
+
 + [CCBB Big Data in Biology Summer School: Introduction to Python (May 2016)](http://sjspielman.org/bdib2016_python)
 
 + [Peer-Led Introduction to Biocomputing (Spring 2016)](http://CCBBatUT.github.io/Biocomputing_Spring2016)
