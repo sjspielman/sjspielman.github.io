@@ -22,7 +22,7 @@ permalink: /publications/
 + S Weaver, SD Shank, **SJ Spielman**, M Li, SV Muse, and SL Kosakovsky Pond. 2017. [Datamonkey 2.0: A modern web application for characterizing selective and other evolutionary processes.](https://doi.org/10.1093/molbev/msx335) *Mol. Biol. Evol.* 35(3): 773-777.
 
 + **SJ Spielman**, S Weaver, SD Shank, BR Magalas, M Li, SL Kosakovsky Pond. *In press.* Evolution of viral genomes: Interplay between selection,
-recombination and other forces. In: Anisimova M. (eds) *Evolutionary Genomics. Methods in Molecular Biology (Methods and Protocols).* Humana Press. In Press. &nbsp;<a href="https://github.com/veg/evogenomics_hyphy" class="info-link"><span class="fa fa-github" style = "color:black">
+recombination and other forces. In: Anisimova M. (eds) *Evolutionary genomics: Statistical and Computational Methods.* Humana Press. In Press. &nbsp;<a href="https://github.com/veg/evogenomics_hyphy" class="info-link"><span class="fa fa-github" style = "color:black">
 
 
 ### 2017
