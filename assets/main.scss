@@ -4,10 +4,21 @@
 
 @import "minima";
 
+
 $link-color: #5577b5;
 $bg-color: #efefef;
 $header-bg-color: #474747;
 $header-color: #d7d7d7;
+$base-font-size: 16px;
+
+.main-content {
+    word-wrap: break-word;
+   // padding-left: 17%;
+   // padding-right: 17%;
+   margin: auto;
+   width:65%;
+    text-align:left;
+}
 
 .icon > svg {
   display: inline-block;
@@ -19,20 +30,45 @@ $header-color: #d7d7d7;
 }
 
 
+.home-img {
+    display: block;
+    width: 20%;
+    margin: auto;
+    margin-bottom:1em;
+    border:1px solid #021a40;
+}
+
+
 .home h1 {
-    font-size: $base-font-size * 1.7;
+    font-size: $base-font-size * 2;
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
+    font-weight:500;
 }
 
 .post h1 {
-    font-size: $base-font-size * 2;
+    font-size: $base-font-size * 2.25;
     text-align: center;
+    font-weight: 500;
+}
+
+.post h2 {
+    font-size: $base-font-size * 1.9;
+    text-align: left;
+    margin-left: -0.75em;
+    font-weight: 500;
+}
+
+.post h3 {
+    font-size: $base-font-size * 1.5;
+    text-align: left;
+    margin-left: -0.75em;
+    font-weight: 500;
 }
 
 .wrapper-header {
-    padding-right: $spacing-unit * 5;
-    padding-left: $spacing-unit * 5;
+    padding-right: $spacing-unit * 3;
+    padding-left: $spacing-unit * 3;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
@@ -54,15 +90,20 @@ $header-color: #d7d7d7;
 }
 
 .post-content li {
-    list-style-type: none;
-}
-.post-content li:before {
-  content: "\f0da";
-  font-family: 'FontAwesome';
-  float: left;
-  margin-left: -1em;
+ list-style-position: outside;
+ list-style-type: disc;
   color: $grey-color-dark;
 }
+
+
+/*
+.post-content li:before {
+  content: "\f013";
+  font-family: 'FontAwesome';
+  font-size: $base-font-size*0.725;
+  margin:5px 5px 0 -15px;
+  float: left;
+}*/
 
 .post-link {
   @include relative-font-size(1.2);
@@ -111,23 +152,38 @@ body {
 }
 
 
-// does nothing.
-/*.wrapper {
-    padding-right: $spacing-unit * 4;
-    padding-left: $spacing-unit * 4;
-    @extend %clearfix;
+.wrapper {
+   padding-right: $spacing-unit * 5;
+   padding-left: $spacing-unit * 5;
+    
+   @extend %clearfix;
 
-    @include media-query($on-laptop) {
-        padding-right: $spacing-unit / 4;
-        padding-left: $spacing-unit / 4;
+   @include media-query($on-laptop) {
+       padding-right: $spacing-unit / 4;
+       padding-left: $spacing-unit / 4;
     }
-}*/
+}
 
 
 
 
+.post-meta {
+  font-size: $base-font-size * 1.1;
+  text-align:center;
+  color: #000;
+}
 
 
+.post-list {
+  margin-left: 0;
+  font-weight:500;
+  font-size: $base-font-size *1.25;
+
+  > li {
+    margin-bottom: 10px;
+    padding-top: 25px;
+  }
+}
 
 
 .site-header {

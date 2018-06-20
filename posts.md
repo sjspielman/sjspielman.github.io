@@ -6,13 +6,15 @@ permalink: /posts/
 
 <br>
 
-This page contains my impressively-barebones blog, which one day will perhaps take off.
-
-<ul class="listing">
-{% for post in site.posts %}
- <li>
-    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-     <a class="post-link" href="{{ post.url | relative_url }}"> {{ post.date | date: date_format }}:  {{ post.title | escape }} </a> 
-  </li>
-{% endfor %}
+<div class="post">
+{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+<ul>
+  {% for post in site.posts %}
+    <li>    
+      <a class="post-list" href="{{ post.url }}">{{ post.title }} ({{post.date | date: date_format }})</a>
+       {{ post.excerpt }}
+    </li>
+  {% endfor %}
 </ul>
+</div>
+
