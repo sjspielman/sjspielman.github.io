@@ -32,7 +32,8 @@ markdown: kramdown
 theme: minima
 future: true
 points: "..."
-
+disqus.shortname: sjspielman
+comments: true
 #plugins:
 #  - jekyll-feed
 
