@@ -35,7 +35,7 @@ points: "..."
 disqus:
     shortname: sjspielman
 comments: true
-export JEKYLL_ENV=production
+#export JEKYLL_ENV=production
 
 
 #plugins:

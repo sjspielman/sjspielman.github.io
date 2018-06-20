@@ -3,7 +3,6 @@ layout: post
 title: "Inaugural 'Behind the Scenes'"
 categories: behindthescenes
 date:  2018-06-10
-comments: true
 permalink: /bts_rates
 ---
 
