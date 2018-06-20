@@ -32,8 +32,12 @@ markdown: kramdown
 theme: minima
 future: true
 points: "..."
-disqus.shortname: sjspielman
+disqus:
+    shortname: sjspielman
 comments: true
+export JEKYLL_ENV=production
+
+
 #plugins:
 #  - jekyll-feed
 
