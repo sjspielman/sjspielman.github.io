@@ -7,7 +7,7 @@ permalink: /posts/
 <br>
 
 <div class="post">
-{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+{% assign date_format = site.minima.date_format | default: "%m %-d, %Y" %}
 <ul>
   {% for post in site.posts %}
     <li>    
