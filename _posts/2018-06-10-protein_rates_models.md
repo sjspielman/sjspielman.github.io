@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "Inaugural 'Behind the Scenes'"
-categories: behindthescenes
+categories: behindthescenes 
 date:  2018-06-10
-permalink: /bts_rates
+redirect_from: /bts_rates
+permalink: /posts/behindthescenes/protein_rates_models
 ---
 
-Herein lies my inaugural **~~ BEHIND THE SCENES ~~** (you can tell it's serious because of the tildes) blog post, where I give all you eager readers a glimpse into how this project came together. [Note: this one is about my new paper with Sergei Pond, [*The substitution model is largely irrelevant for site-specific protein relative rate inference*](https://doi.org/10.1093/molbev/msy127), which was just published in MBE.]
+Herein lies my inaugural **~~ BEHIND THE SCENES ~~** (you can tell it's serious because of the tildes) blog post, where I give all you eager readers a glimpse into how this project came together. This one is about my new paper with Sergei Pond, [*The substitution model is largely irrelevant for site-specific protein relative rate inference*](https://doi.org/10.1093/molbev/msy127), which was just published in MBE.
 
 I want to do this for a few reasons. The cynical reason, of course the most important, is that I'm not great at blog maintenance (for example my last post was three years ago..), so this gives me something concrete to talk about on a regular basis. 
 

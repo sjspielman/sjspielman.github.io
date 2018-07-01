@@ -37,10 +37,9 @@ disqus:
 comments: true
 #export JEKYLL_ENV=production
 
-
-#plugins:
-#  - jekyll-feed
-
+plugins:
+  - jekyll-redirect-from
+  
 header_pages:
     - cv.md
     - publications.md

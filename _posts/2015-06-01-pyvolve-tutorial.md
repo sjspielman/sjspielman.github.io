@@ -2,6 +2,8 @@
 layout: post
 title: "Brief Introduction to Pyvolve"
 date:  2015-06-01
+permalink: /posts/pyvolve_tutorial
+redirect_from: /2015/06/01/pyvolve-tutorial.html
 ---
 
 
