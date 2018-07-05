@@ -11,8 +11,11 @@ In my current position at Temple University, I am an active developer contributi
 Software packages I have developed separately include the following:
 
 + [Pyvolve]({{ base.url }}/pyvolve), a python platform to simulate sequences along a phylogeny using continuous-time Markov models.
+	+ Available for install with `pip`
 
 + [alignfigR]({{ base.url }}/alignfigR), an R package to create multiple sequence alignment figures.
+	+ Available for install from `CRAN`
 
 + [phyphy]({{ base.url }}/phyphy), a Python library for faciliating and parsing [HyPhy](http://hyphy.org) standard analyses
+	+ Available for install with `pip`
 
