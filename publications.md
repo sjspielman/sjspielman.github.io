@@ -19,7 +19,10 @@ permalink: /publications/
 + **SJ Spielman**, S Weaver, SD Shank, BR Magalas, M Li, SL Kosakovsky Pond. *In press.* Evolution of viral genomes: Interplay between selection,
 recombination and other forces. In: Anisimova M. (eds) *Evolutionary genomics: Statistical and Computational Methods.* Humana Press. In Press. &nbsp;<a href="https://github.com/veg/evogenomics_hyphy" class="info-link"><span class="fa fa-github" style = "color:black">
 
-+ **SJ Spielman** and SL Kosakovsky Pond. 2018. [Relative evolutionary rates in proteins are largely insensitive to the substitution model](https://doi.org/10.1093/molbev/msy127).  *Mol. Biol. Evol.* In Press. &nbsp;<a href="https://github.com/sjspielman/protein_rates_models" class="info-link"><span class="fa fa-github" style = "color:black"> 
++ **SJ Spielman** and SL Kosakovsky Pond. 2018. [Relative evolutionary rates in proteins are largely insensitive to the substitution model](https://doi.org/10.1093/molbev/msy127).  *Mol. Biol. Evol.* 35(9): 2307--2317. &nbsp;<a href="https://github.com/sjspielman/protein_rates_models" class="info-link"><span class="fa fa-github" style = "color:black"> &nbsp;<a href="/files/SpielmanPond2018_MBE.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
+
+
+
 
 + **SJ Spielman** and SL Kosakovsky Pond. 2018. [Relative evolutionary rate inference in HyPhy with LEISR](https://peerj.com/articles/4339/). *PeerJ* 6:e4339. &nbsp;<a href="https://github.com/sjspielman/leisr_validation" class="info-link"><span class="fa fa-github" style = "color:black"> &nbsp;<a href="/files/SpielmanPond2018_PeerJ.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
