@@ -14,7 +14,7 @@ permalink: /publications/
 
 ### 2018
 
-+ R Maddamsetti, DT Johnson, **SJ Spielman**, KL Petrie, DS Marks, and JR Meyer. [Viral gain-of-function experiments uncover residues under diversifying selection in nature](https://doi.org/10.1101/242495). *Evolution.* In Press.
++ R Maddamsetti, DT Johnson, **SJ Spielman**, KL Petrie, DS Marks, and JR Meyer. [Viral gain-of-function experiments uncover residues under diversifying selection in nature](https://onlinelibrary.wiley.com/doi/abs/10.1111/evo.13586). *Evolution.* In Press. &nbsp;<a href="/files/Maddamsettietal2018_Evolution.pdf" class="info-link"><span class="fa fa-file-pdf-o" style = "color:black">
 
 + **SJ Spielman**, S Weaver, SD Shank, BR Magalas, M Li, SL Kosakovsky Pond. *In press.* Evolution of viral genomes: Interplay between selection,
 recombination and other forces. In: Anisimova M. (eds) *Evolutionary genomics: Statistical and Computational Methods.* Humana Press. In Press. &nbsp;<a href="https://github.com/veg/evogenomics_hyphy" class="info-link"><span class="fa fa-github" style = "color:black">
