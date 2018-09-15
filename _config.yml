@@ -15,13 +15,14 @@
 # in the templates via {{ site.myvariable }}.
 title: Home
 author: Stephanie J. Spielman, PhD
-employer: Temple University
-dept: Institute for Genomics and Evolutionary Medicine
-office: Science and Education Research Center (SERC) 643
-address: 1925 N 12th Street, Philadelphia, PA 19122
-email: stephanie.spielman@temple.edu
+employer: Rowan University
+dept: Department of Biological Sciences
+office: Science Hall 201D
+number: (856)-256-5400 Ext. 53578
+address: 201 Mullica Hill Road, Glassboro, NJ 08028
+email: spielman@rowan.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Institute for Genomics and Evolutionary Medicine
+  ...
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sjspielman.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: stephspiel
