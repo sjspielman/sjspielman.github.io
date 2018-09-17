@@ -10,6 +10,10 @@ This page contains various materials (updated regularly) of useful links and res
 
 First and foremost, I strongly recommend that anyone starting out in bioinformatics invest in the wonderful book [*Practical Computing for Biologists*](http://practicalcomputing.org/). 
 
+### UNIX (aka command line/terminal/shell)
+
++ Learn UNIX interactively with this excellent [command-line bootcamp](http://rik.smith-unna.com/command_line_bootcamp/?id=y3shhd1a5n)
+
 ### Lessons and Exercises
 
 + [Software Carpentry](https://software-carpentry.org/) contains lots of free course materials and practice problems for learning R, git, Python, and UNIX.
