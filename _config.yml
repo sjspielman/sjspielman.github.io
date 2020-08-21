@@ -17,14 +17,11 @@ title: Home
 author: Stephanie J. Spielman, PhD
 employer: Rowan University
 dept: Department of Biological Sciences
-office: Science Hall 201D
-number: (856)-256-5400 Ext. 53578
-address: 201 Mullica Hill Road, Glassboro, NJ 08028
 email: spielman@rowan.edu
 description: > # this means to ignore newlines until "baseurl:"
   ...
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://sjspielman.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://sjspielman.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: stephspiel
 github_username:  sjspielman
 
@@ -33,21 +30,13 @@ markdown: kramdown
 theme: minima
 future: true
 points: "..."
-disqus:
-    shortname: sjspielman
 comments: true
 #export JEKYLL_ENV=production
 
 plugins:
   - jekyll-redirect-from
   
-header_pages:
-    - cv.md
-    - publications.md
-    - courses.md
-    - software.md
-    - posts.md
-    - resources.md
+
     
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
