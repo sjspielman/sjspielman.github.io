@@ -1,0 +1,28 @@
+name: "Stephanie J. Spielman Site"
+author: "Stephanie J. Spielman"
+output_dir: "docs"
+output:  
+  html_document:  
+    self_contained: no  
+    theme: united
+    css: assets/custom.css
+navbar:
+  title: "Stephanie J. Spielman, PhD"
+  type: inverse
+  left:
+    - text: "Home"
+      href: "index.html"
+    - text: "Software"
+      href: "software.html"
+    - text: "Resources"
+      href: "resources.html"
+    - text: "Courses and Workshops"
+      href: "courses.html"
+  right:
+    - href: https://github.com/sjspielman
+      icon: fa-github
+    - href: https://twitter.com/stephspiel
+      icon: fa-twitter
+    - href: mailto:stephanie.spielman@gmail.com
+      icon: fa-envelope
+  

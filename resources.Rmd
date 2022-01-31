@@ -1,0 +1,49 @@
+<br><br>
+
+
+# Resources
+
+**Page is currently under development.** _For now, please see: [https://spielmanlab.github.io/#resources](https://spielmanlab.github.io/#resources)._
+
+<br>
+This page contains third-party resources you can use to learn computing for data science and bioinformatics, focusing on open source and reproducible approaches. These resources include online short courses, workshops, blog posts, and books (some \$\$) that I've found over the years which seem useful for others. 
+
+_Do you have or know of a resource you think I should include?_ Let me know with an issue [here](https://github.com/sjspielman/spielmanlab.github.io/issues)!
+
+<!-- Reference: https://bookdown.org/yihui/rmarkdown-cookbook/multi-column.html
+-->
+
+<br>
+<hr>
+<br>
+
+:::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 20px; grid-row-gap: 20px;"}
+<!-- https://css-tricks.com/snippets/css/complete-guide-grid/ -->
+
+::: {}
+
+#### **Comprehensive resources**
+
++ [_Materials to learn bioinformatics at home_](https://github.com/harvardinformatics/learning-bioinformatics-at-home), compiled by Harvard Informatics
+  + Links out to various `UNIX`, `R`, `Python`, statistics, `git`(hub), and miscellaneous omics resources
++ [_Practical Computing for Biologists_](http://practicalcomputing.org/), by Steve Haddock and Casey Dunn
+  + A beginner-level introduction to `UNIX`, regular expressions, `Python`, and general skills in computing 
++ [_Bioinformatics Data Skills_](https://www.oreilly.com/library/view/bioinformatics-data-skills/9781449367480/), by Vince Buffalo
+  + An intermediate-level resource on `UNIX` skills for bioinformatics, reproducible, project management, `R`, and "big data" genomics analyses
+
+
+:::
+
+::: {}
+
+#### **Command line resources**
+
+_ Under construction_ 
+
++ [_UNIX Bootcamp_](https://github.com/griffithlab/rnaseq_tutorial/wiki/Unix-Bootcamp)
+
+  
+:::
+
+
+::::

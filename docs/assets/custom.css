@@ -1,0 +1,64 @@
+/*
+  cream: #E7E0C9;   f7f5ee
+  foam: #C1CFC0;
+  lightb: #6B7AA1;
+  darkb: #11324D;
+  darkbf2: #11324Df2;
+*/
+
+a {color: #6B7AA1;}
+a:hover {color: #404960;}
+a:active {color: #a1926b;}
+
+
+p {font-size:15px;}
+
+
+
+
+/*----------------NAVBAR ---------------*/
+/*
+.navbar-inverse {
+    background-color: #11324Df2;
+}
+*/
+
+/* This will do inverse color */
+.navbar-inverse .navbar-nav>li>a, 
+.navbar-brand{
+  color: #f7f5ee !important; // CREAM
+  font-weight: 600 !important;
+}
+
+/*
+.navbar-inverse .navbar-nav>.open>a, 
+.navbar-inverse .navbar-nav>.active>a, 
+a.dropdown-toggle:hover {
+  background-color: #11324D !important;
+}
+*/
+
+/* Dropdown menu color */
+/*
+.navbar-inverse .dropdown-menu {
+  background-color: #E7E0C9;
+}
+*/
+
+
+/* Dropdown menu hover color */
+/*
+.navbar-inverse .dropdown-menu>li>a:hover {
+  background-color: #11324Df2;
+}
+*/
+/* Navbar Links when hovered*/
+
+.navbar-inverse .dropdown-menu>.active>a
+.navbar-inverse .navbar-nav>.active>a:hover, 
+.navbar-inverse .navbar-nav:hover, 
+.navbar-inverse .navbar-nav>li>a:hover, 
+a.navbar-brand:hover {
+  color: #f7f5ee;
+}
+

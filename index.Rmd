@@ -1,0 +1,70 @@
+---
+title: ""
+---
+
+<br><br>
+
+# hi there! `r emo::ji("wave")`
+
+
+:::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 20px;"}
+<!-- https://css-tricks.com/snippets/css/complete-guide-grid/ -->
+
+::: {}
+
+<br>
+I am a (soon-to-be!) Data Scientist with the [Childhood Cancer Data Lab](https://www.ccdatalab.org/) at [Alex's Lemonade Stand Foundation](https://www.alexslemonade.org/). I am passionate about bioinformatics, data science education, and open science and reproducible scientific practices. You can download my academic CV [here](cv/CV_SJSpielman.pdf). 
+
+:::
+
+::: {}
+
+```{r, out.width="125x", echo=F}
+knitr::include_graphics("img/sjspielman_picture.png")
+```
+
+
+:::
+
+::::
+
+
+
+<br>
+
+<!--
+
+## What am I currently up to?
+
+I'm recovering from the slog of academia and discovering newfound freedom! For example, did you know it is possible to have free time _without_ thinking about your next grant or paper? I just found out about it `r emo::ji("star_struck")`, and it's _very cool_. 
+
+<br>
+
+-->
+
+
+
+
+
+### Positions
+
+`r emo::ji("office")` Data Scientist, Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation. 2022-Present.<br>
+`r emo::ji("office")` Assistant Professor of Biological Sciences, Rowan University. 2018-2022.<br>
+`r emo::ji("office")` Research Assistant Professor, Temple University. 2016-2018.
+
+<br>
+
+### Education
+
+`r emo::ji("mortar_board")` Ph.D. in Integrative Biology, University of Texas at Austin, 2016
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advised by [Dr. Claus Wilke](https://clauswilke.com/). Research focus in computational molecular evolution.<br><br>
+`r emo::ji("mortar_board")` B.S. in Biology with Honors, Brown University, 2010
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advised by [Dr. Daniel Weinreich](https://www.brown.edu/research/labs/weinreich/). Research focus in CRISPR population genetics.
+
+<br>
+
+### Awards 
+
+`r emo::ji("trophy")` _President's Award for Excellence in Innovative Instructive Delivery_, Rowan University, 2021.<br>
+`r emo::ji("trophy")` _Outstanding Dissertation Award_, University of Texas at Austin, 2016.<br>
+`r emo::ji("trophy")` _Outstanding Teaching Award_,  University of Texas at Austin, 2014.

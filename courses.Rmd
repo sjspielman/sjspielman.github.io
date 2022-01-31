@@ -1,0 +1,8 @@
+<br><br>
+
+
+# Courses and Workshops
+
+This page contains links to courses and short workshops I have taught in biocomputing and data science.
+
+_For now, please see [https://spielmanlab.github.io/#courses](https://spielmanlab.github.io/#courses)._
