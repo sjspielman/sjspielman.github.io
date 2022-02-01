@@ -5,6 +5,9 @@
   darkb: #11324D;
   darkbf2: #11324Df2;
 */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700,700i|Syncopate:400,400i,700,700i&display=swap');
+
+
 
 a {color: #6B7AA1;}
 a:hover {color: #404960;}
@@ -26,6 +29,11 @@ p {font-size:15px;}
 /* This will do inverse color */
 .navbar-inverse .navbar-nav>li>a, 
 .navbar-brand{
+  font-family: "Syncopate";
+  letter-spacing: 1px;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
   color: #f7f5ee !important; // CREAM
   font-weight: 600 !important;
 }

@@ -6,6 +6,8 @@ output:
     self_contained: no  
     theme: united
     css: assets/custom.css
+    includes:
+      in_header: google_analytics.html
 navbar:
   title: "Stephanie J. Spielman, PhD"
   type: inverse
