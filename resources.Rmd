@@ -3,47 +3,77 @@
 
 # Resources
 
-**Page is currently under development.** _For now, please see: [https://spielmanlab.github.io/#resources](https://spielmanlab.github.io/#resources)._
 
-<br>
-This page contains third-party resources you can use to learn computing for data science and bioinformatics, focusing on open source and reproducible approaches. These resources include online short courses, workshops, blog posts, and books (some \$\$) that I've found over the years which seem useful for others. 
+This page contains (mostly) third-party resources you can use to learn computing for data science and bioinformatics, focusing on open source and reproducible approaches. These resources include online short courses, workshops, blog posts, and books (some \$\$) that I've found over the years which seem useful for others. 
 
 _Do you have or know of a resource you think I should include?_ Let me know with an issue [here](https://github.com/sjspielman/spielmanlab.github.io/issues)!
 
 <!-- Reference: https://bookdown.org/yihui/rmarkdown-cookbook/multi-column.html
 -->
 
-<br>
 <hr>
-<br>
 
-:::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 20px; grid-row-gap: 20px;"}
-<!-- https://css-tricks.com/snippets/css/complete-guide-grid/ -->
 
-::: {}
+<!--
+<i style="color:#FFD43B;font-size:25px;" class="fab fa-python"></i>
 
-#### **Comprehensive resources**
+<i style="color:#2369BD;font-size:25px;" class="fab fa-r-project"></i>
 
-+ [_Materials to learn bioinformatics at home_](https://github.com/harvardinformatics/learning-bioinformatics-at-home), compiled by Harvard Informatics
+<i style="font-size:25px;"               class="fas fa-terminal"></i>
+
+<i style="color:#7D2888;font-size:25px;" class="fab fa-github"></i>
+
+<i style="color:#C25A5A;font-size:25px;" class="fas fa-chart-area"></i>
+
+<i style="color:#29AB2A;font-size:22px;" class="fas fa-dna"></i>
+-->
+
+#### Comprehensive resources
+
+
++ [_Materials to learn bioinformatics at home_](https://github.com/harvardinformatics/learning-bioinformatics-at-home), compiled by Harvard Informatics 
   + Links out to various `UNIX`, `R`, `Python`, statistics, `git`(hub), and miscellaneous omics resources
 + [_Practical Computing for Biologists_](http://practicalcomputing.org/), by Steve Haddock and Casey Dunn
   + A beginner-level introduction to `UNIX`, regular expressions, `Python`, and general skills in computing 
 + [_Bioinformatics Data Skills_](https://www.oreilly.com/library/view/bioinformatics-data-skills/9781449367480/), by Vince Buffalo
   + An intermediate-level resource on `UNIX` skills for bioinformatics, reproducible, project management, `R`, and "big data" genomics analyses
++ [Software Carpentry](https://software-carpentry.org/lessons/) and [Data Carpentry](https://datacarpentry.org/lessons/)
+  + Free lessons and curricula for learning computing and data management skills
+
+<br> 
+
+#### Learn UNIX (command line)
 
 
-:::
-
-::: {}
-
-#### **Command line resources**
-
-_ Under construction_ 
-
-+ [_UNIX Bootcamp_](https://github.com/griffithlab/rnaseq_tutorial/wiki/Unix-Bootcamp)
-
-  
-:::
++ [UNIX Bootcamp](https://github.com/griffithlab/rnaseq_tutorial/wiki/Unix-Bootcamp)
++ [_UNIX for the Beginning Mage_](./files/ufbm.pdf)
++ [UNIX Tutorial for beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
 
 
-::::
+<br>
+
+#### Learn R and tidyverse
+
++ [_Big Book of R_](https://www.bigbookofr.com/) compiled by Oscar Baruffa
++ [Learning-R-Resources](./files/ufbm.pdf) compiled by Joscelin Rocha Hidalgo
++ [The `{introverse}`](https://spielmanlab.github.io/introverse) and [linked resources within](https://spielmanlab.github.io/introverse/articles/additional_resources.html) by Stephanie J. Spielman
++ [_R for Data Science_](https://r4ds.had.co.nz/) by Hadley Wickham
++ [_Advanced R_](https://adv-r.hadley.nz/) by Hadley Wickham
++ [_Mastering Shiny_](https://mastering-shiny.org/) by Hadley Wickham
++ [_Engineering Production-Grade Shiny Apps_](https://engineering-shiny.org/) by Colin Fay, Sébastien Rochette, Vincent Guyader and Cervan Girard
+
+<br>
+
+#### Learn Data Visualization 
+
++ [_Data Visualization: A Practical Introduction_](https://socviz.co/) by Kieran Healey
++ [_ggplot2: Elegant Graphics for Data Analysis_](https://ggplot2-book.org/) by Hadley Wickham, Danielle Navarro, and Thomas Lin Pedersen.
++ [_Fundamentals of Data Visualization_](https://clauswilke.com/dataviz/) by Claus Wilke 
+
+<br>
+
+#### Learn Markup Languages
+
++ [Learn LaTeX with Overleaf](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
++ [LearnLaTeX.org](https://www.learnlatex.org/)
++ [Introduction to Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)

@@ -5,4 +5,33 @@
 
 This page contains software packages I have written in R and Python.
 
-_For now, please see [https://spielmanlab.github.io/#software](https://spielmanlab.github.io/#software)._
+<hr>
+
+```{r, out.width="75px", echo=F}
+knitr::include_graphics("img/pyvolve_logo_manual.png")
+```
+[`pyvolve`](https://github.com/sjspielman/pyvolve), a Python package for simulating sequences using continuous-time Markov models over phylogenies 
+
+
+<br>
+
+```{r, out.width="75px", echo=F}
+knitr::include_graphics("img/dragon.png")
+```
+[`dragon`](https://github.com/sjspielman/dragon), an R package offering a Shiny App to explore mineral-chemistry networks in deep geologic time
+
+<br>
+
+```{r, out.width="75px", echo=F}
+knitr::include_graphics("img/introverse.png")
+```
+[`introverse`](https://github.com/spielmanlab/introverse), an in-development R package for introducing novices to R and the `tidyverse`
+
+
+<br>
+
+```{r, out.width="75px", echo=F}
+knitr::include_graphics("img/evolforces.png")
+```
+[`evolfoRces`](https://github.com/spielmanlab/evolfoRces), a Shiny App for simple two-allele population genetics simulations in the classroom
+

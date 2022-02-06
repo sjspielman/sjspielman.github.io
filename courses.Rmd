@@ -3,6 +3,34 @@
 
 # Courses and Workshops
 
-This page contains links to courses and short workshops I have taught in biocomputing and data science.
+This page contains links to courses and short workshops I have developed taught in biocomputing and data science.
 
-_For now, please see [https://spielmanlab.github.io/#courses](https://spielmanlab.github.io/#courses)._
+<br><br>
+
+:::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 20px; grid-row-gap: 20px;"}
+<!-- https://css-tricks.com/snippets/css/complete-guide-grid/ -->
+
+::: {}
+
+
+### Courses
+
++ [Data Science for Biologists (Fall 2021 version)](https://sjspielman.github.io/datascience_for_biologists)
+  + Undergraduate-level class introducing R with a focus on `tidyverse`, taught at Rowan University 
++ [Biostatistics](https://sjspielman.github.io/bio5312_fall2017)
+  + Masters-level biostatistics class in R, taught at Temple University
+
+:::
+
+::: {}
+
+### Workshops and Short Courses
+
++ [Functional Genomics Workshop](http://sjspielman.github.io/lacawac2017/)
+  + Materials for May 2017 Workshop at [Lacawac Sanctuary](https://www.lacawac.org/), focusing on basic UNIX skills and regular expressions.
++ [Introduction to Python](http://sjspielman.github.io/bdib2018_python)
+  + Materials for UT Austin’s [Big Data in Biology 2018](https://ccbb.utexas.edu/summerschool.html) Python short course.
+  
+:::
+  
+::::

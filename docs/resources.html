@@ -32,8 +32,6 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72932444-2"></script>
 <script>
@@ -43,6 +41,7 @@
 
   gtag('config', 'UA-72932444-2');
 </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -267,24 +266,7 @@ $(document).ready(function () {
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="https://github.com/sjspielman">
-    <span class="fa fa-github"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://twitter.com/stephspiel">
-    <span class="fa fa-twitter"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="mailto:stephanie.spielman@gmail.com">
-    <span class="fa fa-envelope"></span>
-     
-  </a>
-</li>
+        
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -301,18 +283,26 @@ $(document).ready(function () {
 <p><br><br></p>
 <div id="resources" class="section level1">
 <h1>Resources</h1>
-<p><strong>Page is currently under development.</strong> <em>For now, please see: <a href="https://spielmanlab.github.io/#resources">https://spielmanlab.github.io/#resources</a>.</em></p>
-<p><br> This page contains third-party resources you can use to learn computing for data science and bioinformatics, focusing on open source and reproducible approaches. These resources include online short courses, workshops, blog posts, and books (some $$) that I’ve found over the years which seem useful for others.</p>
+<p>This page contains (mostly) third-party resources you can use to learn computing for data science and bioinformatics, focusing on open source and reproducible approaches. These resources include online short courses, workshops, blog posts, and books (some $$) that I’ve found over the years which seem useful for others.</p>
 <p><em>Do you have or know of a resource you think I should include?</em> Let me know with an issue <a href="https://github.com/sjspielman/spielmanlab.github.io/issues">here</a>!</p>
 <!-- Reference: https://bookdown.org/yihui/rmarkdown-cookbook/multi-column.html
 -->
-<br>
 <hr>
-<p><br></p>
-<div style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 20px; grid-row-gap: 20px;">
-<!-- https://css-tricks.com/snippets/css/complete-guide-grid/ -->
+<!--
+<i style="color:#FFD43B;font-size:25px;" class="fab fa-python"></i>
+
+<i style="color:#2369BD;font-size:25px;" class="fab fa-r-project"></i>
+
+<i style="font-size:25px;"               class="fas fa-terminal"></i>
+
+<i style="color:#7D2888;font-size:25px;" class="fab fa-github"></i>
+
+<i style="color:#C25A5A;font-size:25px;" class="fas fa-chart-area"></i>
+
+<i style="color:#29AB2A;font-size:22px;" class="fas fa-dna"></i>
+-->
 <div id="comprehensive-resources" class="section level4">
-<h4><strong>Comprehensive resources</strong></h4>
+<h4>Comprehensive resources</h4>
 <ul>
 <li><a href="https://github.com/harvardinformatics/learning-bioinformatics-at-home"><em>Materials to learn bioinformatics at home</em></a>, compiled by Harvard Informatics
 <ul>
@@ -326,15 +316,51 @@ $(document).ready(function () {
 <ul>
 <li>An intermediate-level resource on <code>UNIX</code> skills for bioinformatics, reproducible, project management, <code>R</code>, and “big data” genomics analyses</li>
 </ul></li>
-</ul>
-</div>
-<div id="command-line-resources" class="section level4">
-<h4><strong>Command line resources</strong></h4>
-<p>_ Under construction_</p>
+<li><a href="https://software-carpentry.org/lessons/">Software Carpentry</a> and <a href="https://datacarpentry.org/lessons/">Data Carpentry</a>
 <ul>
-<li><a href="https://github.com/griffithlab/rnaseq_tutorial/wiki/Unix-Bootcamp"><em>UNIX Bootcamp</em></a></li>
+<li>Free lessons and curricula for learning computing and data management skills</li>
+</ul></li>
 </ul>
+<p><br></p>
 </div>
+<div id="learn-unix-command-line" class="section level4">
+<h4>Learn UNIX (command line)</h4>
+<ul>
+<li><a href="https://github.com/griffithlab/rnaseq_tutorial/wiki/Unix-Bootcamp">UNIX Bootcamp</a></li>
+<li><a href="./files/ufbm.pdf"><em>UNIX for the Beginning Mage</em></a></li>
+<li><a href="http://www.ee.surrey.ac.uk/Teaching/Unix/">UNIX Tutorial for beginners</a></li>
+</ul>
+<p><br></p>
+</div>
+<div id="learn-r-and-tidyverse" class="section level4">
+<h4>Learn R and tidyverse</h4>
+<ul>
+<li><a href="https://www.bigbookofr.com/"><em>Big Book of R</em></a> compiled by Oscar Baruffa</li>
+<li><a href="./files/ufbm.pdf">Learning-R-Resources</a> compiled by Joscelin Rocha Hidalgo</li>
+<li><a href="https://spielmanlab.github.io/introverse">The <code>{introverse}</code></a> and <a href="https://spielmanlab.github.io/introverse/articles/additional_resources.html">linked resources within</a> by Stephanie J. Spielman</li>
+<li><a href="https://r4ds.had.co.nz/"><em>R for Data Science</em></a> by Hadley Wickham</li>
+<li><a href="https://adv-r.hadley.nz/"><em>Advanced R</em></a> by Hadley Wickham</li>
+<li><a href="https://mastering-shiny.org/"><em>Mastering Shiny</em></a> by Hadley Wickham</li>
+<li><a href="https://engineering-shiny.org/"><em>Engineering Production-Grade Shiny Apps</em></a> by Colin Fay, Sébastien Rochette, Vincent Guyader and Cervan Girard</li>
+</ul>
+<p><br></p>
+</div>
+<div id="learn-data-visualization" class="section level4">
+<h4>Learn Data Visualization</h4>
+<ul>
+<li><a href="https://socviz.co/"><em>Data Visualization: A Practical Introduction</em></a> by Kieran Healey</li>
+<li><a href="https://ggplot2-book.org/"><em>ggplot2: Elegant Graphics for Data Analysis</em></a> by Hadley Wickham, Danielle Navarro, and Thomas Lin Pedersen.</li>
+<li><a href="https://clauswilke.com/dataviz/"><em>Fundamentals of Data Visualization</em></a> by Claus Wilke</li>
+</ul>
+<p><br></p>
+</div>
+<div id="learn-markup-languages" class="section level4">
+<h4>Learn Markup Languages</h4>
+<ul>
+<li><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes">Learn LaTeX with Overleaf</a></li>
+<li><a href="https://www.learnlatex.org/">LearnLaTeX.org</a></li>
+<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Introduction to Markdown</a></li>
+</ul>
 </div>
 </div>
 

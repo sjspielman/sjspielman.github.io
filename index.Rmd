@@ -1,25 +1,33 @@
 ---
-title: ""
+pagetitle: "hi there!"
 ---
+
+```{r setup, include=FALSE}
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+```
 
 <br><br>
 
 # hi there! `r emo::ji("wave")`
 
 
-:::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 20px;"}
+:::: {style="display: grid; grid-template-columns: 600px 1fr; grid-column-gap: 20px;"}
 <!-- https://css-tricks.com/snippets/css/complete-guide-grid/ -->
 
 ::: {}
 
 <br>
-I am a (soon-to-be!) Data Scientist with the [Childhood Cancer Data Lab](https://www.ccdatalab.org/) at [Alex's Lemonade Stand Foundation](https://www.alexslemonade.org/). I am passionate about bioinformatics, data science education, and open science and reproducible scientific practices. You can download my academic CV [here](cv/CV_SJSpielman.pdf). 
+I am a Data Scientist with the [Childhood Cancer Data Lab](https://www.ccdatalab.org/) at [Alex's Lemonade Stand Foundation](https://www.alexslemonade.org/). I am passionate about bioinformatics, data science education, and open science and reproducible scientific practices. You can download my academic CV [here](cv/CV_SJSpielman.pdf) and peruse my publications [here](https://github.com/sjspielman/publications).
 
+
+[<i class="fab fa-twitter"></i>](https://twitter.com/stephspiel)&nbsp;&nbsp;&nbsp;&nbsp;[<i class="fa fa-envelope"></i>](mailto:stephanie.spielman@gmail.com)&nbsp;&nbsp;&nbsp;&nbsp;[<i class="fab fa-github"></i>](https://github.com/sjspielman)&nbsp;&nbsp;&nbsp;[<i class="ai ai-google-scholar"></i>](https://scholar.google.com/citations?user=cP4ZMO4AAAAJ&hl=en)&nbsp;&nbsp;&nbsp;&nbsp;[<i class="ai ai-orcid"></i>](https://orcid.org/0000-0002-9090-4788)
+
+      
 :::
 
 ::: {}
 
-```{r, out.width="125x", echo=F}
+```{r, out.width="125px", echo=F}
 knitr::include_graphics("img/sjspielman_picture.png")
 ```
 

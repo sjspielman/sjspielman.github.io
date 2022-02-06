@@ -7,7 +7,7 @@ output:
     theme: united
     css: assets/custom.css
     includes:
-      in_header: google_analytics.html
+      in_header: ["google_analytics.html", "academicons.html"]
 navbar:
   title: "Stephanie J. Spielman, PhD"
   type: inverse
@@ -20,11 +20,3 @@ navbar:
       href: "resources.html"
     - text: "Courses and Workshops"
       href: "courses.html"
-  right:
-    - href: https://github.com/sjspielman
-      icon: fa-github
-    - href: https://twitter.com/stephspiel
-      icon: fa-twitter
-    - href: mailto:stephanie.spielman@gmail.com
-      icon: fa-envelope
-  
