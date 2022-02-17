@@ -25,7 +25,7 @@ knitr::include_graphics("img/dragon.png")
 ```{r, out.width="75px", echo=F}
 knitr::include_graphics("img/introverse.png")
 ```
-[`introverse`](https://github.com/spielmanlab/introverse), an in-development R package for introducing novices to R and the `tidyverse`
+[`introverse`](https://github.com/sjspielman/introverse), an in-development R package for introducing novices to R and the `tidyverse`
 
 
 <br>
