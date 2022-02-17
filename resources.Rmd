@@ -6,7 +6,7 @@
 
 This page contains (mostly) third-party resources you can use to learn computing for data science and bioinformatics, focusing on open source and reproducible approaches. These resources include online short courses, workshops, blog posts, and books (some \$\$) that I've found over the years which seem useful for others. 
 
-_Do you have or know of a resource you think I should include?_ Let me know with an issue [here](https://github.com/sjspielman/spielmanlab.github.io/issues)!
+_Do you have or know of a resource you think I should include?_ Let me know with an issue [here](https://github.com/sjspielman/sjspielman.github.io/issues)!
 
 <!-- Reference: https://bookdown.org/yihui/rmarkdown-cookbook/multi-column.html
 -->
@@ -55,8 +55,8 @@ _Do you have or know of a resource you think I should include?_ Let me know with
 #### Learn R and tidyverse
 
 + [_Big Book of R_](https://www.bigbookofr.com/) compiled by Oscar Baruffa
-+ [Learning-R-Resources](./files/ufbm.pdf) compiled by Joscelin Rocha Hidalgo
-+ [The `{introverse}`](https://spielmanlab.github.io/introverse) and [linked resources within](https://spielmanlab.github.io/introverse/articles/additional_resources.html) by Stephanie J. Spielman
++ [Learning-R-Resources](https://github.com/Joscelinrocha/Learning-R-Resources) compiled by Joscelin Rocha Hidalgo
++ [The `{introverse}`](https://sjspielman.github.io/introverse) and [linked resources within](https://sjspielman.github.io/introverse/articles/additional_resources.html) by Stephanie J. Spielman
 + [_R for Data Science_](https://r4ds.had.co.nz/) by Hadley Wickham
 + [_Advanced R_](https://adv-r.hadley.nz/) by Hadley Wickham
 + [_Mastering Shiny_](https://mastering-shiny.org/) by Hadley Wickham
