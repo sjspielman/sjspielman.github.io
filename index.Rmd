@@ -1,7 +1,6 @@
 ---
 pagetitle: "hi there!"
 ---
-
 ```{r setup, include=FALSE}
 htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 ```
@@ -17,12 +16,11 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 ::: {}
 
 <br>
-I am a Data Scientist with the [Childhood Cancer Data Lab](https://www.ccdatalab.org/) at [Alex's Lemonade Stand Foundation](https://www.alexslemonade.org/). I am passionate about bioinformatics, data science education, and open science and reproducible scientific practices. You can download my academic CV [here](cv/CV_SJSpielman.pdf) and peruse my publications [here](https://github.com/sjspielman/publications).
+I am a Data Scientist with the [Childhood Cancer Data Lab](https://www.ccdatalab.org/) at [Alex's Lemonade Stand Foundation](https://www.alexslemonade.org/). I am interested in bioinformatics, data science education, open science and open source, and reproducible scientific practices. You can download my academic CV [here](cv/CV_SJSpielman.pdf) and peruse my publications [here](https://github.com/sjspielman/publications).
+
+[<i rel = "me" class="fab fa-mastodon"></i>](https://fosstodon.org/@stephspiel)&nbsp;&nbsp;&nbsp;&nbsp;[<i class="fab fa-twitter"></i>](https://twitter.com/stephspiel)&nbsp;&nbsp;&nbsp;&nbsp;[<i class="fa fa-envelope"></i>](mailto:stephanie.spielman@gmail.com)&nbsp;&nbsp;&nbsp;&nbsp;[<i class="fab fa-github"></i>](https://github.com/sjspielman)&nbsp;&nbsp;&nbsp;[<i class="ai ai-google-scholar"></i>](https://scholar.google.com/citations?user=cP4ZMO4AAAAJ&hl=en)&nbsp;&nbsp;&nbsp;&nbsp;[<i class="ai ai-orcid"></i>](https://orcid.org/0000-0002-9090-4788)
 
 
-[<i class="fab fa-twitter"></i>](https://twitter.com/stephspiel)&nbsp;&nbsp;&nbsp;&nbsp;[<i class="fa fa-envelope"></i>](mailto:stephanie.spielman@gmail.com)&nbsp;&nbsp;&nbsp;&nbsp;[<i class="fab fa-github"></i>](https://github.com/sjspielman)&nbsp;&nbsp;&nbsp;[<i class="ai ai-google-scholar"></i>](https://scholar.google.com/citations?user=cP4ZMO4AAAAJ&hl=en)&nbsp;&nbsp;&nbsp;&nbsp;[<i class="ai ai-orcid"></i>](https://orcid.org/0000-0002-9090-4788)
-
-      
 :::
 
 ::: {}
@@ -44,7 +42,7 @@ knitr::include_graphics("img/sjspielman_picture.png")
 
 ## What am I currently up to?
 
-I'm recovering from the slog of academia and discovering newfound freedom! For example, did you know it is possible to have free time _without_ thinking about your next grant or paper? I just found out about it `r emo::ji("star_struck")`, and it's _very cool_. 
+I'm recovering from the slog of academia and discovering newfound freedom! For example, did you know it is possible to have free time _without_ thinking about your next grant or paper? I just found out about it `r emo::ji("star_struck")`, and it's _very cool_.
 
 <br>
 
@@ -71,7 +69,7 @@ I'm recovering from the slog of academia and discovering newfound freedom! For e
 
 <br>
 
-### Awards 
+### Awards
 
 `r emo::ji("trophy")` _President's Award for Excellence in Innovative Instructive Delivery_, Rowan University, 2021.<br>
 `r emo::ji("trophy")` _Outstanding Dissertation Award_, University of Texas at Austin, 2016.<br>

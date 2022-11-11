@@ -13,7 +13,7 @@
 
 <title>resources.knit</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
@@ -67,6 +67,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="assets/custom.css" type="text/css" />
 
 
@@ -91,6 +92,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -148,11 +152,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -181,8 +189,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -190,16 +198,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -243,7 +244,7 @@ $(document).ready(function () {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -283,8 +284,14 @@ $(document).ready(function () {
 <p><br><br></p>
 <div id="resources" class="section level1">
 <h1>Resources</h1>
-<p>This page contains (mostly) third-party resources you can use to learn computing for data science and bioinformatics, focusing on open source and reproducible approaches. These resources include online short courses, workshops, blog posts, and books (some $$) that I’ve found over the years which seem useful for others.</p>
-<p><em>Do you have or know of a resource you think I should include?</em> Let me know with an issue <a href="https://github.com/sjspielman/sjspielman.github.io/issues">here</a>!</p>
+<p>This page contains (mostly) third-party resources you can use to
+learn computing for data science and bioinformatics, focusing on open
+source and reproducible approaches. These resources include online short
+courses, workshops, blog posts, and books (some $$) that I’ve found over
+the years which seem useful for others.</p>
+<p><em>Do you have or know of a resource you think I should
+include?</em> Let me know with an issue <a
+href="https://github.com/sjspielman/sjspielman.github.io/issues">here</a>!</p>
 <!-- Reference: https://bookdown.org/yihui/rmarkdown-cookbook/multi-column.html
 -->
 <hr>
@@ -304,21 +311,35 @@ $(document).ready(function () {
 <div id="comprehensive-resources" class="section level4">
 <h4>Comprehensive resources</h4>
 <ul>
-<li><a href="https://github.com/harvardinformatics/learning-bioinformatics-at-home"><em>Materials to learn bioinformatics at home</em></a>, compiled by Harvard Informatics
+<li><a
+href="https://github.com/harvardinformatics/learning-bioinformatics-at-home"><em>Materials
+to learn bioinformatics at home</em></a>, compiled by Harvard
+Informatics
 <ul>
-<li>Links out to various <code>UNIX</code>, <code>R</code>, <code>Python</code>, statistics, <code>git</code>(hub), and miscellaneous omics resources</li>
+<li>Links out to various <code>UNIX</code>, <code>R</code>,
+<code>Python</code>, statistics, <code>git</code>(hub), and
+miscellaneous omics resources</li>
 </ul></li>
-<li><a href="http://practicalcomputing.org/"><em>Practical Computing for Biologists</em></a>, by Steve Haddock and Casey Dunn
+<li><a href="http://practicalcomputing.org/"><em>Practical Computing for
+Biologists</em></a>, by Steve Haddock and Casey Dunn
 <ul>
-<li>A beginner-level introduction to <code>UNIX</code>, regular expressions, <code>Python</code>, and general skills in computing</li>
+<li>A beginner-level introduction to <code>UNIX</code>, regular
+expressions, <code>Python</code>, and general skills in computing</li>
 </ul></li>
-<li><a href="https://www.oreilly.com/library/view/bioinformatics-data-skills/9781449367480/"><em>Bioinformatics Data Skills</em></a>, by Vince Buffalo
+<li><a
+href="https://www.oreilly.com/library/view/bioinformatics-data-skills/9781449367480/"><em>Bioinformatics
+Data Skills</em></a>, by Vince Buffalo
 <ul>
-<li>An intermediate-level resource on <code>UNIX</code> skills for bioinformatics, reproducible, project management, <code>R</code>, and “big data” genomics analyses</li>
+<li>An intermediate-level resource on <code>UNIX</code> skills for
+bioinformatics, reproducible, project management, <code>R</code>, and
+“big data” genomics analyses</li>
 </ul></li>
-<li><a href="https://software-carpentry.org/lessons/">Software Carpentry</a> and <a href="https://datacarpentry.org/lessons/">Data Carpentry</a>
+<li><a href="https://software-carpentry.org/lessons/">Software
+Carpentry</a> and <a href="https://datacarpentry.org/lessons/">Data
+Carpentry</a>
 <ul>
-<li>Free lessons and curricula for learning computing and data management skills</li>
+<li>Free lessons and curricula for learning computing and data
+management skills</li>
 </ul></li>
 </ul>
 <p><br></p>
@@ -326,40 +347,63 @@ $(document).ready(function () {
 <div id="learn-unix-command-line" class="section level4">
 <h4>Learn UNIX (command line)</h4>
 <ul>
-<li><a href="https://github.com/griffithlab/rnaseq_tutorial/wiki/Unix-Bootcamp">UNIX Bootcamp</a></li>
-<li><a href="./files/ufbm.pdf"><em>UNIX for the Beginning Mage</em></a></li>
-<li><a href="http://www.ee.surrey.ac.uk/Teaching/Unix/">UNIX Tutorial for beginners</a></li>
+<li><a
+href="https://github.com/griffithlab/rnaseq_tutorial/wiki/Unix-Bootcamp">UNIX
+Bootcamp</a></li>
+<li><a href="./files/ufbm.pdf"><em>UNIX for the Beginning
+Mage</em></a></li>
+<li><a href="http://www.ee.surrey.ac.uk/Teaching/Unix/">UNIX Tutorial
+for beginners</a></li>
 </ul>
 <p><br></p>
 </div>
 <div id="learn-r-and-tidyverse" class="section level4">
 <h4>Learn R and tidyverse</h4>
 <ul>
-<li><a href="https://www.bigbookofr.com/"><em>Big Book of R</em></a> compiled by Oscar Baruffa</li>
-<li><a href="https://github.com/Joscelinrocha/Learning-R-Resources">Learning-R-Resources</a> compiled by Joscelin Rocha Hidalgo</li>
-<li><a href="https://sjspielman.github.io/introverse">The <code>{introverse}</code></a> and <a href="https://sjspielman.github.io/introverse/articles/additional_resources.html">linked resources within</a> by Stephanie J. Spielman</li>
-<li><a href="https://r4ds.had.co.nz/"><em>R for Data Science</em></a> by Hadley Wickham</li>
-<li><a href="https://adv-r.hadley.nz/"><em>Advanced R</em></a> by Hadley Wickham</li>
-<li><a href="https://mastering-shiny.org/"><em>Mastering Shiny</em></a> by Hadley Wickham</li>
-<li><a href="https://engineering-shiny.org/"><em>Engineering Production-Grade Shiny Apps</em></a> by Colin Fay, Sébastien Rochette, Vincent Guyader and Cervan Girard</li>
+<li><a href="https://www.bigbookofr.com/"><em>Big Book of R</em></a>
+compiled by Oscar Baruffa</li>
+<li><a
+href="https://github.com/Joscelinrocha/Learning-R-Resources">Learning-R-Resources</a>
+compiled by Joscelin Rocha Hidalgo</li>
+<li><a href="https://sjspielman.github.io/introverse">The
+<code>{introverse}</code></a> and <a
+href="https://sjspielman.github.io/introverse/articles/additional_resources.html">linked
+resources within</a> by Stephanie J. Spielman</li>
+<li><a href="https://r4ds.had.co.nz/"><em>R for Data Science</em></a> by
+Hadley Wickham</li>
+<li><a href="https://adv-r.hadley.nz/"><em>Advanced R</em></a> by Hadley
+Wickham</li>
+<li><a href="https://mastering-shiny.org/"><em>Mastering Shiny</em></a>
+by Hadley Wickham</li>
+<li><a href="https://engineering-shiny.org/"><em>Engineering
+Production-Grade Shiny Apps</em></a> by Colin Fay, Sébastien Rochette,
+Vincent Guyader and Cervan Girard</li>
 </ul>
 <p><br></p>
 </div>
 <div id="learn-data-visualization" class="section level4">
 <h4>Learn Data Visualization</h4>
 <ul>
-<li><a href="https://socviz.co/"><em>Data Visualization: A Practical Introduction</em></a> by Kieran Healey</li>
-<li><a href="https://ggplot2-book.org/"><em>ggplot2: Elegant Graphics for Data Analysis</em></a> by Hadley Wickham, Danielle Navarro, and Thomas Lin Pedersen.</li>
-<li><a href="https://clauswilke.com/dataviz/"><em>Fundamentals of Data Visualization</em></a> by Claus Wilke</li>
+<li><a href="https://socviz.co/"><em>Data Visualization: A Practical
+Introduction</em></a> by Kieran Healey</li>
+<li><a href="https://ggplot2-book.org/"><em>ggplot2: Elegant Graphics
+for Data Analysis</em></a> by Hadley Wickham, Danielle Navarro, and
+Thomas Lin Pedersen.</li>
+<li><a href="https://clauswilke.com/dataviz/"><em>Fundamentals of Data
+Visualization</em></a> by Claus Wilke</li>
 </ul>
 <p><br></p>
 </div>
 <div id="learn-markup-languages" class="section level4">
 <h4>Learn Markup Languages</h4>
 <ul>
-<li><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes">Learn LaTeX with Overleaf</a></li>
+<li><a
+href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes">Learn
+LaTeX with Overleaf</a></li>
 <li><a href="https://www.learnlatex.org/">LearnLaTeX.org</a></li>
-<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Introduction to Markdown</a></li>
+<li><a
+href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Introduction
+to Markdown</a></li>
 </ul>
 </div>
 </div>
