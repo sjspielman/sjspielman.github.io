@@ -3,7 +3,7 @@
 
 # Courses and Workshops
 
-This page contains links to courses and short workshops I have developed taught in biocomputing and data science.
+This page contains links to courses and short workshops I have developed and taught in biocomputing and data science.
 
 <br><br>
 
@@ -16,7 +16,7 @@ This page contains links to courses and short workshops I have developed taught 
 ### Courses
 
 + [Data Science for Biologists (Fall 2021 version)](https://sjspielman.github.io/datascience_for_biologists)
-  + Undergraduate-level class introducing R with a focus on `tidyverse`, taught at Rowan University 
+  + Undergraduate-level class introducing R with a focus on `tidyverse`, taught at Rowan University
 + [Biostatistics](https://sjspielman.github.io/bio5312_fall2017)
   + Masters-level biostatistics class in R, taught at Temple University
 
