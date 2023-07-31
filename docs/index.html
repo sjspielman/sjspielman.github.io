@@ -13,7 +13,7 @@
 
 <title>hi there!</title>
 
-<script src="site_libs/header-attrs-2.19.1/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14.1/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
@@ -154,15 +154,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -191,8 +187,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -200,9 +196,16 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
+  content: "&#xe258;";
   border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -286,26 +289,11 @@ $(document).ready(function () {
 <p><br><br></p>
 <div id="hi-there" class="section level1">
 <h1>hi there! 👋</h1>
-<div
-style="display: grid; grid-template-columns: 600px 1fr; grid-column-gap: 20px;">
+<div style="display: grid; grid-template-columns: 600px 1fr; grid-column-gap: 20px;">
 <!-- https://css-tricks.com/snippets/css/complete-guide-grid/ -->
 <div>
-<p><br> I am a Data Scientist with the <a
-href="https://www.ccdatalab.org/">Childhood Cancer Data Lab</a> at <a
-href="https://www.alexslemonade.org/">Alex’s Lemonade Stand
-Foundation</a>. I am interested in bioinformatics, data science
-education, all things open science/open source, and reproducible
-scientific practices. You can download my academic CV <a
-href="cv/CV_SJSpielman.pdf">here</a> and peruse my publications <a
-href="https://github.com/sjspielman/publications">here</a>.</p>
-<!-- mastodon is not markdown for the rel="me" -->
-<p><a rel="me" href="https://fosstodon.org/@stephspiel"><i class="fab fa-mastodon"></i></a>
-    <a
-href="https://twitter.com/stephspiel"><i class="fab fa-twitter"></i></a>    <a
-href="mailto:stephanie.spielman@gmail.com"><i class="fa fa-envelope"></i></a>    <a
-href="https://github.com/sjspielman"><i class="fab fa-github"></i></a>   <a
-href="https://scholar.google.com/citations?user=cP4ZMO4AAAAJ&amp;hl=en"><i class="ai ai-google-scholar"></i></a>    <a
-href="https://orcid.org/0000-0002-9090-4788"><i class="ai ai-orcid"></i></a></p>
+<p><br> I am a Data Scientist with the <a href="https://www.ccdatalab.org/">Childhood Cancer Data Lab</a> at <a href="https://www.alexslemonade.org/">Alex’s Lemonade Stand Foundation</a>. I am interested in bioinformatics, data science education, all things open science/open source, and reproducible scientific practices. You can download my academic CV <a href="cv/CV_SJSpielman.pdf">here</a> and peruse my publications <a href="https://github.com/sjspielman/publications">here</a>.</p>
+<p><a href="mailto:stephanie.spielman@gmail.com"><i class="fa fa-envelope"></i></a>    <a href="https://github.com/sjspielman"><i class="fab fa-github"></i></a>   <a href="https://scholar.google.com/citations?user=cP4ZMO4AAAAJ&amp;hl=en"><i class="ai ai-google-scholar"></i></a>    <a href="https://orcid.org/0000-0002-9090-4788"><i class="ai ai-orcid"></i></a></p>
 </div>
 <div>
 <p><img src="img/sjspielman_picture.png" width="125px" /></p>
@@ -323,30 +311,17 @@ I'm recovering from the slog of academia and discovering newfound freedom! For e
 -->
 <div id="positions" class="section level3">
 <h3>Positions</h3>
-<p>🏢 Data Scientist, Childhood Cancer Data Lab, Alex’s Lemonade Stand
-Foundation. 2022-Present.<br> 🏢 Assistant Professor of Biological
-Sciences, Rowan University. 2018-2022.<br> 🏢 Research Assistant
-Professor, Temple University. 2016-2018.</p>
+<p>🏢 Data Scientist, Childhood Cancer Data Lab, Alex’s Lemonade Stand Foundation. 2022-Present.<br> 🏢 Assistant Professor of Biological Sciences, Rowan University. 2018-2022.<br> 🏢 Research Assistant Professor, Temple University. 2016-2018.</p>
 <p><br></p>
 </div>
 <div id="education" class="section level3">
 <h3>Education</h3>
-<p>🎓 Ph.D. in Integrative Biology, University of Texas at Austin, 2016
-<br>       Advised by <a href="https://clauswilke.com/">Dr. Claus
-Wilke</a>. Research focus in computational molecular evolution.<br><br>
-🎓 B.S. in Biology with Honors, Brown University, 2010
-<br>       Advised by <a
-href="https://www.brown.edu/research/labs/weinreich/">Dr. Daniel
-Weinreich</a>. Research focus in CRISPR population genetics.</p>
+<p>🎓 Ph.D. in Integrative Biology, University of Texas at Austin, 2016 <br>       Advised by <a href="https://clauswilke.com/">Dr. Claus Wilke</a>. Research focus in computational molecular evolution.<br><br> 🎓 B.S. in Biology with Honors, Brown University, 2010 <br>       Advised by <a href="https://www.brown.edu/research/labs/weinreich/">Dr. Daniel Weinreich</a>. Research focus in CRISPR population genetics.</p>
 <p><br></p>
 </div>
 <div id="awards" class="section level3">
 <h3>Awards</h3>
-<p>🏆 <em>President’s Award for Excellence in Innovative Instructive
-Delivery</em>, Rowan University, 2021.<br> 🏆 <em>Outstanding
-Dissertation Award</em>, University of Texas at Austin, 2016.<br> 🏆
-<em>Outstanding Teaching Award</em>, University of Texas at Austin,
-2014.</p>
+<p>🏆 <em>President’s Award for Excellence in Innovative Instructive Delivery</em>, Rowan University, 2021.<br> 🏆 <em>Outstanding Dissertation Award</em>, University of Texas at Austin, 2016.<br> 🏆 <em>Outstanding Teaching Award</em>, University of Texas at Austin, 2014.</p>
 </div>
 </div>
 
