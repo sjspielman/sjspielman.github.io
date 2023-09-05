@@ -10,46 +10,31 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 # hi there! `r emo::ji("wave")`
 
 
-:::: {style="display: grid; grid-template-columns: 600px 1fr; grid-column-gap: 20px;"}
+:::: {style="display: grid; grid-template-columns: 450px 1fr; grid-column-gap: 40px;"}
 <!-- https://css-tricks.com/snippets/css/complete-guide-grid/ -->
 
 ::: {}
 
 <br>
-I am a Data Scientist with the [Childhood Cancer Data Lab](https://www.ccdatalab.org/) at [Alex's Lemonade Stand Foundation](https://www.alexslemonade.org/). I am interested in bioinformatics, data science education, all things open science/open source, and reproducible scientific practices. You can download my academic CV [here](cv/CV_SJSpielman.pdf) and peruse my publications [here](https://github.com/sjspielman/publications).
+I am a Data Scientist with the [Childhood Cancer Data Lab](https://www.ccdatalab.org/) at [Alex's Lemonade Stand Foundation](https://www.alexslemonade.org/). I am interested in bioinformatics, data science education, all things open science/open source, and reproducible scientific practices. You can download my resume [here](cv/sjspielman_vitae_cv.pdf) and peruse my publications [here](https://github.com/sjspielman/publications).
 
-[<i class="fa fa-envelope"></i>](mailto:stephanie.spielman@gmail.com)&nbsp;&nbsp;&nbsp;&nbsp;[<i class="fab fa-github"></i>](https://github.com/sjspielman)&nbsp;&nbsp;&nbsp;[<i class="ai ai-google-scholar"></i>](https://scholar.google.com/citations?user=cP4ZMO4AAAAJ&hl=en)&nbsp;&nbsp;&nbsp;&nbsp;[<i class="ai ai-orcid"></i>](https://orcid.org/0000-0002-9090-4788)
-
+Outside of work, you can find me hanging with my dog Basil (named for [this guy](https://disney.fandom.com/wiki/Basil_of_Baker_Street)), going for walks, cooking, knitting, and doing deep dives into the history of the American Yiddish theater. Wait, really? [Yes, really!](https://sjspielman.github.io/sam-kasten)
 
 :::
 
 ::: {}
 
-```{r, out.width="125px", echo=F}
+```{r, out.width="150px", echo=F}
 knitr::include_graphics("img/sjspielman_picture.png")
 ```
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<i class="fab fa-github"></i>](https://github.com/sjspielman)&nbsp;&nbsp;&nbsp;[<i class="ai ai-google-scholar"></i>](https://scholar.google.com/citations?user=cP4ZMO4AAAAJ&hl=en)&nbsp;&nbsp;&nbsp;&nbsp;[<i class="ai ai-orcid"></i>](https://orcid.org/0000-0002-9090-4788)
 
 :::
 
 ::::
 
-
-
 <br>
-
-<!--
-
-## What am I currently up to?
-
-I'm recovering from the slog of academia and discovering newfound freedom! For example, did you know it is possible to have free time _without_ thinking about your next grant or paper? I just found out about it `r emo::ji("star_struck")`, and it's _very cool_.
-
-<br>
-
--->
-
-
-
 
 
 ### Positions

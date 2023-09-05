@@ -1,0 +1,92 @@
+---
+name: Stephanie J.
+surname: Spielman, PhD
+position: "Data Scientist"
+address: "Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation\n3 Bala Plaza, Bala Cynwyd, PA 19004"
+email: "stephanie.spielman@ccdatalab.org"
+orcid: "0000-0002-9090-4788"
+github: sjspielman
+pronouns: she/her
+aboutme: "I am a computational biologist and data scientist focused on developing open-source products to accelerate pediatric cancer research."
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 414141
+output: 
+  vitae::awesomecv:
+    page_total: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+```{r functions}
+read_excel_cv <- function(filename) {
+  
+  # read all sheets in .xlsx 
+  excel_cv <- readxl::excel_sheets(filename)
+  
+  # import each sheet into a list using readxl::read_excel
+  cv_list <- purrr::map(excel_cv, 
+    \(sheet_id) {readxl::read_excel(filename, sheet = sheet_id)}
+  )
+  
+  # save sheet name for each sheet (list)
+  names(cv_list) <- excel_cv
+  
+  return(cv_list)
+}
+```
+
+```{r load-data, message = FALSE, warning = FALSE, echo = FALSE}
+cv_data <- read_excel_cv(
+   here::here("cv", "cv_data.xlsx")
+)
+```
+
+
+# Education
+
+```{r}
+cv_data$education |>
+  dplyr::arrange(-year) |>
+  detailed_entries(what = degree,
+                   when = year,
+                   with = institution,
+                   where = where,
+                   why = details)
+```
+
+# Positions
+
+```{r}
+cv_data$experience |> 
+  dplyr::mutate(end_date = as.numeric(end_date)) |>
+  dplyr::arrange(-end_date) |>
+  detailed_entries(what = role,
+                   when = dates,
+                   with = institution,
+                   where = where,
+                   why = details)
+```
+
+
+# Honors and Awards
+
+```{r}
+cv_data$awards |>
+  dplyr::arrange(-year) |>
+  detailed_entries(what = award,
+                   when = year,
+                   with = institution,
+                   where = where,
+                   why = details)
+```
+
+# Selected Publications
+
+```{r}
+bibliography_entries(
+  here::here("cv", "selected-pubs.bib")
+) 
+```

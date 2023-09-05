@@ -4,7 +4,7 @@
 # Resources
 
 
-This page contains (mostly) third-party resources you can use to learn computing for data science and bioinformatics, focusing on open source and reproducible approaches. These resources include online short courses, workshops, blog posts, and books (some \$\$) that I've found over the years which seem useful for others. 
+This page contains (mostly) third-party resources you can use to learn computing for data science and bioinformatics, focusing on open source and reproducible approaches. These resources include online short courses, workshops, blog posts, and books (some \$\$) that I've found over the years which seem useful for others.
 
 _Do you have or know of a resource you think I should include?_ Let me know with an issue [here](https://github.com/sjspielman/sjspielman.github.io/issues)!
 
@@ -31,16 +31,18 @@ _Do you have or know of a resource you think I should include?_ Let me know with
 #### Comprehensive resources
 
 
-+ [_Materials to learn bioinformatics at home_](https://github.com/harvardinformatics/learning-bioinformatics-at-home), compiled by Harvard Informatics 
++ [_Introduction to Data Science_ course (2023)](https://datasciencelabs.github.io/2023/) by [Rafael Irizarry](http://rafalab.dfci.harvard.edu/)
+  + A full college-level semester course in data science with R, `git`, and Quarto
++ [_Materials to learn bioinformatics at home_](https://github.com/harvardinformatics/learning-bioinformatics-at-home), compiled by Harvard Informatics
   + Links out to various `UNIX`, `R`, `Python`, statistics, `git`(hub), and miscellaneous omics resources
 + [_Practical Computing for Biologists_](http://practicalcomputing.org/), by Steve Haddock and Casey Dunn
-  + A beginner-level introduction to `UNIX`, regular expressions, `Python`, and general skills in computing 
+  + A beginner-level introduction to `UNIX`, regular expressions, `Python`, and general skills in computing
 + [_Bioinformatics Data Skills_](https://www.oreilly.com/library/view/bioinformatics-data-skills/9781449367480/), by Vince Buffalo
   + An intermediate-level resource on `UNIX` skills for bioinformatics, reproducible, project management, `R`, and "big data" genomics analyses
 + [Software Carpentry](https://software-carpentry.org/lessons/) and [Data Carpentry](https://datacarpentry.org/lessons/)
   + Free lessons and curricula for learning computing and data management skills
 
-<br> 
+<br>
 
 #### Learn UNIX (command line)
 
@@ -64,11 +66,11 @@ _Do you have or know of a resource you think I should include?_ Let me know with
 
 <br>
 
-#### Learn Data Visualization 
+#### Learn Data Visualization
 
 + [_Data Visualization: A Practical Introduction_](https://socviz.co/) by Kieran Healey
 + [_ggplot2: Elegant Graphics for Data Analysis_](https://ggplot2-book.org/) by Hadley Wickham, Danielle Navarro, and Thomas Lin Pedersen.
-+ [_Fundamentals of Data Visualization_](https://clauswilke.com/dataviz/) by Claus Wilke 
++ [_Fundamentals of Data Visualization_](https://clauswilke.com/dataviz/) by Claus Wilke
 
 <br>
 
