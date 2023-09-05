@@ -44,18 +44,6 @@ cv_data <- read_excel_cv(
 )
 ```
 
-# Positions
-
-```{r}
-cv_data$experience |> 
-  dplyr::mutate(end_date = as.numeric(end_date)) |>
-  dplyr::arrange(-end_date) |>
-  detailed_entries(what = role,
-                   when = dates,
-                   with = institution,
-                   where = where,
-                   why = details)
-```
 
 # Education
 
@@ -64,6 +52,19 @@ cv_data$education |>
   dplyr::arrange(-year) |>
   detailed_entries(what = degree,
                    when = year,
+                   with = institution,
+                   where = where,
+                   why = details)
+```
+
+# Positions
+
+```{r}
+cv_data$experience |> 
+  dplyr::mutate(end_date = as.numeric(end_date)) |>
+  dplyr::arrange(-end_date) |>
+  detailed_entries(what = role,
+                   when = dates,
                    with = institution,
                    where = where,
                    why = details)
