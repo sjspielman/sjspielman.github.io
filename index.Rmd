@@ -50,7 +50,7 @@ knitr::include_graphics("img/sjspielman_picture.png")
 `r emo::ji("mortar_board")` Ph.D. in Integrative Biology, University of Texas at Austin, 2016
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advised by [Dr. Claus Wilke](https://clauswilke.com/). Research focus in computational molecular evolution.<br><br>
 `r emo::ji("mortar_board")` B.S. in Biology with Honors, Brown University, 2010
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advised by [Dr. Daniel Weinreich](https://www.brown.edu/research/labs/weinreich/). Research focus in CRISPR population genetics.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advised by [Dr. Daniel Weinreich](https://vivo.brown.edu/display/dweinrei). Research focus in CRISPR population genetics.
 
 <br>
 
