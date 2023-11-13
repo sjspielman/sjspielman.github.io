@@ -54,6 +54,7 @@ knitr::include_graphics("img/sjspielman_picture.png")
 
 <br>
 
+
 ### Awards
 
 `r emo::ji("trophy")` _President's Award for Excellence in Innovative Instructive Delivery_, Rowan University, 2021.<br>
