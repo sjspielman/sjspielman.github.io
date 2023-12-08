@@ -53,8 +53,7 @@ cv_data$education |>
   detailed_entries(what = degree,
                    when = year,
                    with = institution,
-                   where = where,
-                   why = details)
+                   where = where)
 ```
 
 # Positions
