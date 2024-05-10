@@ -75,9 +75,9 @@ cv_data$experience |>
 ```{r}
 cv_data$awards |>
   dplyr::arrange(-year) |>
-  detailed_entries(what = award,
+  detailed_entries(what = institution,
                    when = year,
-                   with = institution,
+                   with = award,
                    where = where,
                    why = details)
 ```
