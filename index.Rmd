@@ -16,7 +16,7 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 ::: {}
 
 <br>
-I am a Data Scientist with the [Childhood Cancer Data Lab](https://www.ccdatalab.org/) at [Alex's Lemonade Stand Foundation](https://www.alexslemonade.org/). I am interested in bioinformatics, data science education, all things open science/open source, and reproducible scientific practices. You can download my resume (last updated 09/2023) [here](cv/sjspielman_vitae_cv.pdf) and peruse my publications [here](https://github.com/sjspielman/publications).
+I am a Data Scientist with the [Childhood Cancer Data Lab](https://www.ccdatalab.org/) at [Alex's Lemonade Stand Foundation](https://www.alexslemonade.org/). I am interested in bioinformatics, data science education, all things open science/open source, and reproducible scientific practices. You can download my resume (last updated 05/2024) [here](cv/sjspielman_vitae_cv.pdf) and peruse my publications [here](https://github.com/sjspielman/publications).
 
 Outside of work, you can find me hanging with my dog Basil (named for [this guy](https://disney.fandom.com/wiki/Basil_of_Baker_Street)), going for walks, cooking, knitting, and doing deep dives into the history of the American Yiddish theater. Wait, really? [Yes, really!](https://sjspielman.github.io/sam-kasten)
 
