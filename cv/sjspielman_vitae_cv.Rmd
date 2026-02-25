@@ -2,17 +2,19 @@
 name: Stephanie J.
 surname: Spielman, PhD
 position: "Data Scientist"
-address: "Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation\n3 Bala Plaza, Bala Cynwyd, PA 19004"
+address: "Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, 3 Bala Plaza, Bala Cynwyd, PA 19004"
 email: "stephanie.spielman@ccdatalab.org"
 orcid: "0000-0002-9090-4788"
 github: sjspielman
 pronouns: she/her
-aboutme: "I am a computational biologist and data scientist focused on developing open-source products to accelerate pediatric cancer research."
+aboutme: "I am a computational biologist and data scientist focused on developing open-source products and educational materials to accelerate pediatric cancer research."
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 414141
 output: 
   vitae::awesomecv:
     page_total: true
+    includes:
+      in_header: header.tex
 ---
 
 ```{r setup, include=FALSE}
@@ -83,7 +85,7 @@ cv_data$awards |>
 ```
 
 # Selected Publications
-
+\vspace{4mm}
 ```{r}
 bibliography_entries(
   here::here("cv", "selected-pubs.bib")
