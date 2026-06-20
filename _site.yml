@@ -14,9 +14,3 @@ navbar:
   left:
     - text: "Home"
       href: "index.html"
-    - text: "Software"
-      href: "software.html"
-    - text: "Resources"
-      href: "resources.html"
-    - text: "Courses and Workshops"
-      href: "courses.html"

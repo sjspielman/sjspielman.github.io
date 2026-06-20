@@ -1,0 +1,527 @@
+/* ============================================================
+   STEPHANIE J. SPIELMAN — SITE STYLES
+
+   To change the color scheme, edit the :root variables below.
+   Everything else flows from those values.
+
+   Color palette:
+     --navy:  #11324D  (dark navy — nav, headers, buttons)
+     --blue:  #6B7AA1  (steel blue — links, accents)
+     --cream: #f7f5ee  (light cream — main background)
+     --sand:  #E7E0C9  (tan/sand — alternate section background)
+     --text:  #2c2c2c  (body text)
+   ============================================================ */
+
+:root {
+  --navy:       #11324D;
+  --blue:       #6B7AA1;
+  --blue-dark:  #404960;
+  --cream:      #f7f5ee;
+  --sand:       #E7E0C9;
+  --text:       #2c2c2c;
+  --radius:     8px;
+}
+
+/* ---- RESET & BASE ---- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px; /* offset for sticky nav */
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--text);
+  background-color: var(--cream);
+}
+
+h1, h2, h3 {
+  color: var(--navy);
+  line-height: 1.3;
+}
+
+h1 { font-size: 2.2rem;  margin-bottom: 0.75rem; }
+h2 { font-size: 1.75rem; margin-bottom: 1.5rem;  }
+h3 { font-size: 1.1rem;  margin-bottom: 0.5rem;  }
+
+p { margin-bottom: 0.9rem; }
+
+a {
+  color: var(--blue);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--blue-dark);
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid rgba(0,0,0,0.07);
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+small {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+
+/* ============================================================
+   NAVIGATION
+   ============================================================ */
+
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--navy);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+
+.nav-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+}
+
+.nav-brand {
+  color: var(--cream) !important;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-decoration: none !important;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: rgba(247, 245, 238, 0.8);
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: var(--cream);
+  text-decoration: none;
+}
+
+
+/* ============================================================
+   SECTIONS — alternating backgrounds
+   ============================================================ */
+
+section {
+  padding: 5rem 0;
+}
+
+/* about = cream, academic = sand, projects = cream, advocacy = sand, press = cream */
+#about     { background-color: var(--cream); }
+#academic  { background-color: var(--sand);  }
+#projects  { background-color: var(--cream); }
+#advocacy  { background-color: var(--sand);  }
+#press     { background-color: var(--cream); }
+
+
+/* ============================================================
+   ABOUT / HERO
+   ============================================================ */
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 180px;
+  gap: 3rem;
+  align-items: start;
+  margin-bottom: 3.5rem;
+}
+
+.hero-photo {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5rem;
+}
+
+.hero-photo img {
+  width: 155px;
+  height: 155px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--sand);
+}
+
+/* Social icons */
+.social-links {
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 1.1rem;
+}
+
+.social-links a {
+  color: #505050;
+  font-size: 1.75rem;
+  line-height: 1;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.social-links a:hover {
+  color: var(--navy);
+  text-decoration: none;
+}
+
+/* Mini-resume: 3 columns */
+.resume-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  padding-top: 2.5rem;
+  border-top: 2px solid var(--sand);
+}
+
+.resume-block h3 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--blue);
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--blue);
+}
+
+.year {
+  display: block;
+  font-size: 0.78rem;
+  color: #999;
+  margin-top: 0.1rem;
+}
+
+
+/* ============================================================
+   ACADEMIC BACKGROUND
+   ============================================================ */
+
+.academic-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5rem;
+  align-items: start;
+}
+
+.academic-main p {
+  margin-bottom: 1.25rem;
+}
+
+/* Research interest pill tags */
+.interest-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.interest {
+  display: inline-block;
+  background-color: var(--navy);
+  color: var(--cream);
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.3rem 0.75rem;
+  border-radius: 20px;
+}
+
+/* CV / links row */
+.academic-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+/* Outline variant of the button */
+.btn-outline {
+  background-color: transparent !important;
+  color: var(--navy) !important;
+  border: 2px solid var(--navy);
+}
+
+.btn-outline:hover {
+  background-color: var(--navy) !important;
+  color: var(--cream) !important;
+}
+
+/* Selected publications */
+.pub-column h3 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--blue);
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--blue);
+}
+
+.pub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.pub-item {
+  padding-bottom: 1.1rem;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.pub-item:last-child {
+  border-bottom: none;
+}
+
+.pub-title {
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+.pub-meta {
+  font-size: 0.82rem;
+  color: #777;
+  margin-bottom: 0;
+}
+
+@media (max-width: 720px) {
+  .academic-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+
+/* ============================================================
+   PROJECTS
+   ============================================================ */
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  background: white;
+  border-radius: var(--radius);
+  border: 1px solid rgba(0,0,0,0.09);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.1);
+}
+
+/* Optional: add an image strip at the top of a card
+   Usage: <div class="project-image"><img src="..." alt="..."></div>
+   inside .project-card, before .project-body  */
+.project-image img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.project-body {
+  padding: 1.5rem;
+}
+
+.project-body h3 {
+  margin-bottom: 0.65rem;
+}
+
+.project-body p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1.25rem;
+}
+
+/* Tag/label you can add inside a card: <span class="tag">Yiddish Theater</span> */
+.tag {
+  display: inline-block;
+  background-color: var(--sand);
+  color: var(--navy);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
+  margin-bottom: 0.75rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.45rem 1.1rem;
+  background-color: var(--navy);
+  color: white !important;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none !important;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: var(--blue);
+  text-decoration: none !important;
+}
+
+
+/* ============================================================
+   ARTICLES (used in both Advocacy and Press sections)
+   ============================================================ */
+
+.section-intro {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+  max-width: 680px;
+}
+
+.article-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-link {
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.article-list .article-link:first-child {
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.article-meta {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.article-source {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--blue);
+}
+
+.article-date {
+  font-size: 0.78rem;
+  color: #aaa;
+}
+
+a.article-title {
+  font-size: 1rem;
+  color: var(--text);
+  font-weight: 500;
+}
+
+a.article-title:hover {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
+footer {
+  background-color: var(--navy);
+  color: rgba(247, 245, 238, 0.65);
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: rgba(247, 245, 238, 0.8);
+}
+
+footer a:hover {
+  color: var(--cream);
+  text-decoration: none;
+}
+
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 720px) {
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.4rem; }
+
+  section { padding: 3.5rem 0; }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .hero-photo {
+    order: -1; /* photo appears above text on mobile */
+    justify-content: flex-start;
+  }
+
+  .hero-photo img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .resume-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .nav-links {
+    gap: 1rem;
+  }
+
+  .nav-brand {
+    font-size: 0.78rem;
+  }
+}
