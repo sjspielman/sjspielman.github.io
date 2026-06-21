@@ -342,6 +342,8 @@ section:nth-of-type(even) { background-color: var(--sand);  }
   border: 1px solid rgba(0,0,0,0.09);
   overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card:hover {
@@ -361,6 +363,9 @@ section:nth-of-type(even) { background-color: var(--sand);  }
 
 .project-body {
   padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .project-body h3 {
@@ -371,6 +376,11 @@ section:nth-of-type(even) { background-color: var(--sand);  }
   font-size: 0.95rem;
   color: #555;
   margin-bottom: 1.25rem;
+  flex: 1;
+}
+
+.project-body .btn {
+  align-self: flex-start;
 }
 
 /* Tag/label you can add inside a card: <span class="tag">Yiddish Theater</span> */

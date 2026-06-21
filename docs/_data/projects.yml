@@ -1,13 +1,20 @@
 - title: "Sam Kasten Legacy Project"
   description: >
-    A project reviving the life and legacy of my great-great grandfather Sam Kasten, comedian, actor, singer, and dancer on
+    A project reviving the life and legacy of my great-great grandfather Sam Kasten (1869-1953), comedian, actor, singer, and dancer on
     the early American Yiddish theater stage. Project features pictures, recordings, and article translations.
   url: "https://sjspielman.github.io/sam-kasten/"
   link_text: "Visit Project →"
 
 - title: "Sam Kasten's Memoirs"
   description: >
-    Direct link to translation of Sam Kasten's original Yiddish memoirs, originally published in the
-    Forverts in the early twentieth century.
+    Direct link to the e-book with my translation of Sam Kasten's memoirs of his life in the theater, 
+    originally published in Yiddish as serial articles in The Forverts from Sept 1946 - Feb 1947.
   url: "https://sjspielman.github.io/sam-kasten-memoirs/"
   link_text: "Read the Memoirs →"
+
+- title: "MAAZifier (currently in beta)"
+  description: >
+    An AI-powered tool for speaking and writing against antizionism with clarity and confidence.<br><br>
+    <i>Preview access is currently restricted to approved users.</i>
+  url: "https://d3b8tkiw5mrlft.cloudfront.net"
+  link_text: "Visit the app →"
