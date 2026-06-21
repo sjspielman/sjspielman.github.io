@@ -4,3 +4,7 @@
 .Ruserdata
 
 .DS_Store
+
+# Jekyll local build output
+docs/_site/
+Gemfile.lock

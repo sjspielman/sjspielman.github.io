@@ -1,338 +1,200 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stephanie J. Spielman, PhD</title>
+---
+layout: default
+---
 
-  <!-- Fonts (Ubuntu, same as before) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<!-- ============================================================
+     ABOUT
+     Bio text: _includes/content/bio.md
+     Resume data: _data/positions.yml, _data/education.yml, _data/awards.yml
+     ============================================================ -->
+<section id="about">
+  <div class="container">
 
-  <!-- Icons: Font Awesome (GitHub) + Academicons (Scholar, ORCID) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <h1>hi there! 👋</h1>
+        {% capture bio %}{% include content/bio.md %}{% endcapture %}
+        {{ bio | markdownify }}
+      </div>
 
-  <!-- Site styles -->
-  <link rel="stylesheet" href="style.css">
-
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y8MLDM2CP4"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-Y8MLDM2CP4');
-  </script>
-</head>
-<body>
-
-  <!-- ============================================================
-       NAVIGATION
-       To add a new section to the nav, copy one <a> and update
-       the href (must match the section's id below) and label.
-       ============================================================ -->
-  <nav id="navbar">
-    <div class="nav-inner">
-      <a href="#" class="nav-brand">Stephanie J. Spielman, PhD</a>
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#academic">Academic</a>
-        <a href="#projects">Projects</a>
-        <a href="#advocacy">Advocacy</a>
-        <a href="#press">Press</a>
+      <div class="hero-photo">
+        <img src="{{ '/img/sjspielman_picture.png' | relative_url }}" alt="Stephanie Spielman">
       </div>
     </div>
-  </nav>
 
+    <div class="resume-grid">
 
-  <!-- ============================================================
-       ABOUT
-       Edit the bio text, social links, positions, education, and
-       awards directly below. Dates and names are plain text.
-       ============================================================ -->
-  <section id="about">
-    <div class="container">
-
-      <!-- Bio + photo -->
-      <div class="hero-grid">
-        <div class="hero-text">
-          <h1>hi there! 👋</h1>
-          <p>
-            I am a Data Scientist with the
-            <a href="https://www.ccdatalab.org/">Childhood Cancer Data Lab</a> at
-            <a href="https://www.alexslemonade.org/">Alex's Lemonade Stand Foundation</a>.
-            I am interested in bioinformatics, data science education, all things open science/open
-            source, and reproducible scientific practices.
-            You can download my CV <a href="cv/sjspielman_vitae_cv.pdf">here</a> and
-            peruse my publications <a href="https://github.com/sjspielman/publications">here</a>.
-          </p>
-          <p>
-            Outside of work, you can find me hanging with my dog Basil (named for
-            <a href="https://disney.fandom.com/wiki/Basil_of_Baker_Street">this guy</a>),
-            going for walks, cooking, knitting, and doing deep dives into the history of the
-            American Yiddish theater.
-          </p>
-
-          <!-- Social icons. Add/remove icons here as needed. -->
-          <div class="social-links">
-            <a href="https://github.com/sjspielman" aria-label="GitHub" title="GitHub">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="https://scholar.google.com/citations?user=cP4ZMO4AAAAJ&hl=en" aria-label="Google Scholar" title="Google Scholar">
-              <i class="ai ai-google-scholar"></i>
-            </a>
-            <a href="https://orcid.org/0000-0002-9090-4788" aria-label="ORCID" title="ORCID">
-              <i class="ai ai-orcid"></i>
-            </a>
-          </div>
-        </div>
-
-        <div class="hero-photo">
-          <img src="img/sjspielman_picture.png" alt="Stephanie Spielman">
-        </div>
-      </div><!-- end hero-grid -->
-
-      <!-- Mini resume: Positions · Education · Awards -->
-      <div class="resume-grid">
-
-        <div class="resume-block">
-          <h3>Positions</h3>
-          <ul>
-            <li>
-              Data Scientist, Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation
-              <span class="year">2022–Present</span>
-            </li>
-            <li>
-              Assistant Professor of Biological Sciences, Rowan University
-              <span class="year">2018–2022</span>
-            </li>
-            <li>
-              Research Assistant Professor, Temple University
-              <span class="year">2016–2018</span>
-            </li>
-          </ul>
-        </div>
-
-        <div class="resume-block">
-          <h3>Education</h3>
-          <ul>
-            <li>
-              Ph.D. in Integrative Biology, University of Texas at Austin
-              <span class="year">2016</span>
-              <br><small>Advised by <a href="https://clauswilke.com/">Dr. Claus Wilke</a> &middot; computational molecular evolution</small>
-            </li>
-            <li>
-              B.S. in Biology with Honors, Brown University
-              <span class="year">2010</span>
-              <br><small>Advised by <a href="https://vivo.brown.edu/display/dweinrei">Dr. Daniel Weinreich</a> &middot; CRISPR population genetics</small>
-            </li>
-          </ul>
-        </div>
-
-        <div class="resume-block">
-          <h3>Awards</h3>
-          <ul>
-            <li>
-              <em>President's Award for Excellence in Innovative Instructive Delivery</em>
-              <span class="year">2021</span>
-              <br><small>Rowan University</small>
-            </li>
-            <li>
-              <em>Outstanding Dissertation Award</em>
-              <span class="year">2016</span>
-              <br><small>University of Texas at Austin</small>
-            </li>
-            <li>
-              <em>Outstanding Teaching Award</em>
-              <span class="year">2014</span>
-              <br><small>University of Texas at Austin</small>
-            </li>
-          </ul>
-        </div>
-
-      </div><!-- end resume-grid -->
-    </div><!-- end container -->
-  </section>
-
-
-  <!-- ============================================================
-       ACADEMIC BACKGROUND
-       Edit research interests, CV link, and publications link below.
-       To add a selected publication, copy one .pub-item block.
-       ============================================================ -->
-  <section id="academic">
-    <div class="container">
-      <h2>Academic Background</h2>
-
-      <div class="academic-grid">
-
-        <!-- Left: research interests + CV/links -->
-        <div class="academic-main">
-          <p>
-            My research sits at the intersection of computational biology, data science, and
-            open science. I have worked on problems in computational molecular evolution,
-            bioinformatics methods development, and data science education.
-          </p>
-
-          <!-- Research interest tags. Edit or add <span class="interest"> as needed. -->
-          <div class="interest-list">
-            <span class="interest">Bioinformatics</span>
-            <span class="interest">Computational Molecular Evolution</span>
-            <span class="interest">Data Science Education</span>
-            <span class="interest">Open Science</span>
-            <span class="interest">Reproducible Research</span>
-          </div>
-
-          <!-- CV + publications links -->
-          <div class="academic-links">
-            <a href="cv/sjspielman_vitae_cv.pdf" class="btn" download>Download CV</a>
-            <a href="https://github.com/sjspielman/publications" class="btn btn-outline" target="_blank">Publications →</a>
-            <a href="https://scholar.google.com/citations?user=cP4ZMO4AAAAJ&hl=en" class="btn btn-outline" target="_blank">Google Scholar →</a>
-          </div>
-        </div>
-
-        <!-- Right: selected publications.
-             Copy a .pub-item block to add entries.
-             Leave this column empty and remove the <div class="pub-column">
-             block entirely if you don't want selected pubs here. -->
-        <div class="pub-column">
-          <h3>Selected Publications</h3>
-          <div class="pub-list">
-
-            <!-- PUB TEMPLATE — copy and fill in:
-            <div class="pub-item">
-              <p class="pub-title">
-                <a href="DOI or URL" target="_blank">Paper Title</a>
-              </p>
-              <p class="pub-meta">Author list · <em>Journal</em> · Year</p>
-            </div>
-            -->
-
-            <!-- Add selected publications here -->
-
-          </div>
-        </div>
-
-      </div><!-- end academic-grid -->
-    </div>
-  </section>
-
-
-  <!-- ============================================================
-       PROJECTS
-       To add a project: copy one .project-card block and edit the
-       title, description, and link URL.
-
-       Optional image strip at top of a card:
-         <div class="project-image">
-           <img src="path/to/image.jpg" alt="Project screenshot">
-         </div>
-       Paste this as the first child inside .project-card.
-
-       Optional tag/label inside .project-body:
-         <span class="tag">Yiddish Theater</span>
-       ============================================================ -->
-  <section id="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="project-grid">
-
-        <!-- PROJECT: Sam Kasten -->
-        <div class="project-card">
-          <div class="project-body">
-            <h3>Sam Kasten: The Life of a Yiddish Theater Legend</h3>
-            <p>
-              A deep dive into the life and legacy of Sam Kasten, comedian and star of the
-              American Yiddish theater stage. Researched from archival newspapers, playbills,
-              and family records.
-            </p>
-            <a href="https://sjspielman.github.io/sam-kasten/" class="btn" target="_blank">Visit Project →</a>
-          </div>
-        </div>
-
-        <!-- PROJECT: Sam Kasten Memoirs -->
-        <div class="project-card">
-          <div class="project-body">
-            <h3>Sam Kasten's Memoirs</h3>
-            <p>
-              English translation of Sam Kasten's original Yiddish memoirs, published in the
-              Forverts in the early twentieth century.
-            </p>
-            <a href="https://sjspielman.github.io/sam-kasten-memoirs/" class="btn" target="_blank">Read the Memoirs →</a>
-          </div>
-        </div>
-
-        <!-- Copy a block above to add more projects -->
-
-      </div><!-- end project-grid -->
-    </div>
-  </section>
-
-
-  <!-- ============================================================
-       JEWISH ADVOCACY
-       To add an article/piece, copy one .article-link block and
-       fill in: source name, date, title, and URL.
-       ============================================================ -->
-  <section id="advocacy">
-    <div class="container">
-      <h2>Jewish Advocacy</h2>
-
-      <!-- Optional intro paragraph — delete or edit as needed -->
-      <p class="section-intro">
-        <!-- Add a short description of your advocacy work here -->
-      </p>
-
-      <div class="article-list">
-
-        <!-- ARTICLE TEMPLATE — copy and fill in:
-        <div class="article-link">
-          <div class="article-meta">
-            <span class="article-source">Publication Name</span>
-            <span class="article-date">Month Year</span>
-          </div>
-          <a href="URL" class="article-title" target="_blank">Article Title</a>
-        </div>
-        -->
-
-        <!-- Add advocacy articles here -->
-
-      </div><!-- end article-list -->
-    </div>
-  </section>
-
-
-  <!-- ============================================================
-       PRESS
-       Same format as advocacy — copy a .article-link block above
-       and paste it here.
-       ============================================================ -->
-  <section id="press">
-    <div class="container">
-      <h2>Press</h2>
-      <div class="article-list">
-
-        <!-- Add press coverage here -->
-
+      <div class="resume-block">
+        <h3>Positions</h3>
+        <ul>
+          {% for item in site.data.positions %}
+          <li>
+            {{ item.title }}
+            <span class="year">{{ item.years }}</span>
+          </li>
+          {% endfor %}
+        </ul>
       </div>
+
+      <div class="resume-block">
+        <h3>Education</h3>
+        <ul>
+          {% for item in site.data.education %}
+          <li>
+            {{ item.degree }}
+            <span class="year">{{ item.year }}</span>
+            {% if item.advisor %}
+            <small>Advised by <a href="{{ item.advisor_url }}">{{ item.advisor }}</a> &middot; {{ item.topic }}</small>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="resume-block">
+        <h3>Awards</h3>
+        <ul>
+          {% for item in site.data.awards %}
+          <li>
+            <em>{{ item.name }}</em>
+            <span class="year">{{ item.year }}</span>
+            <small>{{ item.institution }}</small>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
 
-  <!-- ============================================================
-       FOOTER
-       ============================================================ -->
-  <footer>
-    <div class="container">
-      <p>
-        Stephanie J. Spielman, PhD
-        &middot;
-        <a href="mailto:stephanie.spielman@gmail.com">stephanie.spielman@gmail.com</a>
-      </p>
+<!-- ============================================================
+     ACADEMIC
+     Intro text: _includes/content/academic_intro.md
+     Research interests: _data/interests.yml
+     Selected publications: _includes/content/publications.md
+     ============================================================ -->
+<section id="academic">
+  <div class="container">
+    <h2>Background</h2>
+
+    <div class="academic-grid">
+
+      <div class="academic-main">
+        {% capture academic_intro %}{% include content/academic_intro.md %}{% endcapture %}
+        {{ academic_intro | markdownify }}
+
+        <div class="interest-list">
+          {% for interest in site.data.interests %}
+          <span class="interest">{{ interest }}</span>
+          {% endfor %}
+        </div>
+
+        <div class="academic-links">
+          <a href="{{ '/cv/sjspielman_vitae_cv.pdf' | relative_url }}" class="btn" download>Download CV</a>
+          <a href="https://github.com/sjspielman/publications" class="btn btn-outline" target="_blank">Publication PDFs →</a>
+          <a href="https://scholar.google.com/citations?user=cP4ZMO4AAAAJ&hl=en" class="btn btn-outline" target="_blank">Google Scholar →</a>
+          <a href="https://orcid.org/0000-0002-9090-4788" class="btn btn-outline" target="_blank">ORCID →</a>
+          <a href="https://github.com/sjspielman" class="btn btn-outline" target="_blank" aria-label="GitHub">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="pub-column">
+        <h3>Selected Publications</h3>
+        <div class="pub-list">
+          {% capture pubs %}{% include content/publications.md %}{% endcapture %}
+          {{ pubs | markdownify }}
+        </div>
+      </div>
+
     </div>
-  </footer>
+  </div>
+</section>
 
-</body>
-</html>
+
+<!-- ============================================================
+     PROJECTS
+     Project cards: _data/projects.yml
+     Each entry: title, description, url, link_text, image (optional)
+     ============================================================ -->
+<section id="projects">
+  <div class="container">
+    <h2>Yiddish Theater Projects</h2>
+    <div class="project-grid">
+      {% for project in site.data.projects %}
+      <div class="project-card">
+        {% if project.image %}
+        <div class="project-image">
+          <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+        </div>
+        {% endif %}
+        <div class="project-body">
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.description }}</p>
+          <a href="{{ project.url }}" class="btn" target="_blank">{{ project.link_text | default: "Visit Project →" }}</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     OP-EDS
+     Articles: _data/advocacy.yml
+     Each entry: title, source, date, url
+     ============================================================ -->
+<section id="advocacy">
+  <div class="container">
+    <h2>Op-eds</h2>
+    <div class="article-list">
+      {% for article in site.data.advocacy %}
+      <div class="article-link">
+        <div class="article-meta">
+          <span class="article-source">{{ article.source }}</span>
+          <span class="article-date">{{ article.date }}</span>
+        </div>
+        <a href="{{ article.url }}" class="article-title" target="_blank">{{ article.title }}</a>
+        {% if article.tags %}
+        <div class="article-tags">
+          {% for tag in article.tags %}
+          <span class="article-tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PRESS
+     Articles: _data/press.yml
+     Each entry: title, source, date, url
+     ============================================================ -->
+<section id="press">
+  <div class="container">
+    <h2>Interviews</h2>
+    <div class="article-list">
+      {% for article in site.data.press %}
+      <div class="article-link">
+        <div class="article-meta">
+          <span class="article-source">{{ article.source }}</span>
+          <span class="article-date">{{ article.date }}</span>
+        </div>
+        <a href="{{ article.url }}" class="article-title" target="_blank">{{ article.title }}</a>
+        {% if article.tags %}
+        <div class="article-tags">
+          {% for tag in article.tags %}
+          <span class="article-tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

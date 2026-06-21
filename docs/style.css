@@ -77,8 +77,11 @@ ul li:last-child {
 }
 
 small {
+  display: block;
   font-size: 0.85rem;
   color: #666;
+  margin-top: 0.15rem;
+  line-height: 1.3;
 }
 
 .container {
@@ -148,12 +151,8 @@ section {
   padding: 5rem 0;
 }
 
-/* about = cream, academic = sand, projects = cream, advocacy = sand, press = cream */
-#about     { background-color: var(--cream); }
-#academic  { background-color: var(--sand);  }
-#projects  { background-color: var(--cream); }
-#advocacy  { background-color: var(--sand);  }
-#press     { background-color: var(--cream); }
+section:nth-of-type(odd)  { background-color: var(--cream); }
+section:nth-of-type(even) { background-color: var(--sand);  }
 
 
 /* ============================================================
@@ -270,13 +269,13 @@ section {
 }
 
 /* Outline variant of the button */
-.btn-outline {
+.btn.btn-outline {
   background-color: transparent !important;
   color: var(--navy) !important;
   border: 2px solid var(--navy);
 }
 
-.btn-outline:hover {
+.btn.btn-outline:hover {
   background-color: var(--navy) !important;
   color: var(--cream) !important;
 }
@@ -397,6 +396,7 @@ section {
   font-size: 0.9rem;
   font-weight: 500;
   text-decoration: none !important;
+  white-space: nowrap;
   transition: background-color 0.2s;
 }
 
@@ -462,6 +462,24 @@ a.article-title {
 a.article-title:hover {
   color: var(--blue);
   text-decoration: none;
+}
+
+.article-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.15rem;
+}
+
+.article-tag {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background-color: var(--navy);
+  color: var(--cream);
 }
 
 

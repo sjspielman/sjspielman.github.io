@@ -1,0 +1,3 @@
+My background is in computational evolutionary biology, specifically molecular evolution, protein evolution, and phylogenetic modeling. Since transitioning out of academic in 2022, I have worked in data science and bioinformatics, cloud computing, and bioinformatics science education. I'm into reproducibility and open science. Sometimes I regret not studying [tardigrades](https://en.wikipedia.org/wiki/Tardigrade).
+
+You can download an abbreviated version of my CV below, or follow other links to see all the rest.

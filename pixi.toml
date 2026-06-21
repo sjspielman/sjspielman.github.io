@@ -1,0 +1,15 @@
+[workspace]
+name = "sjspielman-github-io"
+channels = ["conda-forge"]
+platforms = ["osx-arm64", "osx-64"]
+
+# Jekyll runs via Docker — no Ruby needed in the pixi env.
+# Ensure Docker Desktop is running before using these tasks.
+
+[tasks]
+setup = "bundle install"
+serve = "bundle exec jekyll serve --source docs --destination docs/_site"
+
+[dependencies]
+ruby = ">=3.4.7,<4"
+compilers = ">=1.11.0,<2"

@@ -1,0 +1,14 @@
+title: Stephanie J. Spielman, PhD
+url: "https://sjspielman.github.io"
+
+nav:
+  - label: About
+    id: about
+  - label: Background
+    id: academic
+  - label: Projects
+    id: projects
+  - label: Op-eds
+    id: advocacy
+  - label: Interviews
+    id: press
