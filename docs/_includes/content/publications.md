@@ -1,4 +1,4 @@
-Hawkins, A. G., Shapiro, J. A., **Spielman, S. J.**, et al. (2024). [The single‑cell pediatric cancer atlas: Data portal and open‑source tools for single‑cell transcriptomics of pediatric tumors](https://doi.org/10.1101/2024.04.19.590243). *bioRxiv*.
+Hawkins, A. G., Shapiro, J. A., **Spielman, S. J.**, et al. (2026). [The single‑cell pediatric cancer atlas: Data portal and open‑source tools for single‑cell transcriptomics of pediatric tumors](https://doi.org/10.1016/j.xgen.2026.101283). *Cell Genomics* (In press).
 
 ---
 
