@@ -142,6 +142,42 @@ small {
   text-decoration: none;
 }
 
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 101;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: var(--cream);
+  border-radius: 2px;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.nav-toggle.is-open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.nav-toggle.is-open span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-toggle.is-open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
 
 /* ============================================================
    SECTIONS — alternating backgrounds
@@ -545,11 +581,35 @@ footer a:hover {
     gap: 2rem;
   }
 
-  .nav-links {
-    gap: 1rem;
+  .nav-toggle {
+    display: flex;
   }
 
   .nav-brand {
     font-size: 0.78rem;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 56px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 0;
+    background-color: var(--navy);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.18);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease;
+  }
+
+  .nav-links.is-open {
+    max-height: 400px;
+  }
+
+  .nav-links a {
+    padding: 0.9rem 2rem;
+    width: 100%;
+    border-top: 1px solid rgba(247, 245, 238, 0.1);
   }
 }
