@@ -70,6 +70,94 @@ layout: default
 
 
 <!-- ============================================================
+     OP-EDS
+     Articles: _data/advocacy.yml
+     Each entry: title, source, date, url
+     ============================================================ -->
+<section id="advocacy">
+  <div class="container">
+    <h2>Op-eds</h2>
+    <div class="article-list">
+      {% for article in site.data.advocacy %}
+      <div class="article-link">
+        <div class="article-meta">
+          <span class="article-source">{{ article.source }}</span>
+          <span class="article-date">{{ article.date }}</span>
+        </div>
+        <a href="{{ article.url }}" class="article-title" target="_blank">{{ article.title }}</a>
+        {% if article.tags %}
+        <div class="article-tags">
+          {% for tag in article.tags %}
+          <span class="article-tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     PRESS
+     Articles: _data/press.yml
+     Each entry: title, source, date, url
+     ============================================================ -->
+<section id="press">
+  <div class="container">
+    <h2>Interviews</h2>
+    <div class="article-list">
+      {% for article in site.data.press %}
+      <div class="article-link">
+        <div class="article-meta">
+          <span class="article-source">{{ article.source }}</span>
+          <span class="article-date">{{ article.date }}</span>
+        </div>
+        <a href="{{ article.url }}" class="article-title" target="_blank">{{ article.title }}</a>
+        {% if article.tags %}
+        <div class="article-tags">
+          {% for tag in article.tags %}
+          <span class="article-tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     PROJECTS
+     Project cards: _data/projects.yml
+     Each entry: title, description, url, link_text, image (optional)
+     ============================================================ -->
+<section id="projects">
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      {% for project in site.data.projects %}
+      <div class="project-card">
+        {% if project.image %}
+        <div class="project-image">
+          <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+        </div>
+        {% endif %}
+        <div class="project-body">
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.description }}</p>
+          <a href="{{ project.url }}" class="btn" target="_blank">{{ project.link_text | default: "Visit Project →" }}</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
      ACADEMIC
      Intro text: _includes/content/academic_intro.md
      Research interests: _data/interests.yml
@@ -108,93 +196,6 @@ layout: default
         </div>
       </div>
 
-    </div>
-  </div>
-</section>
-
-
-<!-- ============================================================
-     PROJECTS
-     Project cards: _data/projects.yml
-     Each entry: title, description, url, link_text, image (optional)
-     ============================================================ -->
-<section id="projects">
-  <div class="container">
-    <h2>Projects</h2>
-    <div class="project-grid">
-      {% for project in site.data.projects %}
-      <div class="project-card">
-        {% if project.image %}
-        <div class="project-image">
-          <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
-        </div>
-        {% endif %}
-        <div class="project-body">
-          <h3>{{ project.title }}</h3>
-          <p>{{ project.description }}</p>
-          <a href="{{ project.url }}" class="btn" target="_blank">{{ project.link_text | default: "Visit Project →" }}</a>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-
-<!-- ============================================================
-     OP-EDS
-     Articles: _data/advocacy.yml
-     Each entry: title, source, date, url
-     ============================================================ -->
-<section id="advocacy">
-  <div class="container">
-    <h2>Op-eds</h2>
-    <div class="article-list">
-      {% for article in site.data.advocacy %}
-      <div class="article-link">
-        <div class="article-meta">
-          <span class="article-source">{{ article.source }}</span>
-          <span class="article-date">{{ article.date }}</span>
-        </div>
-        <a href="{{ article.url }}" class="article-title" target="_blank">{{ article.title }}</a>
-        {% if article.tags %}
-        <div class="article-tags">
-          {% for tag in article.tags %}
-          <span class="article-tag">{{ tag }}</span>
-          {% endfor %}
-        </div>
-        {% endif %}
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     PRESS
-     Articles: _data/press.yml
-     Each entry: title, source, date, url
-     ============================================================ -->
-<section id="press">
-  <div class="container">
-    <h2>Interviews</h2>
-    <div class="article-list">
-      {% for article in site.data.press %}
-      <div class="article-link">
-        <div class="article-meta">
-          <span class="article-source">{{ article.source }}</span>
-          <span class="article-date">{{ article.date }}</span>
-        </div>
-        <a href="{{ article.url }}" class="article-title" target="_blank">{{ article.title }}</a>
-        {% if article.tags %}
-        <div class="article-tags">
-          {% for tag in article.tags %}
-          <span class="article-tag">{{ tag }}</span>
-          {% endfor %}
-        </div>
-        {% endif %}
-      </div>
-      {% endfor %}
     </div>
   </div>
 </section>
