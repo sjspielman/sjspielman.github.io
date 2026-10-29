@@ -1,13 +1,10 @@
 ---
 name: Stephanie J.
 surname: Spielman, PhD
-position: "Data Scientist"
-address: "Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, 3 Bala Plaza, Bala Cynwyd, PA 19004"
-email: "stephanie.spielman@ccdatalab.org"
+email: "stephanie.spielman@gmail.com"
 orcid: "0000-0002-9090-4788"
 github: sjspielman
 pronouns: she/her
-aboutme: "I am a computational biologist and data scientist focused on developing open-source products and educational materials to accelerate pediatric cancer research."
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 414141
 output: 
@@ -20,6 +17,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
+library(tinytex)
 ```
 
 ```{r functions}
@@ -42,7 +40,7 @@ read_excel_cv <- function(filename) {
 
 ```{r load-data, message = FALSE, warning = FALSE, echo = FALSE}
 cv_data <- read_excel_cv(
-   here::here("cv", "cv_data.xlsx")
+   here::here("docs", "cv", "cv_data.xlsx")
 )
 ```
 
@@ -58,7 +56,7 @@ cv_data$education |>
                    where = where)
 ```
 
-# Positions
+# Academic/Scientific Positions
 
 ```{r}
 cv_data$experience |> 
@@ -88,6 +86,6 @@ cv_data$awards |>
 \vspace{4mm}
 ```{r}
 bibliography_entries(
-  here::here("cv", "selected-pubs.bib")
+  here::here("docs", "cv", "selected-pubs.bib")
 ) 
 ```
