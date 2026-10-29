@@ -510,6 +510,16 @@ a.article-title:hover {
   text-decoration: none;
 }
 
+.article-description {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0.35rem 0 0;
+}
+
+#substack .article-list {
+  margin-bottom: 2rem;
+}
+
 .article-tags {
   display: flex;
   flex-wrap: wrap;

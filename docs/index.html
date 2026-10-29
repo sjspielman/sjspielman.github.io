@@ -70,6 +70,34 @@ layout: default
 
 
 <!-- ============================================================
+     SUBSTACK
+     Posts: _data/substack.json (auto-updated daily by .github/workflows/substack.yml)
+     Each entry: title, description, date, url
+     ============================================================ -->
+<section id="substack">
+  <div class="container">
+    <h2>Efshar</h2>
+    <p class="section-intro">Recent posts from my Substack</p>
+    <div class="article-list">
+      {% for post in site.data.substack %}
+      <div class="article-link">
+        <div class="article-meta">
+          <span class="article-source">Substack</span>
+          <span class="article-date">{{ post.date }}</span>
+        </div>
+        <a href="{{ post.url }}" class="article-title" target="_blank">{{ post.title }}</a>
+        {% if post.description != "" %}
+        <p class="article-description">{{ post.description }}</p>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    <a href="https://stephspiel.substack.com" class="btn" target="_blank">Subscribe on Substack →</a>
+  </div>
+</section>
+
+
+<!-- ============================================================
      OP-EDS
      Articles: _data/advocacy.yml
      Each entry: title, source, date, url
