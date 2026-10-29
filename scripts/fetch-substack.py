@@ -5,6 +5,7 @@ direct fetch fails we fall back to the rss2json.com proxy.
 """
 import json
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -23,10 +24,16 @@ HEADERS = {
 }
 
 
-def fetch(url):
-    req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return resp.read()
+def fetch(url, headers=HEADERS):
+    req = urllib.request.Request(url, headers=headers)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return resp.read()
+    except urllib.error.HTTPError as e:
+        # Print what the server actually said so blocks can be diagnosed from the Actions log
+        body = e.read()[:500].decode("utf-8", "replace")
+        print(f"{url} -> HTTP {e.code}, server: {e.headers.get('server')}\n{body}\n", file=sys.stderr)
+        raise
 
 
 def from_rss():
@@ -43,7 +50,8 @@ def from_rss():
 
 
 def from_proxy():
-    data = json.loads(fetch(PROXY_URL))
+    # Plain UA: a spoofed browser UA from a non-browser client can trip bot protection
+    data = json.loads(fetch(PROXY_URL, headers={"User-Agent": "sjspielman.github.io feed updater"}))
     if data.get("status") != "ok":
         raise RuntimeError(f"rss2json error: {data.get('message')}")
     return [
