@@ -268,13 +268,6 @@ section:nth-of-type(even) { background-color: var(--sand);  }
    ACADEMIC BACKGROUND
    ============================================================ */
 
-.academic-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3.5rem;
-  align-items: start;
-}
-
 .academic-main p {
   margin-bottom: 1.25rem;
 }
@@ -315,52 +308,6 @@ section:nth-of-type(even) { background-color: var(--sand);  }
   background-color: var(--navy) !important;
   color: var(--cream) !important;
 }
-
-/* Selected publications */
-.pub-column h3 {
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: var(--blue);
-  margin-bottom: 1rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 2px solid var(--blue);
-}
-
-.pub-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1.1rem;
-}
-
-.pub-item {
-  padding-bottom: 1.1rem;
-  border-bottom: 1px solid rgba(0,0,0,0.08);
-}
-
-.pub-item:last-child {
-  border-bottom: none;
-}
-
-.pub-title {
-  font-size: 0.95rem;
-  font-weight: 500;
-  margin-bottom: 0.2rem;
-}
-
-.pub-meta {
-  font-size: 0.82rem;
-  color: #777;
-  margin-bottom: 0;
-}
-
-@media (max-width: 720px) {
-  .academic-grid {
-    grid-template-columns: 1fr;
-    gap: 2.5rem;
-  }
-}
-
 
 /* ============================================================
    PROJECTS

@@ -189,41 +189,28 @@ layout: default
      ACADEMIC
      Intro text: _includes/content/academic_intro.md
      Research interests: _data/interests.yml
-     Selected publications: _includes/content/publications.md
      ============================================================ -->
 <section id="academic">
   <div class="container">
     <h2>Background</h2>
 
-    <div class="academic-grid">
+    <div class="academic-main">
+      {% capture academic_intro %}{% include content/academic_intro.md %}{% endcapture %}
+      {{ academic_intro | markdownify }}
 
-      <div class="academic-main">
-        {% capture academic_intro %}{% include content/academic_intro.md %}{% endcapture %}
-        {{ academic_intro | markdownify }}
-
-        <div class="interest-list">
-          {% for interest in site.data.interests %}
-          <span class="interest">{{ interest }}</span>
-          {% endfor %}
-        </div>
-
-        <div class="academic-links">
-          <a href="{{ '/cv/sjspielman_vitae_cv.pdf' | relative_url }}" class="btn" download>Download CV</a>
-          <a href="https://github.com/sjspielman/publications" class="btn btn-outline" target="_blank">Publication PDFs →</a>
-          <a href="https://scholar.google.com/citations?user=cP4ZMO4AAAAJ&hl=en" class="btn btn-outline" target="_blank">Google Scholar →</a>
-          <a href="https://orcid.org/0000-0002-9090-4788" class="btn btn-outline" target="_blank">ORCID →</a>
-          <a href="https://github.com/sjspielman" class="btn btn-outline" target="_blank" aria-label="GitHub">GitHub →</a>
-        </div>
+      <div class="interest-list">
+        {% for interest in site.data.interests %}
+        <span class="interest">{{ interest }}</span>
+        {% endfor %}
       </div>
 
-      <div class="pub-column">
-        <h3>Selected Publications</h3>
-        <div class="pub-list">
-          {% capture pubs %}{% include content/publications.md %}{% endcapture %}
-          {{ pubs | markdownify }}
-        </div>
+      <div class="academic-links">
+        <a href="{{ '/cv/sjspielman_vitae_cv.pdf' | relative_url }}" class="btn" download>Download CV</a>
+        <a href="https://github.com/sjspielman/publications" class="btn btn-outline" target="_blank">Publication PDFs →</a>
+        <a href="https://scholar.google.com/citations?user=cP4ZMO4AAAAJ&hl=en" class="btn btn-outline" target="_blank">Google Scholar →</a>
+        <a href="https://orcid.org/0000-0002-9090-4788" class="btn btn-outline" target="_blank">ORCID →</a>
+        <a href="https://github.com/sjspielman" class="btn btn-outline" target="_blank" aria-label="GitHub">GitHub →</a>
       </div>
-
     </div>
   </div>
 </section>
