@@ -366,20 +366,6 @@ section:nth-of-type(even) { background-color: var(--sand);  }
   align-self: flex-start;
 }
 
-/* Tag/label you can add inside a card: <span class="tag">Yiddish Theater</span> */
-.tag {
-  display: inline-block;
-  background-color: var(--sand);
-  color: var(--navy);
-  font-size: 0.75rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.4px;
-  padding: 0.2rem 0.6rem;
-  border-radius: 3px;
-  margin-bottom: 0.75rem;
-}
-
 .btn {
   display: inline-block;
   padding: 0.45rem 1.1rem;
@@ -465,24 +451,6 @@ a.article-title:hover {
 
 #substack .article-list {
   margin-bottom: 2rem;
-}
-
-.article-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem;
-  margin-top: 0.15rem;
-}
-
-.article-tag {
-  font-size: 0.7rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.4px;
-  padding: 0.15rem 0.5rem;
-  border-radius: 999px;
-  background-color: var(--navy);
-  color: var(--cream);
 }
 
 

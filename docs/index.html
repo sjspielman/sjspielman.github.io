@@ -98,27 +98,20 @@ layout: default
 
 <!-- ============================================================
      OP-EDS
-     Articles: _data/advocacy.yml
+     Articles: _data/opeds.yml
      Each entry: title, source, date, url
      ============================================================ -->
-<section id="advocacy">
+<section id="opeds">
   <div class="container">
     <h2>Op-eds</h2>
     <div class="article-list">
-      {% for article in site.data.advocacy %}
+      {% for article in site.data.opeds %}
       <div class="article-link">
         <div class="article-meta">
           <span class="article-source">{{ article.source }}</span>
           <span class="article-date">{{ article.date }}</span>
         </div>
         <a href="{{ article.url }}" class="article-title" target="_blank">{{ article.title }}</a>
-        {% if article.tags %}
-        <div class="article-tags">
-          {% for tag in article.tags %}
-          <span class="article-tag">{{ tag }}</span>
-          {% endfor %}
-        </div>
-        {% endif %}
       </div>
       {% endfor %}
     </div>
@@ -142,13 +135,6 @@ layout: default
           <span class="article-date">{{ article.date }}</span>
         </div>
         <a href="{{ article.url }}" class="article-title" target="_blank">{{ article.title }}</a>
-        {% if article.tags %}
-        <div class="article-tags">
-          {% for tag in article.tags %}
-          <span class="article-tag">{{ tag }}</span>
-          {% endfor %}
-        </div>
-        {% endif %}
       </div>
       {% endfor %}
     </div>
